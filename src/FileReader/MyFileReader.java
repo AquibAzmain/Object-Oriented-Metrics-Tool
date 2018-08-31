@@ -30,7 +30,7 @@ public class MyFileReader {
 		String workingDir = System.getProperty("user.dir");
 		File file = new File(workingDir);
 		String parentDir = file.getParent();
-		File folder = new File(parentDir+ "/" + projectName + "/src");
+		File folder = new File(projectName + "/src");
 		listFilesForFolder(folder);
 		input.close();
 		
