@@ -1,0 +1,5 @@
+.metadata/
+
+# Log file
+*.log
+*.lock
