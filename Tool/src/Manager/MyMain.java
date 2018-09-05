@@ -1,16 +1,20 @@
 package Manager;
 
-import java.io.File;
-import java.util.ArrayList;
-
-import FileReader.MyFileReader;
+import InheritanceRelated.ChildrenCounter;
+import InheritanceRelated.TreeDepthFinder;
 
 public class MyMain {
 
 	public static void main(String[] args) {
-		ArrayList<String> fileList;
-		MyFileReader myFileReader = new MyFileReader();
-		fileList = myFileReader.manageFileReader();
+		
+		ChildrenCounter childrenCounter = new ChildrenCounter();
+		childrenCounter.manageChildrenCounter();
+		childrenCounter.printInheritanceList();
+		
+		TreeDepthFinder treeDepthFinder = new TreeDepthFinder();
+		treeDepthFinder.treeDepthFinderManager();
+		
+		
 	}
 
 }

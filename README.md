@@ -2,3 +2,5 @@
 -- two projects must e in the same directory
 -- niloy completed:
     --- reading all files names
+	--- number of children
+	--- depth of the tree
