@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import CodeAnalyser.CodeFileAnalyser;
 import CodeStructure.ClassProperties;
 
 public class MyFileReader {
@@ -62,7 +63,7 @@ public class MyFileReader {
 		rawCode.trim();
 		//////////////////////////////////////////////////////
 		
-		Integer loc = (int) rawCode.chars().filter(ch -> ch ==';').count();
+		Integer loc = CodeFileAnalyser.getLineOfCode(rawCode);
 		String className = fileName.split("\\.")[0];
 		return new ClassProperties(loc,rawCode,packageName,className);
 	}
