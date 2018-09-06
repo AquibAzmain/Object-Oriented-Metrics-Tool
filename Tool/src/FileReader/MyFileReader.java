@@ -31,7 +31,12 @@ public class MyFileReader {
 		File file = new File(workingDir);
 		String parentDir = file.getParent();
 		File folder = new File(parentDir+ "/" + projectName + "/src");
-		listFilesForFolder(folder);
+		try{
+			listFilesForFolder(folder);
+		}
+		catch (NullPointerException e){
+			System.err.println("No path found");
+		}
 		input.close();
 		
 		return fileList;
