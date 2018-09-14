@@ -3,13 +3,12 @@ package cohesion;
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ParseException;
 import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.ast.body.BodyDeclaration;
-import com.github.javaparser.ast.body.FieldDeclaration;
-import com.github.javaparser.ast.body.TypeDeclaration;
-import com.github.javaparser.ast.body.VariableDeclarator;
+import com.github.javaparser.ast.body.*;
+import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,35 +17,64 @@ import java.util.List;
 
 public class LOCMCalculation {
     List<CohesionNode> cohesionNodes;
+    private List<String> fieldNames;
 
-    public void addInstanceVariables(){
+    public void addCohesionNodes(){
+        cohesionNodes = new ArrayList<>();
+        CompilationUnit compilationUnit;
         try {
-            CompilationUnit compilationUnit = JavaParser.parse(new File("D:\\Studies\\Semester 8\\Metrics\\projects\\Object-Oriented-Tool\\Tool\\src\\cohesion\\TestClass.java"));
+            compilationUnit = JavaParser.parse(new File("D:\\Studies\\Semester 8\\Metrics\\projects\\Object-Oriented-Tool\\Tool\\src\\cohesion\\TestClass.java"));
 
-            System.out.println(compilationUnit);
+            populateMethods(compilationUnit);
+            populateInstanceFields(compilationUnit);
 
-            for (TypeDeclaration typeDec : compilationUnit.getTypes()) {
-                List<BodyDeclaration> members = typeDec.getMembers();
-                if (members != null) {
-                    for (BodyDeclaration member : members) {
-                        //Check just members that are FieldDeclarations
-                        FieldDeclaration field = (FieldDeclaration) member;
-                        //Print the field's class type
-                        System.out.println(field.getType());
-                        //Print the field's name
-                        System.out.println(field.getVariables().get(0).getId().getName());
-                        //Print the field's init value, if not null
-                        Object initValue = field.getVariables().get(0).getInit();
-                        if (initValue != null) {
-                            System.out.println(field.getVariables().get(0).getInit().toString());
-                        }
-                    }
-                }
-            }
         } catch (ParseException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    private void populateInstanceFields(CompilationUnit compilationUnit) {
+        fieldNames = new ArrayList<>();
+        InstanceFieldNameCollector instanceFieldNameCollector = new InstanceFieldNameCollector();
+        instanceFieldNameCollector.visit(compilationUnit, fieldNames);
+
+        for(String field: fieldNames){
+            cohesionNodes.add(new CohesionNode(field, false, null));
+        }
+    }
+
+    private void populateMethods(CompilationUnit compilationUnit) {
+        List<String> methodNames = new ArrayList<>();
+
+        MethodNameCollector methodNameCollector = new MethodNameCollector();
+        methodNameCollector.visit(compilationUnit, methodNames);
+
+        for(String method: methodNames){
+            cohesionNodes.add(new CohesionNode(method, true));
+        }
+    }
+}
+
+class MethodNameCollector extends VoidVisitorAdapter<List<String>>{
+
+    @Override
+    public void visit(MethodDeclaration md, List<String> collector) {
+        super.visit(md, collector);
+
+        collector.add(md.getName());
+    }
+}
+
+class InstanceFieldNameCollector extends VoidVisitorAdapter<List<String>>{
+
+    @Override
+    public void visit(FieldDeclaration fd, List<String> collector) {
+        super.visit(fd, collector);
+
+        for(VariableDeclarator vd: fd.getVariables()){
+            collector.add(vd.toString());
         }
     }
 }

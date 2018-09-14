@@ -1,9 +1,5 @@
 package Manager;
 
-import java.io.File;
-import java.util.ArrayList;
-
-import FileReader.MyFileReader;
 import cohesion.LOCMCalculation;
 
 public class MyMain {
@@ -14,7 +10,7 @@ public class MyMain {
 //		fileList = myFileReader.manageFileReader();
 
 		LOCMCalculation locmCalculation = new LOCMCalculation();
-		locmCalculation.addInstanceVariables();
+		locmCalculation.addCohesionNodes();
 	}
 
 }
