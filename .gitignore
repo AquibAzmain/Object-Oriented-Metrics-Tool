@@ -6,3 +6,5 @@
 # Log file
 *.log
 *.lock
+misc.xml
+*.iml
