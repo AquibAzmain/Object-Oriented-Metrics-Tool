@@ -10,16 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/java-symbol-solver-core-0.3.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/javaparser-core-2.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/javaparser-core-3.6.20.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
