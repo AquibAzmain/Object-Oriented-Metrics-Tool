@@ -9,8 +9,7 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import metric_data_structure.OurClass;
 import metric_data_structure.OurMethod;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * calculates Lack of Cohesion of Methods
@@ -18,16 +17,78 @@ import java.util.List;
 
 public class LCOMCalculation {
     private List<String> fieldNames;
+    private List<OurMethod> currMethods;
     private OurClass currClass;
+    private List<LCOMGroup> lcomGroups;
 
     public LCOMCalculation(OurClass ourClass) {
         currClass = ourClass;
     }
 
-    public void generateLCOM(){
+    public int generateLCOM(){
         CompilationUnit compilationUnit = currClass.getCompilationUnit();
         populateMethods(compilationUnit);
         populateInstanceFields(compilationUnit);
+
+        currMethods = currClass.getMethods();
+        for(OurMethod method: currClass.getMethods()){
+            calculateCohesion(method);
+//            System.out.println(method + "\n  methods called: " + method.getCalledMethods() + "\n  vars used: " + method.getInstanceVars());
+        }
+
+        createLCOMGroups();
+        return lcomGroups.size();
+    }
+
+    private void createLCOMGroups() {
+        lcomGroups = new ArrayList<>();
+
+        for(OurMethod currMethod: currMethods){
+            Boolean found = false;
+            for(LCOMGroup lcomGroup: lcomGroups){
+                if(lcomGroup.methods.contains(currMethod)){
+                    found = true;
+                    break;
+                }
+                else if(variableMatch(lcomGroup.vars, currMethod.getInstanceVars())){
+                    populateGroup(lcomGroup, currMethod);
+                    found = true;
+                    break;
+                }
+            }
+            if(!found){
+                LCOMGroup newLcomGroup = new LCOMGroup();
+                populateGroup(newLcomGroup, currMethod);
+                lcomGroups.add(newLcomGroup);
+            }
+        }
+    }
+
+    private void populateGroup(LCOMGroup lcomGroup, OurMethod currMethod) {
+        lcomGroup.methods.add(currMethod);
+        lcomGroup.vars.addAll(currMethod.getInstanceVars());
+
+        for(OurMethod nextMethod: currMethod.getCalledMethods()){
+            if(!lcomGroup.methods.contains(nextMethod))
+                populateGroup(lcomGroup, nextMethod);
+        }
+    }
+
+    private boolean variableMatch(Set<String> vars, Set<String> instanceVars) {
+        return !Collections.disjoint(vars, instanceVars);
+    }
+
+    private void calculateCohesion(OurMethod method) {
+        MethodDeclaration md = method.getMd();
+
+        MethodCallFetcher variableFetcher = new MethodCallFetcher(currMethods);
+        variableFetcher.visit(md, method);
+
+        AssignExprFetcher assignExprFetcher = new AssignExprFetcher(fieldNames);
+        assignExprFetcher.visit(md, method);
+
+        VariableDeclarationFetcher variableDeclarationFetcher = new VariableDeclarationFetcher(fieldNames);
+        variableDeclarationFetcher.visit(md, method);
     }
 
     private void populateInstanceFields(CompilationUnit compilationUnit) {
@@ -75,37 +136,63 @@ class MethodNameCollector extends VoidVisitorAdapter<List<OurMethod>>{
     }
 }
 
-/*
-        VariableFetcher variableFetcher = new VariableFetcher();
-        variableFetcher.visit(md, null);
+class AssignExprFetcher extends VoidVisitorAdapter<OurMethod>{
+    List<String> vars;
 
-        AssignExprFetcher assignExprFetcher = new AssignExprFetcher();
-        assignExprFetcher.visit(md, null);
-
-        VariableDeclarationFetcher variableDeclarationFetcher = new VariableDeclarationFetcher();
-        variableDeclarationFetcher.visit(md, null);
- */
-
-class AssignExprFetcher extends VoidVisitorAdapter<Void>{
-
-    public void visit(AssignExpr ae, Void v){
-        System.out.println("ae " + ae.toString() + " ");
+    public AssignExprFetcher(List<String> varList){
+        vars = varList;
     }
-}
 
-class VariableDeclarationFetcher extends VoidVisitorAdapter<Void>{
-
-    public void visit(VariableDeclarationExpr vd, Void v){
-        System.out.println("vd " + vd.toString());
-        List<VariableDeclarator> variableDeclarators = vd.getVariables();
-        for(VariableDeclarator variableDeclarator: variableDeclarators){
-            System.out.println("    " + variableDeclarator.getName());
+    @Override
+    public void visit(AssignExpr ae, OurMethod currMethod){
+        String var = ae.getTarget().toString();
+        if(vars.contains(var)){
+            currMethod.addInstanceVar(var);
+        }
+        String operands[] = ae.getValue().toString().split(" ");
+        for(int i=0; i<operands.length; i++){
+            if(vars.contains(operands[i])){
+                currMethod.addInstanceVar(operands[i]);
+            }
         }
     }
 }
 
-class VariableFetcher extends VoidVisitorAdapter<Void>{
-    public void visit(MethodCallExpr mce, Void v){
-        System.out.println("mce " + mce.toString() + mce.getScope());
+class VariableDeclarationFetcher extends VoidVisitorAdapter<OurMethod>{
+    List<String> vars;
+
+    public VariableDeclarationFetcher(List<String> varList){
+        vars = varList;
+    }
+
+    @Override
+    public void visit(VariableDeclarationExpr vd, OurMethod currMethod){
+        List<VariableDeclarator> variableDeclarators = vd.getVariables();
+        for(VariableDeclarator variableDeclarator: variableDeclarators){
+            String operands[] = variableDeclarator.getInitializer().toString().split(" ");
+            for(int i=0; i<operands.length; i++){
+                if(vars.contains(operands[i])){
+                    currMethod.addInstanceVar(operands[i]);
+                }
+            }
+        }
+    }
+}
+
+class MethodCallFetcher extends VoidVisitorAdapter<OurMethod>{
+    List<OurMethod> methods;
+
+    public MethodCallFetcher(List<OurMethod> ourMethods){
+        methods = ourMethods;
+    }
+
+    @Override
+    public void visit(MethodCallExpr mce, OurMethod currMethod){
+        if(mce.getScope().equals(Optional.empty())){
+            for(OurMethod ourMethod: methods){
+                if (mce.getName().asString().equals(ourMethod.getName()))
+                    currMethod.addCalledMethod(ourMethod);
+            }
+        }
     }
 }

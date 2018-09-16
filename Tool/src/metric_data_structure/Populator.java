@@ -40,7 +40,7 @@ public class Populator {
             ourClass.setCompilationUnit(getCompilationUnitFromFile(filePath));
 
             LCOMCalculation lcomCalculation = new LCOMCalculation(ourClass);
-            lcomCalculation.generateLCOM();
+            ourClass.setLCOM(lcomCalculation.generateLCOM());
 
             classes.add(ourClass);
         }

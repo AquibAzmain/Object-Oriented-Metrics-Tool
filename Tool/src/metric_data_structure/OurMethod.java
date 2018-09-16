@@ -19,9 +19,11 @@ public class OurMethod {
 
     public OurMethod() {
         calledMethods = new LinkedHashSet<>();
+        instanceVars = new LinkedHashSet<>();
     }
 
     public OurMethod(String name, String signature, OurClass parentClass) {
+        this();
         this.name = name;
         this.signature = signature;
         this.parentClass = parentClass;
@@ -39,6 +41,11 @@ public class OurMethod {
             return false;
         }
         return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return name + " [" + signature + "]";
     }
 
     public void addCalledMethod(OurMethod method2){

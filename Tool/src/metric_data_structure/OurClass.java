@@ -76,9 +76,9 @@ public class OurClass {
         return "OurClass{" +
                 "name='" + name + '\'' +
                 ", containerPackage='" + containerPackage + '\'' +
+                ", LCOM=" + LCOM +
                 '}';
     }
-
     // getters / setters
 
     public String getName() {
