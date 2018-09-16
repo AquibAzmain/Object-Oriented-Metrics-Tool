@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaparser-core-3.6.201">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Tool/External_Jars/javaparser-core-3.6.20.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

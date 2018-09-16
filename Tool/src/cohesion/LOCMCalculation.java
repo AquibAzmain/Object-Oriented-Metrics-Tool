@@ -29,14 +29,15 @@ public class LOCMCalculation {
         cohesionNodes = new ArrayList<>();
         CompilationUnit compilationUnit;
         try {
-            compilationUnit = JavaParser.parse(new File("D:\\Studies\\Semester 8\\Metrics\\projects\\Object-Oriented-Tool\\Tool\\src\\cohesion\\TestClass.java"));
-
+            File file = new File("D:\\Studies\\Semester 8\\Metrics\\Object-Oriented-Metrics-Tool\\Tool\\src\\cohesion\\TestClass.java");
+            compilationUnit = JavaParser.parse(file);
             populateMethods(compilationUnit);
             populateInstanceFields(compilationUnit);
 
 //            exploreMethods(compilationUnit);
 
         } catch (IOException e) {
+            System.out.println("x");
             e.printStackTrace();
         }
     }

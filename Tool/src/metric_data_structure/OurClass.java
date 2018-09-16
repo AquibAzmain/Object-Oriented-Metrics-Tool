@@ -10,6 +10,7 @@ import java.util.Set;
 public class OurClass {
     private String name;
     private String containerPackage;
+    private String filePath;
 
     private List<OurClass> superClasses;
     private List<OurClass> childClasses;
@@ -19,6 +20,8 @@ public class OurClass {
     private List<String> importedPackages;
 
     private CompilationUnit compilationUnit;
+
+    private int LCOM;
 
     // constructors
 
@@ -66,6 +69,14 @@ public class OurClass {
         }
 
         return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return "OurClass{" +
+                "name='" + name + '\'' +
+                ", containerPackage='" + containerPackage + '\'' +
+                '}';
     }
 
     // getters / setters
@@ -132,5 +143,21 @@ public class OurClass {
 
     public void setCoupledClasses(Set<OurClass> coupledClasses) {
         this.coupledClasses = coupledClasses;
+    }
+
+    public String getFilePath() {
+        return filePath;
+    }
+
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
+
+    public int getLCOM() {
+        return LCOM;
+    }
+
+    public void setLCOM(int LCOM) {
+        this.LCOM = LCOM;
     }
 }
