@@ -10,33 +10,31 @@ import com.github.javaparser.ast.Node;
 
 import FileReader.MyFileReader;
 
-
 public class CyclomaticComplexityManager {
 
 	public void CCCounterForClass() throws FileNotFoundException {
 		MyFileReader fileReader = new MyFileReader();
-		//System.out.println(fileReader.manageFileReader().toString());
+		// System.out.println(fileReader.manageFileReader().toString());
 		@SuppressWarnings("rawtypes")
 		ArrayList fileList = new ArrayList<>();
 		fileList = fileReader.manageFileReader();
-		
-		for (int i = 0; i< fileList.size()-1; i++) {
+
+		for (int i = 0; i <= fileList.size() - 1; i++) {
 			CompilationUnit cu = JavaParser.parse(new FileInputStream(fileList.get(i).toString()));
 			for (Node childNode : cu.getChildNodes()) {
-				if(childNode.getMetaModel().getTypeName().equals("ClassOrInterfaceDeclaration")) {
-					System.out.println("Class name: "+childNode.getChildNodes().get(0));
+				if (childNode.getMetaModel().getTypeName().equals("ClassOrInterfaceDeclaration")) {
 					CyclomaticComplexityCounter cyclomaticComplexityCounter = new CyclomaticComplexityCounter();
+					System.out.println("\nClass name: " + childNode.getChildNodes().get(0));
 					cyclomaticComplexityCounter.visit(cu, null);
-					System.out.println("Complexity: " + cyclomaticComplexityCounter.FinalComplexity+ "\n");
-					
+					System.out.println("\t WMC: " + cyclomaticComplexityCounter.WMC + "\n\t Total Complexity: "+ cyclomaticComplexityCounter.TotalCC);
 				}
 			}
-			
+
 		}
-		
+
 	}
-	
+
 	public void PrintCSV() {
-		
+
 	}
 }

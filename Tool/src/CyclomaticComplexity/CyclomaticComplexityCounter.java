@@ -16,17 +16,29 @@ import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 public class CyclomaticComplexityCounter extends VoidVisitorAdapter<Void> {
 
 	public int FinalComplexity = 0;
+	public int WMC = 0;
+	public int TotalCC = 0;
 
 	public void visit(MethodDeclaration md, Void arg) {
 		super.visit(md, arg);
-		if(!md.isAbstract()){
+		if (!md.isAbstract()) {
+			WMC++;
 			String methodBody = md.getChildNodes().get(md.getChildNodes().size() - 1).toString();
-			System.out.println("Method Name : " + md.getNameAsString());
+
 			BodyDeclaration<?> methodToParse = parseBodyDeclaration(methodBody);
-			//System.out.println(processSwitch(methodToParse) + processCondition(methodToParse) + processLoop(methodToParse) + 1);
-			FinalComplexity = processSwitch(methodToParse) + processCondition(methodToParse) + processLoop(methodToParse) + 1;
+			// System.out.println(processSwitch(methodToParse) +
+			// processCondition(methodToParse) + processLoop(methodToParse) +
+			// 1);
+			FinalComplexity = processSwitch(methodToParse) + processCondition(methodToParse)
+					+ processLoop(methodToParse) + 1;
+			System.out.println("Method Name : " + md.getNameAsString() + " Complexity: " + FinalComplexity);
+			TotalCC = TotalCC + FinalComplexity;
+		} else {
+			WMC++;
+			FinalComplexity = 0;
+			System.out.println("Method Name : " + md.getNameAsString()+ " Complexity: "+ FinalComplexity);
+
 		}
-		else FinalComplexity = 0;
 	}
 
 	@SuppressWarnings("deprecation")

@@ -1,11 +1,16 @@
 package InheritanceRelated;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class ChildrenCounter {
 	public ArrayList<String[]> inheritanceInput;
 	public ArrayList<ArrayList<String>> inheritanceList;
 	public ArrayList <String> rootList, nonRootList;
+	public BufferedWriter writer;
+	public static String fileString;
 	
 	private void findChildren() {
 		for(int i=0; i<inheritanceInput.size(); i++) {
@@ -22,22 +27,43 @@ public class ChildrenCounter {
 	}
 	
 	public void printInheritanceList() {
-		System.out.println("There are total " + inheritanceList.size() + " classes in this project.");
+		try {
+			writer = new BufferedWriter(new FileWriter("InheritanceRelatedData.txt"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    fileString = "There are total " + inheritanceList.size() + " classes in this project."
+	    		+ "Those are:\n"
+	    		+ " Parent: Children\n";
+		System.out.println("There are total " + inheritanceList.size() + " classes in this project.\n");
 		System.out.println("Those are:\n");
-		System.out.println(" Parent\t\t->\tChildren No");
+		System.out.println(" Parent: Children");
 		
 		for(int i=0; i<inheritanceList.size(); i++) {
 			for(int j=0; j<inheritanceList.get(i).size(); j++) {
 				if(j==0) {
-					if(inheritanceList.get(i).size() == 1)
+					if(inheritanceList.get(i).size() == 1) {
+						fileString += inheritanceList.get(i).get(j)+ ": 0 children\n";
 						System.out.println(inheritanceList.get(i).get(j)+ "->\t\t0");
-					else System.out.print(inheritanceList.get(i).get(j) + " ->\t" + (inheritanceList.get(i).size()-1) + " ( ");
+					}
+					else {
+						fileString += inheritanceList.get(i).get(j) + ": " + (inheritanceList.get(i).size()-1) + " children ( ";
+						System.out.print(inheritanceList.get(i).get(j) + " ->\t" + (inheritanceList.get(i).size()-1) + " ( ");
+					}
 				}
-				else if( j < inheritanceList.get(i).size()-1) System.out.print(inheritanceList.get(i).get(j) + ", ");
-				else System.out.println(inheritanceList.get(i).get(j) + " )");
+				else if( j < inheritanceList.get(i).size()-1) {
+					fileString += inheritanceList.get(i).get(j) + ", ";
+					System.out.print(inheritanceList.get(i).get(j) + ", ");
+				}
+				else {
+					fileString += inheritanceList.get(i).get(j) + " )\n";
+					System.out.println(inheritanceList.get(i).get(j) + " )");
+				}
 			}
 		}
 		
+		fileString += "\n----------------------------------------------------------------";
 	}
 
 	

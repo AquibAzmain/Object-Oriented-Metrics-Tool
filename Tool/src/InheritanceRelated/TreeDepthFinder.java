@@ -7,6 +7,7 @@ public class TreeDepthFinder {
 	public ArrayList<ArrayList<String>> inheritanceList;
 	public ArrayList<String[]> inheritanceInput;
 	private ArrayList<Node<String>> nodelist;
+	ChildrenCounter childrenCounter = new ChildrenCounter();
 	
 	 private Node<String> createTree(String rootName) {
 		 Node<String> root = new Node<>(rootName, null);
@@ -27,9 +28,11 @@ public class TreeDepthFinder {
 	 
 	 private <T> void printTree(Node<T> node, String appender) {
 		 if(node.getParent() == null) {
-			   System.out.println(node.getData());
+			 childrenCounter.fileString += node.getData() + "\n";
+			 System.out.println(node.getData());
 		 }
 		 else{
+			 childrenCounter.fileString += appender + node.getData() + "\n";
 			 System.out.println(appender + node.getData());
 		 }
 	   node.getChildren().forEach(each ->  printTree(each, appender + appender));
@@ -68,8 +71,9 @@ public class TreeDepthFinder {
 	
 	public void treeDepthFinderManager() {
 		System.out.println("\n\nProject Tree:");
-		ChildrenCounter childrenCounter = new ChildrenCounter();
+		
 		childrenCounter.manageChildrenCounter();
+		childrenCounter.fileString += "\n\nProject Tree:\n"; 
 		rootList = childrenCounter.rootList;
 		nonRootList = childrenCounter.nonRootList;
 		inheritanceList = childrenCounter.inheritanceList;
@@ -83,9 +87,11 @@ public class TreeDepthFinder {
 		 }
 		 
 		completeTree();
+		childrenCounter.fileString += "Total number of trees: " + rootList.size() + "\n";
 		System.out.println("Total number of trees: " + rootList.size());
 
 		for(int i=0; i<rootNodeList.size(); i++) {
+			childrenCounter.fileString += "\nTree no: " + (i+1) + "\n";
 			System.out.println("\nTree no: " + (i+1));
 			printTree(rootNodeList.get(i), "-");
 		 }
@@ -95,7 +101,10 @@ public class TreeDepthFinder {
 				maxDepth = nodelist.get(i).depth;
 			}
 		 }
+		childrenCounter.fileString += "Tree having maximum depth in this forest is: " + maxDepth + "\n";
 		System.out.println("Tree having maximum depth in this forest is: " + maxDepth);
+		
+		
 		
 	}
 
