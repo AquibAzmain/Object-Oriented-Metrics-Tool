@@ -1,11 +1,6 @@
 package Manager;
 
-import FileReader.MyFileReader;
-import cohesion.LOCMCalculation;
 import metric_data_structure.Populator;
-
-import java.io.File;
-import java.util.ArrayList;
 
 public class MyMain {
 

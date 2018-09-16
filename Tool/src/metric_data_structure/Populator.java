@@ -1,11 +1,12 @@
 package metric_data_structure;
 
 import FileReader.MyFileReader;
-import cohesion.LOCMCalculation;
+import cohesion.LCOMCalculation;
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ast.CompilationUnit;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,18 +24,23 @@ public class Populator {
         myFileReader.listFilesForFolder(new File("D:\\Studies\\Semester 8\\Metrics\\Object-Oriented-Metrics-Tool\\MyScenery\\src"));
         fileList = myFileReader.fileList;
 
-        populateClasses(fileList);
-//        LOCMCalculation locmCalculation = new LOCMCalculation();
-//        locmCalculation.addCohesionNodes();
+        try {
+            populateClasses(fileList);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
-    public void populateClasses(List<String> filePaths){
+    public void populateClasses(List<String> filePaths) throws FileNotFoundException {
         for(String filePath: filePaths){
             String fileArr[] = filePath.split("\\\\");
 
             OurClass ourClass = new OurClass(fileArr[fileArr.length-1], fileArr[fileArr.length-2]);
             ourClass.setFilePath(filePath);
             ourClass.setCompilationUnit(getCompilationUnitFromFile(filePath));
+
+            LCOMCalculation lcomCalculation = new LCOMCalculation(ourClass);
+            lcomCalculation.generateLCOM();
 
             classes.add(ourClass);
         }
@@ -44,7 +50,7 @@ public class Populator {
         }
     }
 
-    private CompilationUnit getCompilationUnitFromFile(String filePath) {
-        return JavaParser.parse(filePath);
+    private CompilationUnit getCompilationUnitFromFile(String filePath) throws FileNotFoundException {
+        return JavaParser.parse(new File(filePath));
     }
 }

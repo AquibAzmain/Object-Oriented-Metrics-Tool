@@ -1,6 +1,6 @@
 package metric_data_structure;
 
-import com.github.javaparser.ast.CompilationUnit;
+import com.github.javaparser.ast.body.MethodDeclaration;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -10,9 +10,10 @@ public class OurMethod {
     private String signature;
     private OurClass parentClass;
 
-    private CompilationUnit compilationUnit;
+    private MethodDeclaration md;
 
     private Set<OurMethod> calledMethods;
+    private Set<String> instanceVars;
 
     //constructors
 
@@ -44,6 +45,10 @@ public class OurMethod {
         calledMethods.add(method2);
     }
 
+    public void addInstanceVar(String var){
+        instanceVars.add(var);
+    }
+
     // getters / setters
 
     public String getName() {
@@ -70,12 +75,12 @@ public class OurMethod {
         this.parentClass = parentClass;
     }
 
-    public CompilationUnit getCompilationUnit() {
-        return compilationUnit;
+    public MethodDeclaration getMd() {
+        return md;
     }
 
-    public void setCompilationUnit(CompilationUnit compilationUnit) {
-        this.compilationUnit = compilationUnit;
+    public void setMd(MethodDeclaration md) {
+        this.md = md;
     }
 
     public Set<OurMethod> getCalledMethods() {
@@ -84,5 +89,13 @@ public class OurMethod {
 
     public void setCalledMethods(Set<OurMethod> calledMethods) {
         this.calledMethods = calledMethods;
+    }
+
+    public Set<String> getInstanceVars() {
+        return instanceVars;
+    }
+
+    public void setInstanceVars(Set<String> instanceVars) {
+        this.instanceVars = instanceVars;
     }
 }
