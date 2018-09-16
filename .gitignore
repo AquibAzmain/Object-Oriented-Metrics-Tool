@@ -32,4 +32,4 @@
 .idea/**/gradle.xml
 .idea/**/libraries
 
-vcs.xml
+.idea/vcs.xml
