@@ -49,8 +49,6 @@ public class CyclomaticComplexityCounter extends VoidVisitorAdapter<Void> {
 			complexity++;
 			if (ifStmt.getElseStmt().isPresent()) {
 				if (ifStmt.getElseStmt().get() instanceof IfStmt) {
-				} else {
-					complexity++;
 				}
 			}
 		}

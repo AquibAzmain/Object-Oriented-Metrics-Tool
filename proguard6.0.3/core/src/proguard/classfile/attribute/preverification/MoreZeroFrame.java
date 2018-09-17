@@ -124,6 +124,7 @@ public class MoreZeroFrame extends StackMapFrame
             {
                 return false;
             }
+			else return true;
         }
 
         return true;

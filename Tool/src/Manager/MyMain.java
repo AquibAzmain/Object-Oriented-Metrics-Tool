@@ -8,6 +8,7 @@ import CodeAnalyser.CommentMetricsGenerator;
 import CyclomaticComplexity.CyclomaticComplexityManager;
 import InheritanceRelated.ChildrenCounter;
 import InheritanceRelated.TreeDepthFinder;
+import metric_data_structure.Populator;
 
 public class MyMain {
 
@@ -36,6 +37,18 @@ public class MyMain {
 		treeDepthFinder.treeDepthFinderManager();
 		childrenCounter.writer.write(childrenCounter.fileString);
 		childrenCounter.writer.close();
+		
+
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println("------------------------------------------------------------\n\n\n");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+		Populator populator = new Populator();
+		populator.init();
 		
 		long endTime = System.nanoTime();
 //
