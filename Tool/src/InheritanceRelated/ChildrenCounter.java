@@ -36,29 +36,29 @@ public class ChildrenCounter {
 	    fileString = "There are total " + inheritanceList.size() + " classes in this project."
 	    		+ "Those are:\n"
 	    		+ " Parent: Children\n";
-		System.out.println("There are total " + inheritanceList.size() + " classes in this project.\n");
-		System.out.println("Those are:\n");
-		System.out.println(" Parent: Children");
+//		System.out.println("There are total " + inheritanceList.size() + " classes in this project.\n");
+//		System.out.println("Those are:\n");
+//		System.out.println(" Parent: Children");
 		
 		for(int i=0; i<inheritanceList.size(); i++) {
 			for(int j=0; j<inheritanceList.get(i).size(); j++) {
 				if(j==0) {
 					if(inheritanceList.get(i).size() == 1) {
 						fileString += inheritanceList.get(i).get(j)+ ": 0 children\n";
-						System.out.println(inheritanceList.get(i).get(j)+ "->\t\t0");
+//						System.out.println(inheritanceList.get(i).get(j)+ "->\t\t0");
 					}
 					else {
 						fileString += inheritanceList.get(i).get(j) + ": " + (inheritanceList.get(i).size()-1) + " children ( ";
-						System.out.print(inheritanceList.get(i).get(j) + " ->\t" + (inheritanceList.get(i).size()-1) + " ( ");
+//						System.out.print(inheritanceList.get(i).get(j) + " ->\t" + (inheritanceList.get(i).size()-1) + " ( ");
 					}
 				}
 				else if( j < inheritanceList.get(i).size()-1) {
 					fileString += inheritanceList.get(i).get(j) + ", ";
-					System.out.print(inheritanceList.get(i).get(j) + ", ");
+//					System.out.print(inheritanceList.get(i).get(j) + ", ");
 				}
 				else {
 					fileString += inheritanceList.get(i).get(j) + " )\n";
-					System.out.println(inheritanceList.get(i).get(j) + " )");
+//					System.out.println(inheritanceList.get(i).get(j) + " )");
 				}
 			}
 		}

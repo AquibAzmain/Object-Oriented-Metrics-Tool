@@ -29,11 +29,11 @@ public class TreeDepthFinder {
 	 private <T> void printTree(Node<T> node, String appender) {
 		 if(node.getParent() == null) {
 			 childrenCounter.fileString += node.getData() + "\n";
-			 System.out.println(node.getData());
+//			 System.out.println(node.getData());
 		 }
 		 else{
 			 childrenCounter.fileString += appender + node.getData() + "\n";
-			 System.out.println(appender + node.getData());
+//			 System.out.println(appender + node.getData());
 		 }
 	   node.getChildren().forEach(each ->  printTree(each, appender + appender));
 	}
@@ -70,7 +70,7 @@ public class TreeDepthFinder {
 
 	
 	public void treeDepthFinderManager() {
-		System.out.println("\n\nProject Tree:");
+//		System.out.println("\n\nProject Tree:");
 		
 		childrenCounter.manageChildrenCounter();
 		childrenCounter.fileString += "\n\nProject Tree:\n"; 
@@ -88,11 +88,11 @@ public class TreeDepthFinder {
 		 
 		completeTree();
 		childrenCounter.fileString += "Total number of trees: " + rootList.size() + "\n";
-		System.out.println("Total number of trees: " + rootList.size());
+//		System.out.println("Total number of trees: " + rootList.size());
 
 		for(int i=0; i<rootNodeList.size(); i++) {
 			childrenCounter.fileString += "\nTree no: " + (i+1) + "\n";
-			System.out.println("\nTree no: " + (i+1));
+//			System.out.println("\nTree no: " + (i+1));
 			printTree(rootNodeList.get(i), "-");
 		 }
 		int maxDepth = -1;
@@ -102,7 +102,7 @@ public class TreeDepthFinder {
 			}
 		 }
 		childrenCounter.fileString += "Tree having maximum depth in this forest is: " + maxDepth + "\n";
-		System.out.println("Tree having maximum depth in this forest is: " + maxDepth);
+//		System.out.println("Tree having maximum depth in this forest is: " + maxDepth);
 		
 		
 		

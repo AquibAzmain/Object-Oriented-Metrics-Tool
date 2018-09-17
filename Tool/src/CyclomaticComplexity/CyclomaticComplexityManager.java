@@ -19,14 +19,19 @@ public class CyclomaticComplexityManager {
 		ArrayList fileList = new ArrayList<>();
 		fileList = fileReader.manageFileReader();
 
+		System.out.println();
+		System.out.println();
+		System.out.println("Cyclomatic Complexity");
 		for (int i = 0; i <= fileList.size() - 1; i++) {
 			CompilationUnit cu = JavaParser.parse(new FileInputStream(fileList.get(i).toString()));
 			for (Node childNode : cu.getChildNodes()) {
 				if (childNode.getMetaModel().getTypeName().equals("ClassOrInterfaceDeclaration")) {
 					CyclomaticComplexityCounter cyclomaticComplexityCounter = new CyclomaticComplexityCounter();
+					System.out.println();
 					System.out.println("\nClass name: " + childNode.getChildNodes().get(0));
 					cyclomaticComplexityCounter.visit(cu, null);
-					System.out.println("\t WMC: " + cyclomaticComplexityCounter.WMC + "\n\t Total Complexity: "+ cyclomaticComplexityCounter.TotalCC);
+					System.out.println("\t WMC: " + cyclomaticComplexityCounter.WMC);
+					System.out.println("Total Complexity: "+ cyclomaticComplexityCounter.TotalCC);
 				}
 			}
 

@@ -26,9 +26,11 @@ public class CommentMetricsGenerator {
 	}
 	
 	public void printMetrics() throws IOException{
+		System.out.println("LOC and Comments of all the files:");
 		for (String filePath : listOfFilePath) {
 			
 			String contentOfFile = new String(Files.readAllBytes(Paths.get(filePath)));
+			System.out.println();
 			System.out.println("File Name: "+filePath);
 			
 			CompilationUnit compilationUnit = JavaParser.parse(contentOfFile);

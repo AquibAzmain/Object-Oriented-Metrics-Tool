@@ -16,6 +16,14 @@ public class MyMain {
 		PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
 		System.setOut(out);
 		
+		CommentMetricsGenerator myCommentMetricsGenerator = new CommentMetricsGenerator();
+		myCommentMetricsGenerator.printMetrics();
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println("------------------------------------------------------------\n\n\n");
+			
 		CyclomaticComplexityManager cycloManager = new CyclomaticComplexityManager();
 		cycloManager.CCCounterForClass();
 
@@ -28,9 +36,6 @@ public class MyMain {
 		treeDepthFinder.treeDepthFinderManager();
 		childrenCounter.writer.write(childrenCounter.fileString);
 		childrenCounter.writer.close();
-		
-		CommentMetricsGenerator myCommentMetricsGenerator = new CommentMetricsGenerator();
-		myCommentMetricsGenerator.printMetrics();
 		
 		long endTime = System.nanoTime();
 //

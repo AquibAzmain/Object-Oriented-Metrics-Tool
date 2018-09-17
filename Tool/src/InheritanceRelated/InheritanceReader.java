@@ -24,7 +24,7 @@ public class InheritanceReader {
 				String [] info = input.split("\\s");
 
 				String temp[] = new String[2];
-				for(int i=0; i<info.length; i++) {
+				for(int i=0; i<info.length-1; i++) {
 //					System.out.println(info[i]);
 					if(info[i].equals("class")) {
 						temp[0] = info[i+1];

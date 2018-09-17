@@ -24,20 +24,21 @@ public class CyclomaticComplexityCounter extends VoidVisitorAdapter<Void> {
 		if (!md.isAbstract()) {
 			WMC++;
 			String methodBody = md.getChildNodes().get(md.getChildNodes().size() - 1).toString();
+			if (methodBody.startsWith("{")) {
+				BodyDeclaration<?> methodToParse = parseBodyDeclaration(methodBody);
+				// System.out.println(processSwitch(methodToParse) +
+				// processCondition(methodToParse) + processLoop(methodToParse) +
+				// 1);
+				FinalComplexity = processSwitch(methodToParse) + processCondition(methodToParse)
+						+ processLoop(methodToParse) + 1;
+				System.out.println("Method Name : " + md.getNameAsString() + "-> Complexity: " + FinalComplexity);
+				TotalCC = TotalCC + FinalComplexity;
+			} else {
+				WMC++;
+				FinalComplexity = 0;
+				System.out.println("Method Name : " + md.getNameAsString() + "-> Complexity: " + FinalComplexity);
 
-			BodyDeclaration<?> methodToParse = parseBodyDeclaration(methodBody);
-			// System.out.println(processSwitch(methodToParse) +
-			// processCondition(methodToParse) + processLoop(methodToParse) +
-			// 1);
-			FinalComplexity = processSwitch(methodToParse) + processCondition(methodToParse)
-					+ processLoop(methodToParse) + 1;
-			System.out.println("Method Name : " + md.getNameAsString() + " Complexity: " + FinalComplexity);
-			TotalCC = TotalCC + FinalComplexity;
-		} else {
-			WMC++;
-			FinalComplexity = 0;
-			System.out.println("Method Name : " + md.getNameAsString()+ " Complexity: "+ FinalComplexity);
-
+			}
 		}
 	}
 
