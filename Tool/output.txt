@@ -1,0 +1,296 @@
+Enter folder name: 
+
+Class name: AfricaBuilder
+Method Name : actionPerformed Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: AmericaBuilder
+Method Name : actionPerformed Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: AsiaBuilder
+Method Name : actionPerformed Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: Builder
+Method Name : actionPerformed Complexity: 0
+	 WMC: 1
+	 Total Complexity: 0
+
+Class name: AfricanHouse
+Method Name : prepare Complexity: 2
+	 WMC: 1
+	 Total Complexity: 2
+
+Class name: AfricanTree
+Method Name : prepare Complexity: 2
+	 WMC: 1
+	 Total Complexity: 2
+
+Class name: AmericanHouse
+Method Name : prepare Complexity: 2
+	 WMC: 1
+	 Total Complexity: 2
+
+Class name: AmericanTree
+Method Name : prepare Complexity: 2
+	 WMC: 1
+	 Total Complexity: 2
+
+Class name: AsianHouse
+Method Name : prepare Complexity: 2
+	 WMC: 1
+	 Total Complexity: 2
+
+Class name: AsianTree
+Method Name : prepare Complexity: 2
+	 WMC: 1
+	 Total Complexity: 2
+
+Class name: CompositeShape
+Method Name : prepare Complexity: 0
+	 WMC: 1
+	 Total Complexity: 0
+
+Class name: Africa
+Method Name : buildContinent Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: America
+Method Name : buildContinent Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: Asia
+Method Name : buildContinent Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: Continent
+Method Name : buildContinent Complexity: 0
+	 WMC: 1
+	 Total Complexity: 0
+
+Class name: Mock2ClassForDepth
+	 WMC: 0
+	 Total Complexity: 0
+
+Class name: MockClassForDepthValue
+	 WMC: 0
+	 Total Complexity: 0
+
+Class name: MainClass
+Method Name : main Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: MyFrame
+Method Name : initialize Complexity: 1
+	 WMC: 1
+	 Total Complexity: 1
+
+Class name: PanelClass
+Method Name : actionPerformed Complexity: 1
+Method Name : initialize Complexity: 1
+	 WMC: 2
+	 Total Complexity: 2
+
+Class name: Circle
+Method Name : drawing Complexity: 1
+Method Name : paint Complexity: 1
+	 WMC: 2
+	 Total Complexity: 2
+
+Class name: IShape
+Method Name : drawing Complexity: 0
+	 WMC: 1
+	 Total Complexity: 0
+
+Class name: Rectangle
+Method Name : drawing Complexity: 1
+Method Name : paint Complexity: 1
+	 WMC: 2
+	 Total Complexity: 2
+
+Class name: Triangle
+Method Name : drawing Complexity: 1
+Method Name : paint Complexity: 1
+	 WMC: 2
+	 Total Complexity: 2
+There are total 25 classes in this project.
+
+Those are:
+
+ Parent: Children
+AfricaBuilder->		0
+AmericaBuilder->		0
+AsiaBuilder->		0
+Builder ->	3 ( AfricaBuilder, AmericaBuilder, AsiaBuilder )
+AfricanHouse->		0
+AfricanTree->		0
+AmericanHouse->		0
+AmericanTree->		0
+AsianHouse->		0
+AsianTree->		0
+CompositeShape ->	6 ( AfricanHouse, AfricanTree, AmericanHouse, AmericanTree, AsianHouse, AsianTree )
+Africa->		0
+America->		0
+Asia ->	1 ( MockClassForDepthValue )
+Continent ->	3 ( Africa, America, Asia )
+Mock2ClassForDepth->		0
+Mock3ClassForNothing->		0
+MockClassForDepthValue ->	1 ( Mock2ClassForDepth )
+MainClass->		0
+MyFrame->		0
+PanelClass->		0
+Circle->		0
+IShape ->	3 ( Circle, Rectangle, Triangle )
+Rectangle->		0
+Triangle->		0
+
+
+Project Tree:
+Total number of trees: 8
+
+Tree no: 1
+Builder
+--AfricaBuilder
+--AmericaBuilder
+--AsiaBuilder
+
+Tree no: 2
+CompositeShape
+--AfricanHouse
+--AfricanTree
+--AmericanHouse
+--AmericanTree
+--AsianHouse
+--AsianTree
+
+Tree no: 3
+Continent
+--Africa
+--America
+--Asia
+----MockClassForDepthValue
+--------Mock2ClassForDepth
+
+Tree no: 4
+Mock3ClassForNothing
+
+Tree no: 5
+MainClass
+
+Tree no: 6
+MyFrame
+
+Tree no: 7
+PanelClass
+
+Tree no: 8
+IShape
+--Circle
+--Rectangle
+--Triangle
+Tree having maximum depth in this forest is: 3
+File Name: G:\MetricsToolGIT\MyScenery\src\actionListenerPack\AfricaBuilder.java
+File LOC: 17
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\actionListenerPack\AmericaBuilder.java
+File LOC: 17
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\actionListenerPack\AsiaBuilder.java
+File LOC: 17
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\actionListenerPack\Builder.java
+File LOC: 13
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\compositePack\AfricanHouse.java
+File LOC: 29
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\compositePack\AfricanTree.java
+File LOC: 32
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\compositePack\AmericanHouse.java
+File LOC: 27
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\compositePack\AmericanTree.java
+File LOC: 27
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\compositePack\AsianHouse.java
+File LOC: 27
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\compositePack\AsianTree.java
+File LOC: 28
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\compositePack\CompositeShape.java
+File LOC: 8
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\continentPack\Africa.java
+File LOC: 17
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\continentPack\America.java
+File LOC: 18
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\continentPack\Asia.java
+File LOC: 17
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\continentPack\Continent.java
+File LOC: 8
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\continentPack\Mock2ClassForDepth.java
+File LOC: 9
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\continentPack\MockClassForDepthValue.java
+File LOC: 7
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\graphicsPack\MainClass.java
+File LOC: 6
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\graphicsPack\MyFrame.java
+File LOC: 22
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\graphicsPack\PanelClass.java
+File LOC: 44
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\shapePack\Circle.java
+File LOC: 18
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\shapePack\IShape.java
+File LOC: 11
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\shapePack\Rectangle.java
+File LOC: 22
+Number of Comments: 0
+Comment Percentage: 0%
+File Name: G:\MetricsToolGIT\MyScenery\src\shapePack\Triangle.java
+File LOC: 20
+Number of Comments: 0
+Comment Percentage: 0%
+duration to execute(in ms): 1137

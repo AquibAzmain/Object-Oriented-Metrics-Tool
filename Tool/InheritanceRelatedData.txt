@@ -1,0 +1,74 @@
+There are total 25 classes in this project.Those are:
+ Parent: Children
+AfricaBuilder: 0 children
+AmericaBuilder: 0 children
+AsiaBuilder: 0 children
+Builder: 3 children ( AfricaBuilder, AmericaBuilder, AsiaBuilder )
+AfricanHouse: 0 children
+AfricanTree: 0 children
+AmericanHouse: 0 children
+AmericanTree: 0 children
+AsianHouse: 0 children
+AsianTree: 0 children
+CompositeShape: 6 children ( AfricanHouse, AfricanTree, AmericanHouse, AmericanTree, AsianHouse, AsianTree )
+Africa: 0 children
+America: 0 children
+Asia: 1 children ( MockClassForDepthValue )
+Continent: 3 children ( Africa, America, Asia )
+Mock2ClassForDepth: 0 children
+Mock3ClassForNothing: 0 children
+MockClassForDepthValue: 1 children ( Mock2ClassForDepth )
+MainClass: 0 children
+MyFrame: 0 children
+PanelClass: 0 children
+Circle: 0 children
+IShape: 3 children ( Circle, Rectangle, Triangle )
+Rectangle: 0 children
+Triangle: 0 children
+
+----------------------------------------------------------------
+
+Project Tree:
+Total number of trees: 8
+
+Tree no: 1
+Builder
+--AfricaBuilder
+--AmericaBuilder
+--AsiaBuilder
+
+Tree no: 2
+CompositeShape
+--AfricanHouse
+--AfricanTree
+--AmericanHouse
+--AmericanTree
+--AsianHouse
+--AsianTree
+
+Tree no: 3
+Continent
+--Africa
+--America
+--Asia
+----MockClassForDepthValue
+--------Mock2ClassForDepth
+
+Tree no: 4
+Mock3ClassForNothing
+
+Tree no: 5
+MainClass
+
+Tree no: 6
+MyFrame
+
+Tree no: 7
+PanelClass
+
+Tree no: 8
+IShape
+--Circle
+--Rectangle
+--Triangle
+Tree having maximum depth in this forest is: 3
