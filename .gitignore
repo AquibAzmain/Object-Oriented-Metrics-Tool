@@ -6,8 +6,6 @@
 # Log file
 *.log
 *.lock
-*.iml
-*.xml
 
 # User-specific stuff
 .idea/**/workspace.xml
