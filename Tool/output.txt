@@ -1,0 +1,385 @@
+LOC and Comments of all the files:
+
+File Name: G:\MetricsToolGIT\Tool\src\CodeAnalyser\CommentMetricsGenerator.java
+Comment: // Reset parser config to remove comments
+
+Comment Type: Line Comment
+Comment: // TODO Auto-generated catch block
+
+Comment Type: Line Comment
+Comment: // TODO Auto-generated catch block
+
+Comment Type: Line Comment
+File LOC: 80
+Number of Comments: 3
+Comment Percentage: 3%
+
+File Name: G:\MetricsToolGIT\Tool\src\cohesion\LCOMCalculation.java
+File LOC: 156
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\cohesion\LCOMGroup.java
+File LOC: 8
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\cohesion\TestClass.java
+File LOC: 17
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\CyclomaticComplexity\CyclomaticComplexityCounter.java
+File LOC: 81
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\CyclomaticComplexity\CyclomaticComplexityManager.java
+File LOC: 34
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\FileReader\MyFileReader.java
+File LOC: 31
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\ChildrenCounter.java
+File LOC: 58
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\InheritanceReader.java
+File LOC: 80
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\Node.java
+File LOC: 30
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\TreeDepthFinder.java
+File LOC: 86
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\Manager\MyMain.java
+File LOC: 43
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\metric_data_structure\OurClass.java
+File LOC: 116
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\metric_data_structure\OurMethod.java
+File LOC: 78
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: G:\MetricsToolGIT\Tool\src\metric_data_structure\Populator.java
+File LOC: 44
+Number of Comments: 0
+Comment Percentage: 0%
+
+
+
+------------------------------------------------------------
+
+
+
+
+
+Cyclomatic Complexity
+
+
+Class name: CommentMetricsGenerator
+Method Name : printMetrics-> Complexity: 3
+Method Name : detectTypeOfComment-> Complexity: 4
+Method Name : getLineOfCode-> Complexity: 4
+	 WMC: 3
+Total Complexity: 11
+
+
+Class name: LCOMCalculation
+Method Name : generateLCOM-> Complexity: 2
+Method Name : createLCOMGroups-> Complexity: 6
+Method Name : populateGroup-> Complexity: 3
+Method Name : variableMatch-> Complexity: 1
+Method Name : calculateCohesion-> Complexity: 1
+Method Name : populateInstanceFields-> Complexity: 1
+Method Name : populateMethods-> Complexity: 1
+Method Name : visit-> Complexity: 2
+Method Name : visit-> Complexity: 1
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+	 WMC: 12
+Total Complexity: 30
+
+
+Class name: InstanceFieldNameCollector
+Method Name : generateLCOM-> Complexity: 2
+Method Name : createLCOMGroups-> Complexity: 6
+Method Name : populateGroup-> Complexity: 3
+Method Name : variableMatch-> Complexity: 1
+Method Name : calculateCohesion-> Complexity: 1
+Method Name : populateInstanceFields-> Complexity: 1
+Method Name : populateMethods-> Complexity: 1
+Method Name : visit-> Complexity: 2
+Method Name : visit-> Complexity: 1
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+	 WMC: 12
+Total Complexity: 30
+
+
+Class name: MethodNameCollector
+Method Name : generateLCOM-> Complexity: 2
+Method Name : createLCOMGroups-> Complexity: 6
+Method Name : populateGroup-> Complexity: 3
+Method Name : variableMatch-> Complexity: 1
+Method Name : calculateCohesion-> Complexity: 1
+Method Name : populateInstanceFields-> Complexity: 1
+Method Name : populateMethods-> Complexity: 1
+Method Name : visit-> Complexity: 2
+Method Name : visit-> Complexity: 1
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+	 WMC: 12
+Total Complexity: 30
+
+
+Class name: AssignExprFetcher
+Method Name : generateLCOM-> Complexity: 2
+Method Name : createLCOMGroups-> Complexity: 6
+Method Name : populateGroup-> Complexity: 3
+Method Name : variableMatch-> Complexity: 1
+Method Name : calculateCohesion-> Complexity: 1
+Method Name : populateInstanceFields-> Complexity: 1
+Method Name : populateMethods-> Complexity: 1
+Method Name : visit-> Complexity: 2
+Method Name : visit-> Complexity: 1
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+	 WMC: 12
+Total Complexity: 30
+
+
+Class name: VariableDeclarationFetcher
+Method Name : generateLCOM-> Complexity: 2
+Method Name : createLCOMGroups-> Complexity: 6
+Method Name : populateGroup-> Complexity: 3
+Method Name : variableMatch-> Complexity: 1
+Method Name : calculateCohesion-> Complexity: 1
+Method Name : populateInstanceFields-> Complexity: 1
+Method Name : populateMethods-> Complexity: 1
+Method Name : visit-> Complexity: 2
+Method Name : visit-> Complexity: 1
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+	 WMC: 12
+Total Complexity: 30
+
+
+Class name: MethodCallFetcher
+Method Name : generateLCOM-> Complexity: 2
+Method Name : createLCOMGroups-> Complexity: 6
+Method Name : populateGroup-> Complexity: 3
+Method Name : variableMatch-> Complexity: 1
+Method Name : calculateCohesion-> Complexity: 1
+Method Name : populateInstanceFields-> Complexity: 1
+Method Name : populateMethods-> Complexity: 1
+Method Name : visit-> Complexity: 2
+Method Name : visit-> Complexity: 1
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+Method Name : visit-> Complexity: 4
+	 WMC: 12
+Total Complexity: 30
+
+
+Class name: LCOMGroup
+	 WMC: 0
+Total Complexity: 0
+
+
+Class name: TestClass
+Method Name : x-> Complexity: 1
+Method Name : y-> Complexity: 1
+Method Name : z-> Complexity: 1
+	 WMC: 3
+Total Complexity: 3
+
+
+Class name: CyclomaticComplexityCounter
+Method Name : visit-> Complexity: 3
+Method Name : processCondition-> Complexity: 4
+Method Name : processSwitch-> Complexity: 3
+Method Name : processLoop-> Complexity: 9
+	 WMC: 4
+Total Complexity: 19
+
+
+Class name: CyclomaticComplexityManager
+Method Name : CCCounterForClass-> Complexity: 4
+Method Name : PrintCSV-> Complexity: 1
+	 WMC: 2
+Total Complexity: 5
+
+
+Class name: MyFileReader
+Method Name : listFilesForFolder-> Complexity: 4
+Method Name : manageFileReader-> Complexity: 2
+	 WMC: 2
+Total Complexity: 6
+
+
+Class name: ChildrenCounter
+Method Name : findChildren-> Complexity: 4
+Method Name : printInheritanceList-> Complexity: 6
+Method Name : manageChildrenCounter-> Complexity: 1
+	 WMC: 3
+Total Complexity: 11
+
+
+Class name: InheritanceReader
+Method Name : readFile-> Complexity: 8
+Method Name : getInheritanceList-> Complexity: 2
+Method Name : refineInheritanceList-> Complexity: 7
+Method Name : inheritanceReaderManager-> Complexity: 1
+	 WMC: 4
+Total Complexity: 18
+
+
+Class name: Node
+Method Name : addChild-> Complexity: 1
+Method Name : getChildren-> Complexity: 1
+Method Name : getData-> Complexity: 1
+Method Name : getParent-> Complexity: 1
+	 WMC: 4
+Total Complexity: 4
+
+
+Class name: TreeDepthFinder
+Method Name : createTree-> Complexity: 5
+Method Name : printTree-> Complexity: 2
+Method Name : completeTree-> Complexity: 10
+Method Name : treeDepthFinderManager-> Complexity: 5
+	 WMC: 4
+Total Complexity: 22
+
+
+Class name: MyMain
+Method Name : main-> Complexity: 1
+	 WMC: 1
+Total Complexity: 1
+
+
+Class name: OurClass
+Method Name : addSuperClass-> Complexity: 1
+Method Name : addChildClass-> Complexity: 1
+Method Name : addCoupledClass-> Complexity: 1
+Method Name : addImportedPackage-> Complexity: 1
+Method Name : equals-> Complexity: 3
+Method Name : toString-> Complexity: 1
+Method Name : getName-> Complexity: 1
+Method Name : setName-> Complexity: 1
+Method Name : getSuperClasses-> Complexity: 1
+Method Name : setSuperClasses-> Complexity: 1
+Method Name : getMethods-> Complexity: 1
+Method Name : setMethods-> Complexity: 1
+Method Name : getImportedPackages-> Complexity: 1
+Method Name : setImportedPackages-> Complexity: 1
+Method Name : getCompilationUnit-> Complexity: 1
+Method Name : setCompilationUnit-> Complexity: 1
+Method Name : getContainerPackage-> Complexity: 1
+Method Name : setContainerPackage-> Complexity: 1
+Method Name : getChildClasses-> Complexity: 1
+Method Name : setChildClasses-> Complexity: 1
+Method Name : getCoupledClasses-> Complexity: 1
+Method Name : setCoupledClasses-> Complexity: 1
+Method Name : getFilePath-> Complexity: 1
+Method Name : setFilePath-> Complexity: 1
+Method Name : getLCOM-> Complexity: 1
+Method Name : setLCOM-> Complexity: 1
+	 WMC: 26
+Total Complexity: 28
+
+
+Class name: OurMethod
+Method Name : equals-> Complexity: 3
+Method Name : toString-> Complexity: 1
+Method Name : addCalledMethod-> Complexity: 1
+Method Name : addInstanceVar-> Complexity: 1
+Method Name : getName-> Complexity: 1
+Method Name : setName-> Complexity: 1
+Method Name : getSignature-> Complexity: 1
+Method Name : setSignature-> Complexity: 1
+Method Name : getParentClass-> Complexity: 1
+Method Name : setParentClass-> Complexity: 1
+Method Name : getMd-> Complexity: 1
+Method Name : setMd-> Complexity: 1
+Method Name : getCalledMethods-> Complexity: 1
+Method Name : setCalledMethods-> Complexity: 1
+Method Name : getInstanceVars-> Complexity: 1
+Method Name : setInstanceVars-> Complexity: 1
+	 WMC: 16
+Total Complexity: 18
+
+
+Class name: Populator
+Method Name : init-> Complexity: 1
+Method Name : populateClasses-> Complexity: 3
+Method Name : getCompilationUnitFromFile-> Complexity: 1
+	 WMC: 3
+Total Complexity: 5
+
+
+
+------------------------------------------------------------
+
+
+
+
+
+
+Lack of Cohesion of Methods(LCOM):
+
+CommentMetricsGenerator	[containerPackage: CodeAnalyser,	LCOM:2]
+
+LCOMCalculation	[containerPackage: cohesion,	LCOM:6]
+
+LCOMGroup	[containerPackage: cohesion,	LCOM:0]
+
+TestClass	[containerPackage: cohesion,	LCOM:2]
+
+CyclomaticComplexityCounter	[containerPackage: CyclomaticComplexity,	LCOM:1]
+
+CyclomaticComplexityManager	[containerPackage: CyclomaticComplexity,	LCOM:2]
+
+MyFileReader	[containerPackage: FileReader,	LCOM:2]
+
+ChildrenCounter	[containerPackage: InheritanceRelated,	LCOM:3]
+
+InheritanceReader	[containerPackage: InheritanceRelated,	LCOM:4]
+
+Node	[containerPackage: InheritanceRelated,	LCOM:4]
+
+TreeDepthFinder	[containerPackage: InheritanceRelated,	LCOM:4]
+
+MyMain	[containerPackage: Manager,	LCOM:1]
+
+OurClass	[containerPackage: metric_data_structure,	LCOM:26]
+
+OurMethod	[containerPackage: metric_data_structure,	LCOM:16]
+
+Populator	[containerPackage: metric_data_structure,	LCOM:2]
+
+duration to execute(in ms): 714

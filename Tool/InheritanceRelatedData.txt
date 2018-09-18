@@ -1,0 +1,88 @@
+There are total 20 classes in this project.Those are:
+ Parent: Children
+CommentMetricsGenerator: 0 children
+LCOMCalculation: 0 children
+InstanceFieldNameCollector: 0 children
+MethodNameCollector: 0 children
+AssignExprFetcher: 0 children
+VariableDeclarationFetcher: 0 children
+MethodCallFetcher: 0 children
+LCOMGroup: 0 children
+TestClass: 0 children
+CyclomaticComplexityCounter: 0 children
+CyclomaticComplexityManager: 0 children
+MyFileReader: 0 children
+ChildrenCounter: 0 children
+InheritanceReader: 0 children
+Node<T>: 0 children
+TreeDepthFinder: 0 children
+MyMain: 0 children
+OurClass: 0 children
+OurMethod: 0 children
+Populator: 0 children
+
+----------------------------------------------------------------
+
+Project Tree:
+Total number of trees: 20
+
+Tree no: 1
+CommentMetricsGenerator
+
+Tree no: 2
+LCOMCalculation
+
+Tree no: 3
+InstanceFieldNameCollector
+
+Tree no: 4
+MethodNameCollector
+
+Tree no: 5
+AssignExprFetcher
+
+Tree no: 6
+VariableDeclarationFetcher
+
+Tree no: 7
+MethodCallFetcher
+
+Tree no: 8
+LCOMGroup
+
+Tree no: 9
+TestClass
+
+Tree no: 10
+CyclomaticComplexityCounter
+
+Tree no: 11
+CyclomaticComplexityManager
+
+Tree no: 12
+MyFileReader
+
+Tree no: 13
+ChildrenCounter
+
+Tree no: 14
+InheritanceReader
+
+Tree no: 15
+Node<T>
+
+Tree no: 16
+TreeDepthFinder
+
+Tree no: 17
+MyMain
+
+Tree no: 18
+OurClass
+
+Tree no: 19
+OurMethod
+
+Tree no: 20
+Populator
+Tree having maximum depth in this forest is: 0

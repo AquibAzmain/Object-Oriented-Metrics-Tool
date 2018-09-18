@@ -73,11 +73,7 @@ public class OurClass {
 
     @Override
     public String toString() {
-        return "OurClass{" +
-                "name='" + name + '\'' +
-                ", containerPackage='" + containerPackage + '\'' +
-                ", LCOM=" + LCOM +
-                '}';
+        return name.replace(".java", "") +  "\t[containerPackage: " + containerPackage + ",\tLCOM:" + LCOM + "]\n" ;
     }
     // getters / setters
 

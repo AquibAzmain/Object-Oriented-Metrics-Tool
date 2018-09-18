@@ -18,11 +18,11 @@ public class Populator {
     }
 
     public void init(){
+    	System.out.println("Lack of Cohesion of Methods(LCOM):");
+    	System.out.println();
         ArrayList<String> fileList;
         MyFileReader myFileReader = new MyFileReader();
-        myFileReader.fileList = new ArrayList<>();
-        myFileReader.listFilesForFolder(new File("D:\\Studies\\Semester 8\\Metrics\\Object-Oriented-Metrics-Tool\\MyScenery\\src"));
-        fileList = myFileReader.fileList;
+        fileList = myFileReader.manageFileReader();
 
         try {
             populateClasses(fileList);
