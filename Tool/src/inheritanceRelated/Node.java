@@ -1,4 +1,4 @@
-package InheritanceRelated;
+package inheritanceRelated;
 
 import java.util.List;
 import java.util.ArrayList;

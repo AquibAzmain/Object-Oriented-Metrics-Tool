@@ -1,14 +1,14 @@
-package Manager;
+package manager;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 
-import CodeAnalyser.CommentMetricsGenerator;
-import CyclomaticComplexity.CyclomaticComplexityManager;
-import InheritanceRelated.ChildrenCounter;
-import InheritanceRelated.TreeDepthFinder;
-import metric_data_structure.Populator;
+import codeAnalyser.CommentMetricsGenerator;
+import cyclomaticComplexity.CyclomaticComplexityManager;
+import inheritanceRelated.ChildrenCounter;
+import inheritanceRelated.TreeDepthFinder;
+import metricsDataStructure.Populator;
 
 public class MyMain {
 

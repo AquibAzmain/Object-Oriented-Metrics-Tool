@@ -1,4 +1,4 @@
-package CyclomaticComplexity;
+package cyclomaticComplexity;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ import com.github.javaparser.JavaParser;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.Node;
 
-import FileReader.MyFileReader;
+import fileReader.MyFileReader;
 
 public class CyclomaticComplexityManager {
 

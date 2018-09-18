@@ -1,7 +1,7 @@
-/InheritanceRelated/
-/Manager/
-/CyclomaticComplexity/
-/FileReader/
-/CodeAnalyser/
+/inheritanceRelated/
+/manager/
+/cyclomaticComplexity/
+/fileReader/
+/codeAnalyser/
 /cohesion/
-/metric_data_structure/
+/metricsDataStructure/

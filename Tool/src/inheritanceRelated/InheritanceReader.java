@@ -1,4 +1,4 @@
-package InheritanceRelated;
+package inheritanceRelated;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-import FileReader.MyFileReader;
+import fileReader.MyFileReader;
 
 public class InheritanceReader {
 	private BufferedReader brInput;

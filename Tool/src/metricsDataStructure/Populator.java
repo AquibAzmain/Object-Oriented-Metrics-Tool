@@ -1,6 +1,6 @@
-package metric_data_structure;
+package metricsDataStructure;
 
-import FileReader.MyFileReader;
+import fileReader.MyFileReader;
 import cohesion.LCOMCalculation;
 import com.github.javaparser.JavaParser;
 import com.github.javaparser.ast.CompilationUnit;

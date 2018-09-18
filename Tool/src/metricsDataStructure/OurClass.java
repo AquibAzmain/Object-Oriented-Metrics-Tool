@@ -1,4 +1,4 @@
-package metric_data_structure;
+package metricsDataStructure;
 
 import com.github.javaparser.ast.CompilationUnit;
 

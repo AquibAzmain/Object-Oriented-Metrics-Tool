@@ -1,6 +1,6 @@
 LOC and Comments of all the files:
 
-File Name: G:\MetricsToolGIT\Tool\src\CodeAnalyser\CommentMetricsGenerator.java
+File Name: G:\MetricsToolGIT\Tool\src\codeAnalyser\CommentMetricsGenerator.java
 Comment: // Reset parser config to remove comments
 
 Comment Type: Line Comment
@@ -29,57 +29,57 @@ File LOC: 17
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\CyclomaticComplexity\CyclomaticComplexityCounter.java
+File Name: G:\MetricsToolGIT\Tool\src\cyclomaticComplexity\CyclomaticComplexityCounter.java
 File LOC: 81
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\CyclomaticComplexity\CyclomaticComplexityManager.java
+File Name: G:\MetricsToolGIT\Tool\src\cyclomaticComplexity\CyclomaticComplexityManager.java
 File LOC: 34
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\FileReader\MyFileReader.java
+File Name: G:\MetricsToolGIT\Tool\src\fileReader\MyFileReader.java
 File LOC: 31
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\ChildrenCounter.java
+File Name: G:\MetricsToolGIT\Tool\src\inheritanceRelated\ChildrenCounter.java
 File LOC: 58
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\InheritanceReader.java
+File Name: G:\MetricsToolGIT\Tool\src\inheritanceRelated\InheritanceReader.java
 File LOC: 80
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\Node.java
+File Name: G:\MetricsToolGIT\Tool\src\inheritanceRelated\Node.java
 File LOC: 30
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\InheritanceRelated\TreeDepthFinder.java
+File Name: G:\MetricsToolGIT\Tool\src\inheritanceRelated\TreeDepthFinder.java
 File LOC: 86
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\Manager\MyMain.java
+File Name: G:\MetricsToolGIT\Tool\src\manager\MyMain.java
 File LOC: 43
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\metric_data_structure\OurClass.java
+File Name: G:\MetricsToolGIT\Tool\src\metricsDataStructure\OurClass.java
 File LOC: 116
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\metric_data_structure\OurMethod.java
+File Name: G:\MetricsToolGIT\Tool\src\metricsDataStructure\OurMethod.java
 File LOC: 78
 Number of Comments: 0
 Comment Percentage: 0%
 
-File Name: G:\MetricsToolGIT\Tool\src\metric_data_structure\Populator.java
+File Name: G:\MetricsToolGIT\Tool\src\metricsDataStructure\Populator.java
 File LOC: 44
 Number of Comments: 0
 Comment Percentage: 0%
@@ -352,7 +352,7 @@ Total Complexity: 5
 
 Lack of Cohesion of Methods(LCOM):
 
-CommentMetricsGenerator	[containerPackage: CodeAnalyser,	LCOM:2]
+CommentMetricsGenerator	[containerPackage: codeAnalyser,	LCOM:2]
 
 LCOMCalculation	[containerPackage: cohesion,	LCOM:6]
 
@@ -360,26 +360,26 @@ LCOMGroup	[containerPackage: cohesion,	LCOM:0]
 
 TestClass	[containerPackage: cohesion,	LCOM:2]
 
-CyclomaticComplexityCounter	[containerPackage: CyclomaticComplexity,	LCOM:1]
+CyclomaticComplexityCounter	[containerPackage: cyclomaticComplexity,	LCOM:1]
 
-CyclomaticComplexityManager	[containerPackage: CyclomaticComplexity,	LCOM:2]
+CyclomaticComplexityManager	[containerPackage: cyclomaticComplexity,	LCOM:2]
 
-MyFileReader	[containerPackage: FileReader,	LCOM:2]
+MyFileReader	[containerPackage: fileReader,	LCOM:2]
 
-ChildrenCounter	[containerPackage: InheritanceRelated,	LCOM:3]
+ChildrenCounter	[containerPackage: inheritanceRelated,	LCOM:3]
 
-InheritanceReader	[containerPackage: InheritanceRelated,	LCOM:4]
+InheritanceReader	[containerPackage: inheritanceRelated,	LCOM:4]
 
-Node	[containerPackage: InheritanceRelated,	LCOM:4]
+Node	[containerPackage: inheritanceRelated,	LCOM:4]
 
-TreeDepthFinder	[containerPackage: InheritanceRelated,	LCOM:4]
+TreeDepthFinder	[containerPackage: inheritanceRelated,	LCOM:4]
 
-MyMain	[containerPackage: Manager,	LCOM:1]
+MyMain	[containerPackage: manager,	LCOM:1]
 
-OurClass	[containerPackage: metric_data_structure,	LCOM:26]
+OurClass	[containerPackage: metricsDataStructure,	LCOM:26]
 
-OurMethod	[containerPackage: metric_data_structure,	LCOM:16]
+OurMethod	[containerPackage: metricsDataStructure,	LCOM:16]
 
-Populator	[containerPackage: metric_data_structure,	LCOM:2]
+Populator	[containerPackage: metricsDataStructure,	LCOM:2]
 
 duration to execute(in ms): 714

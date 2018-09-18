@@ -1,4 +1,4 @@
-package InheritanceRelated;
+package inheritanceRelated;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

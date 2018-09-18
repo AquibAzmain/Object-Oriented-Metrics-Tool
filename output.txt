@@ -1,0 +1,846 @@
+LOC and Comments of all the files:
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\Buddy.java
+Comment: /*
+ * Buddy.java
+ *
+ * Created on 4 May 2002, 12:05
+ */
+
+Comment Type: Block Comment
+Comment: /**
+ * This is a buddy object that holds the buddy's name and other
+ * information about a buddy.
+ * @author Brett Humphreys
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ * Name of the buddy
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ * Permit value
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ * deny value
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ *  Constructor that sets the buddy name
+ *  @param name the name of this buddy.
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ *  Gets the buddy name
+ *  @return buddy name
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ *  Sets the permit value
+ *  @param permitVal what to set permit to
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ *  Gets the permit value
+ *  @return permit value
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ *  Sets the deny value
+ *  @param denyVal what to set deny to
+ */
+
+Comment Type: Java Doc Comment
+Comment: /**
+ *  Gets the deny value
+ *  @return deny value
+ */
+
+Comment Type: Java Doc Comment
+File LOC: 24
+Number of Comments: 11
+Comment Percentage: 45%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\BuddyUpdateTocResponse.java
+File LOC: 100
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\ConfigTocResponse.java
+File LOC: 87
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\ConnectionLostTocResponse.java
+File LOC: 12
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\ErrorTocResponse.java
+File LOC: 62
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\EvilTocResponse.java
+File LOC: 44
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPDataFrame.java
+File LOC: 31
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPErrorFrame.java
+File LOC: 13
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPFrame.java
+File LOC: 62
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPFrameException.java
+File LOC: 8
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPFrameFactory.java
+File LOC: 31
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPInputFrame.java
+File LOC: 30
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPKeepAliveFrame.java
+File LOC: 17
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPSignoffFrame.java
+File LOC: 13
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\FLAPSignonFrame.java
+File LOC: 40
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\GenericTocResponse.java
+File LOC: 26
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\GotoTocResponse.java
+File LOC: 40
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\Group.java
+File LOC: 34
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\IMTocResponse.java
+File LOC: 51
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\JaimConnection.java
+File LOC: 553
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\JaimEvent.java
+File LOC: 11
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\JaimEventListener.java
+File LOC: 4
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\JaimException.java
+File LOC: 8
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\JaimStateException.java
+File LOC: 8
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\JaimTimeoutException.java
+File LOC: 8
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\LoginCompleteTocResponse.java
+File LOC: 12
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\NickTocResponse.java
+File LOC: 28
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\SignOnTocResponse.java
+File LOC: 29
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocAddBuddyCommand.java
+File LOC: 23
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocAddDenyCommand.java
+File LOC: 23
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocAddPermitCommand.java
+File LOC: 23
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocCommand.java
+File LOC: 7
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocEvilCommand.java
+File LOC: 20
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocGetInfoCommand.java
+File LOC: 14
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocIMCommand.java
+File LOC: 20
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocInitDoneCommand.java
+File LOC: 12
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocResponse.java
+File LOC: 11
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocResponseFactory.java
+File LOC: 35
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocResponseHandler.java
+File LOC: 5
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocSetAwayCommand.java
+File LOC: 14
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocSetConfigCommand.java
+File LOC: 29
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocSetIdleCommand.java
+File LOC: 14
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocSetInfoCommand.java
+File LOC: 14
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\TocSignonCommand.java
+File LOC: 23
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\Utils.java
+File LOC: 68
+Number of Comments: 0
+Comment Percentage: 0%
+
+File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaimtest\JaimTest.java
+File LOC: 154
+Number of Comments: 0
+Comment Percentage: 0%
+
+
+
+------------------------------------------------------------
+
+
+
+
+
+Cyclomatic Complexity
+
+
+Class name: Buddy
+Method Name : getName-> Complexity: 1
+Method Name : setPermit-> Complexity: 1
+Method Name : getPermit-> Complexity: 1
+Method Name : setDeny-> Complexity: 1
+Method Name : getDeny-> Complexity: 1
+	 WMC: 5
+Total Complexity: 5
+
+
+Class name: BuddyUpdateTocResponse
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 8
+Method Name : isAway-> Complexity: 1
+Method Name : getResponseType-> Complexity: 1
+Method Name : getBuddy-> Complexity: 1
+Method Name : isOnline-> Complexity: 1
+Method Name : getIdleTime-> Complexity: 1
+Method Name : getEvil-> Complexity: 1
+Method Name : isAdmin-> Complexity: 1
+Method Name : isConfirmed-> Complexity: 1
+Method Name : isUnconfirmed-> Complexity: 1
+Method Name : getSignonTime-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 13
+Total Complexity: 20
+
+
+Class name: ConfigTocResponse
+Method Name : enumerateGroups-> Complexity: 1
+Method Name : getGroups-> Complexity: 1
+Method Name : getResponseType-> Complexity: 1
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 8
+Method Name : getBuddy-> Complexity: 2
+Method Name : setMode-> Complexity: 1
+Method Name : getMode-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 9
+Total Complexity: 17
+
+
+Class name: ConnectionLostTocResponse
+Method Name : getResponseType-> Complexity: 1
+Method Name : toString-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: ErrorTocResponse
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 3
+Method Name : getErrorCode-> Complexity: 1
+Method Name : getErrorText-> Complexity: 1
+Method Name : getErrorDescription-> Complexity: 2
+Method Name : getErrorDescription-> Complexity: 1
+Method Name : getResponseType-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 8
+Total Complexity: 11
+
+
+Class name: EvilTocResponse
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 2
+Method Name : getEvilAmount-> Complexity: 1
+Method Name : getEvilBy-> Complexity: 1
+Method Name : isAnonymous-> Complexity: 1
+Method Name : getResponseType-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 7
+Total Complexity: 8
+
+
+Class name: FLAPDataFrame
+Method Name : getFLAPFrameType-> Complexity: 1
+Method Name : addString-> Complexity: 2
+Method Name : getContent-> Complexity: 1
+	 WMC: 3
+Total Complexity: 4
+
+
+Class name: FLAPErrorFrame
+Method Name : getFLAPFrameType-> Complexity: 1
+	 WMC: 1
+Total Complexity: 1
+
+
+Class name: FLAPFrame
+Method Name : setFrameData-> Complexity: 1
+Method Name : initialise-> Complexity: 1
+Method Name : setSequence-> Complexity: 1
+Method Name : getSequence-> Complexity: 1
+Method Name : getLength-> Complexity: 1
+Method Name : setLength-> Complexity: 1
+Method Name : getFrameData-> Complexity: 1
+Method Name : toString-> Complexity: 3
+	 WMC: 8
+Total Complexity: 10
+
+
+Class name: FLAPFrameException
+	 WMC: 0
+Total Complexity: 0
+
+
+Class name: FLAPFrameFactory
+Method Name : createFLAPFrame-> Complexity: 8
+	 WMC: 1
+Total Complexity: 8
+
+
+Class name: FLAPInputFrame
+Method Name : addFrameData-> Complexity: 1
+Method Name : getFrameData-> Complexity: 1
+Method Name : resetInputFrame-> Complexity: 1
+Method Name : completeFrameRead-> Complexity: 3
+Method Name : getFLAPFrameType-> Complexity: 1
+	 WMC: 5
+Total Complexity: 7
+
+
+Class name: FLAPKeepAliveFrame
+Method Name : initialise-> Complexity: 1
+Method Name : getFLAPFrameType-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: FLAPSignoffFrame
+Method Name : getFLAPFrameType-> Complexity: 1
+	 WMC: 1
+Total Complexity: 1
+
+
+Class name: FLAPSignonFrame
+Method Name : getFLAPVersion-> Complexity: 1
+Method Name : setFLAPVersion-> Complexity: 2
+Method Name : setTLVTag-> Complexity: 2
+Method Name : setUserName-> Complexity: 3
+Method Name : getFLAPFrameType-> Complexity: 1
+	 WMC: 5
+Total Complexity: 9
+
+
+Class name: GenericTocResponse
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 1
+Method Name : getBytes-> Complexity: 1
+Method Name : toString-> Complexity: 1
+Method Name : getResponseType-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 6
+Total Complexity: 6
+
+
+Class name: GotoTocResponse
+Method Name : getWindowName-> Complexity: 1
+Method Name : getURL-> Complexity: 1
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 3
+Method Name : getResponseType-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 6
+Total Complexity: 8
+
+
+Class name: Group
+Method Name : addBuddy-> Complexity: 1
+Method Name : addBuddy-> Complexity: 2
+Method Name : getName-> Complexity: 1
+Method Name : enumerateBuddies-> Complexity: 1
+Method Name : getBuddyCount-> Complexity: 1
+Method Name : getBuddies-> Complexity: 1
+	 WMC: 6
+Total Complexity: 7
+
+
+Class name: IMTocResponse
+Method Name : getFrom-> Complexity: 1
+Method Name : getMsg-> Complexity: 1
+Method Name : getAutoResponse-> Complexity: 1
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 5
+Method Name : getResponseType-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 7
+Total Complexity: 11
+
+
+Class name: JaimConnection
+Method Name : startMe-> Complexity: 1
+Method Name : setDebug-> Complexity: 1
+Method Name : setInterMessageDelay-> Complexity: 1
+Method Name : getInterMessageDelay-> Complexity: 1
+Method Name : setEventListener-> Complexity: 1
+Method Name : addEventListener-> Complexity: 1
+Method Name : removeEventListener-> Complexity: 1
+Method Name : connect-> Complexity: 4
+Method Name : disconnect-> Complexity: 3
+Method Name : isLoginComplete-> Complexity: 1
+Method Name : logOut-> Complexity: 1
+Method Name : getNickName-> Complexity: 1
+Method Name : logIn-> Complexity: 5
+Method Name : sendTocCommand-> Complexity: 2
+Method Name : nextSequence-> Complexity: 2
+Method Name : sendKeepAlive-> Complexity: 2
+Method Name : run-> Complexity: 5
+Method Name : Dispatch-> Complexity: 1
+Method Name : realDispatch-> Complexity: 8
+Method Name : HandleTocResponse-> Complexity: 9
+Method Name : deliverEvent-> Complexity: 1
+Method Name : sendIM-> Complexity: 1
+Method Name : sendIM-> Complexity: 5
+Method Name : addBuddy-> Complexity: 5
+Method Name : addBuddy-> Complexity: 1
+Method Name : addBuddy-> Complexity: 1
+Method Name : watchBuddy-> Complexity: 2
+Method Name : saveConfig-> Complexity: 2
+Method Name : getGroups-> Complexity: 1
+Method Name : getGroupBy-> Complexity: 1
+Method Name : isConfigValid-> Complexity: 1
+Method Name : sendEvil-> Complexity: 1
+Method Name : setInfo-> Complexity: 1
+Method Name : getInfo-> Complexity: 1
+Method Name : getURL-> Complexity: 1
+Method Name : setAway-> Complexity: 1
+Method Name : addPermit-> Complexity: 2
+Method Name : addBlock-> Complexity: 2
+Method Name : connectionLost-> Complexity: 1
+Method Name : setIdle-> Complexity: 1
+Method Name : deleteBuddy-> Complexity: 1
+Method Name : unwatchBuddy-> Complexity: 1
+Method Name : setInputStream-> Complexity: 1
+Method Name : run-> Complexity: 7
+Method Name : pleaseExit-> Complexity: 1
+Method Name : deliverMessage-> Complexity: 1
+Method Name : run-> Complexity: 4
+Method Name : doDelivery-> Complexity: 2
+Method Name : pleaseExit-> Complexity: 1
+	 WMC: 49
+Total Complexity: 102
+
+
+Class name: JaimEvent
+Method Name : getTocResponse-> Complexity: 1
+	 WMC: 1
+Total Complexity: 1
+
+
+Class name: JaimEventListener
+Method Name : receiveEvent-> Complexity: 0
+	 WMC: 2
+Total Complexity: 0
+
+
+Class name: JaimException
+	 WMC: 0
+Total Complexity: 0
+
+
+Class name: JaimStateException
+	 WMC: 0
+Total Complexity: 0
+
+
+Class name: JaimTimeoutException
+	 WMC: 0
+Total Complexity: 0
+
+
+Class name: LoginCompleteTocResponse
+Method Name : getResponseType-> Complexity: 1
+Method Name : toString-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: NickTocResponse
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 2
+Method Name : getNickName-> Complexity: 1
+Method Name : getResponseType-> Complexity: 1
+Method Name : canHandle-> Complexity: 1
+	 WMC: 5
+Total Complexity: 6
+
+
+Class name: SignOnTocResponse
+Method Name : getResponseType-> Complexity: 1
+Method Name : getVersion-> Complexity: 1
+Method Name : parseString-> Complexity: 1
+Method Name : doParse-> Complexity: 2
+Method Name : canHandle-> Complexity: 1
+	 WMC: 5
+Total Complexity: 6
+
+
+Class name: TocAddBuddyCommand
+Method Name : addBuddy-> Complexity: 1
+Method Name : toString-> Complexity: 2
+Method Name : getBytes-> Complexity: 1
+	 WMC: 3
+Total Complexity: 4
+
+
+Class name: TocAddDenyCommand
+Method Name : addDeny-> Complexity: 1
+Method Name : toString-> Complexity: 2
+Method Name : getBytes-> Complexity: 1
+	 WMC: 3
+Total Complexity: 4
+
+
+Class name: TocAddPermitCommand
+Method Name : addPermit-> Complexity: 1
+Method Name : toString-> Complexity: 2
+Method Name : getBytes-> Complexity: 1
+	 WMC: 3
+Total Complexity: 4
+
+
+Class name: TocCommand
+	 WMC: 0
+Total Complexity: 0
+
+
+Class name: TocEvilCommand
+Method Name : toString-> Complexity: 2
+Method Name : getBytes-> Complexity: 1
+	 WMC: 2
+Total Complexity: 3
+
+
+Class name: TocGetInfoCommand
+Method Name : toString-> Complexity: 1
+Method Name : getBytes-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: TocIMCommand
+Method Name : toString-> Complexity: 1
+Method Name : getBytes-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: TocInitDoneCommand
+Method Name : getBytes-> Complexity: 1
+Method Name : toString-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: TocResponse
+Method Name : toString-> Complexity: 1
+	 WMC: 1
+Total Complexity: 1
+
+
+Class name: TocResponseFactory
+Method Name : addResponseHandler-> Complexity: 1
+Method Name : createResponse-> Complexity: 5
+	 WMC: 2
+Total Complexity: 6
+
+
+Class name: TocResponseHandler
+Method Name : canHandle-> Complexity: 0
+Method Name : parseString-> Complexity: 0
+	 WMC: 4
+Total Complexity: 0
+
+
+Class name: TocSetAwayCommand
+Method Name : toString-> Complexity: 1
+Method Name : getBytes-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: TocSetConfigCommand
+Method Name : addGroup-> Complexity: 4
+Method Name : toString-> Complexity: 1
+Method Name : getBytes-> Complexity: 1
+	 WMC: 3
+Total Complexity: 6
+
+
+Class name: TocSetIdleCommand
+Method Name : toString-> Complexity: 1
+Method Name : getBytes-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: TocSetInfoCommand
+Method Name : toString-> Complexity: 1
+Method Name : getBytes-> Complexity: 1
+	 WMC: 2
+Total Complexity: 2
+
+
+Class name: TocSignonCommand
+Method Name : getBytes-> Complexity: 1
+Method Name : toString-> Complexity: 1
+Method Name : parseString-> Complexity: 1
+	 WMC: 3
+Total Complexity: 3
+
+
+Class name: Utils
+Method Name : normalise-> Complexity: 3
+Method Name : roast-> Complexity: 2
+Method Name : stripHTML-> Complexity: 5
+Method Name : encodeText-> Complexity: 11
+	 WMC: 4
+Total Complexity: 21
+
+
+Class name: JaimTest
+Method Name : main-> Complexity: 2
+Method Name : doIt-> Complexity: 2
+Method Name : receiveEvent-> Complexity: 9
+Method Name : receiveError-> Complexity: 1
+Method Name : receiveIM-> Complexity: 1
+Method Name : receiveBuddyUpdate-> Complexity: 3
+Method Name : receiveEvil-> Complexity: 2
+Method Name : receiveGoto-> Complexity: 3
+Method Name : receiveConfig-> Complexity: 5
+	 WMC: 9
+Total Complexity: 28
+
+
+
+------------------------------------------------------------
+
+
+
+
+
+
+Lack of Cohesion of Methods(LCOM):
+
+Buddy	[containerPackage: jaim,	LCOM:5]
+
+BuddyUpdateTocResponse	[containerPackage: jaim,	LCOM:13]
+
+ConfigTocResponse	[containerPackage: jaim,	LCOM:7]
+
+ConnectionLostTocResponse	[containerPackage: jaim,	LCOM:2]
+
+ErrorTocResponse	[containerPackage: jaim,	LCOM:8]
+
+EvilTocResponse	[containerPackage: jaim,	LCOM:7]
+
+FLAPDataFrame	[containerPackage: jaim,	LCOM:3]
+
+FLAPErrorFrame	[containerPackage: jaim,	LCOM:1]
+
+FLAPFrame	[containerPackage: jaim,	LCOM:7]
+
+FLAPFrameException	[containerPackage: jaim,	LCOM:0]
+
+FLAPFrameFactory	[containerPackage: jaim,	LCOM:1]
+
+FLAPInputFrame	[containerPackage: jaim,	LCOM:5]
+
+FLAPKeepAliveFrame	[containerPackage: jaim,	LCOM:2]
+
+FLAPSignoffFrame	[containerPackage: jaim,	LCOM:1]
+
+FLAPSignonFrame	[containerPackage: jaim,	LCOM:5]
+
+GenericTocResponse	[containerPackage: jaim,	LCOM:6]
+
+GotoTocResponse	[containerPackage: jaim,	LCOM:6]
+
+Group	[containerPackage: jaim,	LCOM:6]
+
+IMTocResponse	[containerPackage: jaim,	LCOM:7]
+
+JaimConnection	[containerPackage: jaim,	LCOM:29]
+
+JaimEvent	[containerPackage: jaim,	LCOM:1]
+
+JaimEventListener	[containerPackage: jaim,	LCOM:1]
+
+JaimException	[containerPackage: jaim,	LCOM:0]
+
+JaimStateException	[containerPackage: jaim,	LCOM:0]
+
+JaimTimeoutException	[containerPackage: jaim,	LCOM:0]
+
+LoginCompleteTocResponse	[containerPackage: jaim,	LCOM:2]
+
+NickTocResponse	[containerPackage: jaim,	LCOM:5]
+
+SignOnTocResponse	[containerPackage: jaim,	LCOM:5]
+
+TocAddBuddyCommand	[containerPackage: jaim,	LCOM:3]
+
+TocAddDenyCommand	[containerPackage: jaim,	LCOM:3]
+
+TocAddPermitCommand	[containerPackage: jaim,	LCOM:3]
+
+TocCommand	[containerPackage: jaim,	LCOM:2]
+
+TocEvilCommand	[containerPackage: jaim,	LCOM:2]
+
+TocGetInfoCommand	[containerPackage: jaim,	LCOM:2]
+
+TocIMCommand	[containerPackage: jaim,	LCOM:2]
+
+TocInitDoneCommand	[containerPackage: jaim,	LCOM:2]
+
+TocResponse	[containerPackage: jaim,	LCOM:2]
+
+TocResponseFactory	[containerPackage: jaim,	LCOM:2]
+
+TocResponseHandler	[containerPackage: jaim,	LCOM:2]
+
+TocSetAwayCommand	[containerPackage: jaim,	LCOM:2]
+
+TocSetConfigCommand	[containerPackage: jaim,	LCOM:3]
+
+TocSetIdleCommand	[containerPackage: jaim,	LCOM:2]
+
+TocSetInfoCommand	[containerPackage: jaim,	LCOM:2]
+
+TocSignonCommand	[containerPackage: jaim,	LCOM:3]
+
+Utils	[containerPackage: jaim,	LCOM:4]
+
+JaimTest	[containerPackage: jaimtest,	LCOM:3]
+
+duration to execute(in ms): 1289

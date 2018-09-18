@@ -1,0 +1,146 @@
+There are total 50 classes in this project.Those are:
+ Parent: Children
+Buddy: 0 children
+BuddyUpdateTocResponse: 0 children
+from: 0 children
+ConfigTocResponse: 0 children
+ConnectionLostTocResponse: 0 children
+ErrorTocResponse: 0 children
+EvilTocResponse: 0 children
+FLAPDataFrame: 0 children
+FLAPErrorFrame: 0 children
+FLAPFrame: 6 children ( FLAPDataFrame, FLAPErrorFrame, FLAPInputFrame, FLAPKeepAliveFrame, FLAPSignoffFrame, FLAPSignonFrame )
+FLAPFrameException: 0 children
+FLAPFrameFactory: 0 children
+FLAPInputFrame: 0 children
+FLAPKeepAliveFrame: 0 children
+FLAPSignoffFrame: 0 children
+FLAPSignonFrame: 0 children
+GenericTocResponse: 0 children
+GotoTocResponse: 0 children
+Group: 0 children
+IMTocResponse: 0 children
+JaimConnection: 0 children
+to: 0 children
+to: 0 children
+to: 0 children
+ReceiverThread: 0 children
+DeliveryThread: 0 children
+JaimEvent: 0 children
+JaimException: 2 children ( JaimStateException, JaimTimeoutException )
+JaimStateException: 0 children
+JaimTimeoutException: 0 children
+LoginCompleteTocResponse: 0 children
+NickTocResponse: 0 children
+SignOnTocResponse: 0 children
+TocAddBuddyCommand: 0 children
+TocAddDenyCommand: 0 children
+TocAddPermitCommand: 0 children
+TocCommand: 12 children ( TocAddBuddyCommand, TocAddDenyCommand, TocAddPermitCommand, TocEvilCommand, TocGetInfoCommand, TocIMCommand, TocInitDoneCommand, TocSetAwayCommand, TocSetConfigCommand, TocSetIdleCommand, TocSetInfoCommand, TocSignonCommand )
+TocEvilCommand: 0 children
+TocGetInfoCommand: 0 children
+TocIMCommand: 0 children
+TocInitDoneCommand: 0 children
+TocResponse: 11 children ( BuddyUpdateTocResponse, ConfigTocResponse, ConnectionLostTocResponse, ErrorTocResponse, EvilTocResponse, GenericTocResponse, GotoTocResponse, IMTocResponse, LoginCompleteTocResponse, NickTocResponse, SignOnTocResponse )
+TocResponseFactory: 0 children
+TocSetAwayCommand: 0 children
+TocSetConfigCommand: 0 children
+TocSetIdleCommand: 0 children
+TocSetInfoCommand: 0 children
+TocSignonCommand: 0 children
+Utils: 0 children
+JaimTest: 0 children
+
+----------------------------------------------------------------
+
+Project Tree:
+Total number of trees: 19
+
+Tree no: 1
+Buddy
+
+Tree no: 2
+from
+
+Tree no: 3
+FLAPFrame
+--FLAPDataFrame
+--FLAPErrorFrame
+--FLAPInputFrame
+--FLAPKeepAliveFrame
+--FLAPSignoffFrame
+--FLAPSignonFrame
+
+Tree no: 4
+FLAPFrameException
+
+Tree no: 5
+FLAPFrameFactory
+
+Tree no: 6
+Group
+
+Tree no: 7
+JaimConnection
+
+Tree no: 8
+to
+
+Tree no: 9
+to
+
+Tree no: 10
+to
+
+Tree no: 11
+ReceiverThread
+
+Tree no: 12
+DeliveryThread
+
+Tree no: 13
+JaimEvent
+
+Tree no: 14
+JaimException
+--JaimStateException
+--JaimTimeoutException
+
+Tree no: 15
+TocCommand
+--TocAddBuddyCommand
+--TocAddDenyCommand
+--TocAddPermitCommand
+--TocEvilCommand
+--TocGetInfoCommand
+--TocIMCommand
+--TocInitDoneCommand
+--TocSetAwayCommand
+--TocSetConfigCommand
+--TocSetIdleCommand
+--TocSetInfoCommand
+--TocSignonCommand
+
+Tree no: 16
+TocResponse
+--BuddyUpdateTocResponse
+--ConfigTocResponse
+--ConnectionLostTocResponse
+--ErrorTocResponse
+--EvilTocResponse
+--GenericTocResponse
+--GotoTocResponse
+--IMTocResponse
+--LoginCompleteTocResponse
+--NickTocResponse
+--SignOnTocResponse
+
+Tree no: 17
+TocResponseFactory
+
+Tree no: 18
+Utils
+
+Tree no: 19
+JaimTest
+Tree having maximum depth in this forest is: 1

@@ -1,4 +1,4 @@
-package CyclomaticComplexity;
+package cyclomaticComplexity;
 
 import static com.github.javaparser.JavaParser.parseBodyDeclaration;
 

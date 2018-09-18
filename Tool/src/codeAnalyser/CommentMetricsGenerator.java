@@ -1,4 +1,4 @@
-package CodeAnalyser;
+package codeAnalyser;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -14,7 +14,7 @@ import com.github.javaparser.JavaParser;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.comments.Comment;
 
-import FileReader.*;
+import fileReader.*;
 
 public class CommentMetricsGenerator {
 	

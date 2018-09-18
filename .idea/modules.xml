@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Tool/Tool.iml" filepath="$PROJECT_DIR$/Tool/Tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaimlib/jaimlib.iml" filepath="$PROJECT_DIR$/jaimlib/jaimlib.iml" />
     </modules>
   </component>
 </project>

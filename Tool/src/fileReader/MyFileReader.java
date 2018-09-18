@@ -1,8 +1,7 @@
-package FileReader;
+package fileReader;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class MyFileReader {
 	private static ArrayList<String> fileList;
@@ -35,6 +34,7 @@ public class MyFileReader {
 			File file = new File(workingDir);
 			String parentDir = file.getParent();
 			File folder = new File(parentDir+ "/" + projectName);
+			folder = new File(("D:\\Studies\\Semester 8\\Metrics\\Object-Oriented-Metrics-Tool\\jaimlib"));
 			listFilesForFolder(folder);
 //			input.close();
 		}

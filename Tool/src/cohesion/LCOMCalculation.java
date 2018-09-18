@@ -6,8 +6,8 @@ import com.github.javaparser.ast.expr.AssignExpr;
 import com.github.javaparser.ast.expr.MethodCallExpr;
 import com.github.javaparser.ast.expr.VariableDeclarationExpr;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
-import metric_data_structure.OurClass;
-import metric_data_structure.OurMethod;
+import metricsDataStructure.OurClass;
+import metricsDataStructure.OurMethod;
 
 import java.util.*;
 
