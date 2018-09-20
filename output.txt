@@ -166,7 +166,7 @@ Number of Comments: 0
 Comment Percentage: 0%
 
 File Name: D:\Studies\Semester 8\Metrics\Object-Oriented-Metrics-Tool\jaimlib\src\com\wilko\jaim\JaimEvent.java
-File LOC: 11
+File LOC: 12
 Number of Comments: 0
 Comment Percentage: 0%
 
@@ -751,96 +751,101 @@ Total Complexity: 28
 
 Lack of Cohesion of Methods(LCOM):
 
-Buddy	[containerPackage: jaim,	LCOM:5]
+~~~ PAAY NAI WTF
+~~~ PAAY NAI WTF
+~~~ PAAY NAI WTF
+~~~ PAAY NAI WTF
+~~~ PAAY NAI WTF
+Buddy [containerPackage: jaim],  Metrics: [LCOM:5, CBO:3, RFC:5]
 
-BuddyUpdateTocResponse	[containerPackage: jaim,	LCOM:13]
+BuddyUpdateTocResponse [containerPackage: jaim],  Metrics: [LCOM:13, CBO:0, RFC:13]
 
-ConfigTocResponse	[containerPackage: jaim,	LCOM:7]
+ConfigTocResponse [containerPackage: jaim],  Metrics: [LCOM:7, CBO:3, RFC:12]
 
-ConnectionLostTocResponse	[containerPackage: jaim,	LCOM:2]
+ConnectionLostTocResponse [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-ErrorTocResponse	[containerPackage: jaim,	LCOM:8]
+ErrorTocResponse [containerPackage: jaim],  Metrics: [LCOM:8, CBO:0, RFC:8]
 
-EvilTocResponse	[containerPackage: jaim,	LCOM:7]
+EvilTocResponse [containerPackage: jaim],  Metrics: [LCOM:7, CBO:0, RFC:7]
 
-FLAPDataFrame	[containerPackage: jaim,	LCOM:3]
+FLAPDataFrame [containerPackage: jaim],  Metrics: [LCOM:3, CBO:1, RFC:3]
 
-FLAPErrorFrame	[containerPackage: jaim,	LCOM:1]
+FLAPErrorFrame [containerPackage: jaim],  Metrics: [LCOM:1, CBO:0, RFC:1]
 
-FLAPFrame	[containerPackage: jaim,	LCOM:7]
+FLAPFrame [containerPackage: jaim],  Metrics: [LCOM:7, CBO:0, RFC:9]
 
-FLAPFrameException	[containerPackage: jaim,	LCOM:0]
+FLAPFrameException [containerPackage: jaim],  Metrics: [LCOM:0, CBO:0, RFC:0]
 
-FLAPFrameFactory	[containerPackage: jaim,	LCOM:1]
+FLAPFrameFactory [containerPackage: jaim],  Metrics: [LCOM:1, CBO:0, RFC:1]
 
-FLAPInputFrame	[containerPackage: jaim,	LCOM:5]
+FLAPInputFrame [containerPackage: jaim],  Metrics: [LCOM:5, CBO:1, RFC:5]
 
-FLAPKeepAliveFrame	[containerPackage: jaim,	LCOM:2]
+FLAPKeepAliveFrame [containerPackage: jaim],  Metrics: [LCOM:2, CBO:1, RFC:2]
 
-FLAPSignoffFrame	[containerPackage: jaim,	LCOM:1]
+FLAPSignoffFrame [containerPackage: jaim],  Metrics: [LCOM:1, CBO:0, RFC:1]
 
-FLAPSignonFrame	[containerPackage: jaim,	LCOM:5]
+FLAPSignonFrame [containerPackage: jaim],  Metrics: [LCOM:5, CBO:1, RFC:5]
 
-GenericTocResponse	[containerPackage: jaim,	LCOM:6]
+GenericTocResponse [containerPackage: jaim],  Metrics: [LCOM:6, CBO:1, RFC:6]
 
-GotoTocResponse	[containerPackage: jaim,	LCOM:6]
+GotoTocResponse [containerPackage: jaim],  Metrics: [LCOM:6, CBO:0, RFC:6]
 
-Group	[containerPackage: jaim,	LCOM:6]
+Group [containerPackage: jaim],  Metrics: [LCOM:6, CBO:3, RFC:6]
 
-IMTocResponse	[containerPackage: jaim,	LCOM:7]
+IMTocResponse [containerPackage: jaim],  Metrics: [LCOM:7, CBO:0, RFC:7]
 
-JaimConnection	[containerPackage: jaim,	LCOM:29]
+JaimConnection [containerPackage: jaim],  Metrics: [LCOM:29, CBO:11, RFC:66]
 
-JaimEvent	[containerPackage: jaim,	LCOM:1]
+JaimEvent [containerPackage: jaim],  Metrics: [LCOM:1, CBO:0, RFC:1]
 
-JaimEventListener	[containerPackage: jaim,	LCOM:1]
+JaimEventListener [containerPackage: jaim],  Metrics: [LCOM:1, CBO:1, RFC:1]
 
-JaimException	[containerPackage: jaim,	LCOM:0]
+JaimException [containerPackage: jaim],  Metrics: [LCOM:0, CBO:0, RFC:0]
 
-JaimStateException	[containerPackage: jaim,	LCOM:0]
+JaimStateException [containerPackage: jaim],  Metrics: [LCOM:0, CBO:0, RFC:0]
 
-JaimTimeoutException	[containerPackage: jaim,	LCOM:0]
+JaimTimeoutException [containerPackage: jaim],  Metrics: [LCOM:0, CBO:0, RFC:0]
 
-LoginCompleteTocResponse	[containerPackage: jaim,	LCOM:2]
+LoginCompleteTocResponse [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-NickTocResponse	[containerPackage: jaim,	LCOM:5]
+NickTocResponse [containerPackage: jaim],  Metrics: [LCOM:5, CBO:0, RFC:5]
 
-SignOnTocResponse	[containerPackage: jaim,	LCOM:5]
+SignOnTocResponse [containerPackage: jaim],  Metrics: [LCOM:5, CBO:0, RFC:5]
 
-TocAddBuddyCommand	[containerPackage: jaim,	LCOM:3]
+TocAddBuddyCommand [containerPackage: jaim],  Metrics: [LCOM:3, CBO:1, RFC:3]
 
-TocAddDenyCommand	[containerPackage: jaim,	LCOM:3]
+TocAddDenyCommand [containerPackage: jaim],  Metrics: [LCOM:3, CBO:1, RFC:3]
 
-TocAddPermitCommand	[containerPackage: jaim,	LCOM:3]
+TocAddPermitCommand [containerPackage: jaim],  Metrics: [LCOM:3, CBO:1, RFC:3]
 
-TocCommand	[containerPackage: jaim,	LCOM:2]
+TocCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocEvilCommand	[containerPackage: jaim,	LCOM:2]
+TocEvilCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocGetInfoCommand	[containerPackage: jaim,	LCOM:2]
+TocGetInfoCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocIMCommand	[containerPackage: jaim,	LCOM:2]
+TocIMCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocInitDoneCommand	[containerPackage: jaim,	LCOM:2]
+TocInitDoneCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocResponse	[containerPackage: jaim,	LCOM:2]
+TocResponse [containerPackage: jaim],  Metrics: [LCOM:2, CBO:1, RFC:2]
 
-TocResponseFactory	[containerPackage: jaim,	LCOM:2]
+TocResponseFactory [containerPackage: jaim],  Metrics: [LCOM:2, CBO:2, RFC:5]
 
-TocResponseHandler	[containerPackage: jaim,	LCOM:2]
+TocResponseHandler [containerPackage: jaim],  Metrics: [LCOM:2, CBO:1, RFC:2]
 
-TocSetAwayCommand	[containerPackage: jaim,	LCOM:2]
+TocSetAwayCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocSetConfigCommand	[containerPackage: jaim,	LCOM:3]
+TocSetConfigCommand [containerPackage: jaim],  Metrics: [LCOM:3, CBO:2, RFC:5]
 
-TocSetIdleCommand	[containerPackage: jaim,	LCOM:2]
+TocSetIdleCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocSetInfoCommand	[containerPackage: jaim,	LCOM:2]
+TocSetInfoCommand [containerPackage: jaim],  Metrics: [LCOM:2, CBO:0, RFC:2]
 
-TocSignonCommand	[containerPackage: jaim,	LCOM:3]
+TocSignonCommand [containerPackage: jaim],  Metrics: [LCOM:3, CBO:0, RFC:3]
 
-Utils	[containerPackage: jaim,	LCOM:4]
+Utils [containerPackage: jaim],  Metrics: [LCOM:4, CBO:0, RFC:4]
 
-JaimTest	[containerPackage: jaimtest,	LCOM:3]
+JaimTest [containerPackage: jaimtest],  Metrics: [LCOM:3, CBO:3, RFC:15]
 
-duration to execute(in ms): 1289
+duration to execute(in ms): 1558

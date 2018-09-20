@@ -36,6 +36,7 @@ public class JaimEvent extends java.util.EventObject {
     
     public TocResponse getTocResponse()
     {
+        TocResponse tocResponse = null;
         return(tocResponse);
     }
 

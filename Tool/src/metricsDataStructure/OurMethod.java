@@ -2,7 +2,9 @@ package metricsDataStructure;
 
 import com.github.javaparser.ast.body.MethodDeclaration;
 
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
 public class OurMethod {
@@ -15,11 +17,14 @@ public class OurMethod {
     private Set<OurMethod> calledMethods;
     private Set<String> instanceVars;
 
+    private List<OurVariable> variables;
+
     //constructors
 
     public OurMethod() {
         calledMethods = new LinkedHashSet<>();
         instanceVars = new LinkedHashSet<>();
+        variables = new ArrayList<>();
     }
 
     public OurMethod(String name, String signature, OurClass parentClass) {
@@ -45,7 +50,7 @@ public class OurMethod {
 
     @Override
     public String toString() {
-        return name + " [" + signature + "]";
+        return name + " [" + signature + "] " + variables;
     }
 
     public void addCalledMethod(OurMethod method2){
@@ -104,5 +109,13 @@ public class OurMethod {
 
     public void setInstanceVars(Set<String> instanceVars) {
         this.instanceVars = instanceVars;
+    }
+
+    public List<OurVariable> getVariables() {
+        return variables;
+    }
+
+    public void setVariables(List<OurVariable> variables) {
+        this.variables = variables;
     }
 }
