@@ -29,7 +29,7 @@ public class MyFileReader {
 //			System.out.println("Enter folder name: ");
 //			Scanner input = new Scanner(System.in);
 			//projectName = input.nextLine();
-			projectName = "Tool";
+			projectName = "JDeodorant-master";
 			fileList = new ArrayList<>();
 			String workingDir = System.getProperty("user.dir");
 			File file = new File(workingDir);

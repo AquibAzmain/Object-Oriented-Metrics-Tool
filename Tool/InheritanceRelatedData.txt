@@ -1,88 +1,1616 @@
-There are total 20 classes in this project.Those are:
+There are total 451 classes in this project.Those are:
  Parent: Children
-CommentMetricsGenerator: 0 children
-LCOMCalculation: 0 children
-InstanceFieldNameCollector: 0 children
-MethodNameCollector: 0 children
-AssignExprFetcher: 0 children
-VariableDeclarationFetcher: 0 children
-MethodCallFetcher: 0 children
-LCOMGroup: 0 children
-TestClass: 0 children
-CyclomaticComplexityCounter: 0 children
-CyclomaticComplexityManager: 0 children
-MyFileReader: 0 children
-ChildrenCounter: 0 children
-InheritanceReader: 0 children
-Node<T>: 0 children
-TreeDepthFinder: 0 children
-MyMain: 0 children
-OurClass: 0 children
-OurMethod: 0 children
-Populator: 0 children
+CCFinderOutputParser: 0 children
+Token: 0 children
+CloneFragment: 0 children
+CloneDetectorOutputParseException: 0 children
+CloneDetectorOutputParser: 5 children ( CCFinderOutputParser, CloneDROutputParser, ConQATOutputParser, DeckardOutputParser, NiCadOutputParser )
+CloneDetectorOutputParserFactory: 0 children
+CloneDROutputParser: 0 children
+CloneGroup: 0 children
+CloneGroupList: 0 children
+CloneInstance: 0 children
+CloneInstanceLocationInfo: 0 children
+ConQATOutputParser: 0 children
+DeckardOutputParser: 0 children
+InvalidInputFileException: 0 children
+JavaModelUtility: 0 children
+NiCadOutputParser: 0 children
+ResourceInfo: 0 children
+ICompilationUnitNotFoundException: 0 children
+TextDiff: 0 children
+for: 0 children
+LinesToCharsResult: 0 children
+Diff: 0 children
+Patch: 0 children
+AbstractMethodInvocationObject: 3 children ( ConstructorInvocationObject, MethodInvocationObject, SuperMethodInvocationObject )
+AnonymousClassDeclarationObject: 0 children
+is: 0 children
+ArrayAccessObject: 0 children
+ArrayCreationObject: 0 children
+Association: 0 children
+AssociationDetection: 0 children
+of: 0 children
+ASTInformation: 0 children
+ASTInformationGenerator: 0 children
+ASTReader: 0 children
+ClassDeclarationObject: 2 children ( AnonymousClassDeclarationObject, ClassObject )
+ClassInstanceCreationObject: 0 children
+ClassObject: 0 children
+CommentObject: 0 children
+CompilationErrorDetectedException: 0 children
+CompilationUnitCache: 0 children
+ConstructorInvocationObject: 0 children
+ConstructorObject: 0 children
+CreationObject: 2 children ( ArrayCreationObject, ClassInstanceCreationObject )
+AbstractExpression: 0 children
+AbstractMethodFragment: 2 children ( AbstractExpression, AbstractStatement )
+AbstractStatement: 2 children ( CompositeStatementObject, StatementObject )
+CatchClauseObject: 0 children
+AbstractVariable: 2 children ( CompositeVariable, PlainVariable )
+BasicBlock: 0 children
+BasicBlockCFG: 0 children
+CFG: 0 children
+CFGBlockNode: 2 children ( CFGSynchronizedNode, CFGTryNode )
+CFGBranchConditionalNode: 2 children ( CFGBranchIfNode, CFGBranchSwitchNode )
+CFGBranchDoLoopNode: 0 children
+CFGBranchIfNode: 0 children
+CFGBranchLoopNode: 0 children
+CFGBranchNode: 3 children ( CFGBranchConditionalNode, CFGBranchDoLoopNode, CFGBranchLoopNode )
+CFGBranchSwitchNode: 0 children
+CFGBreakNode: 0 children
+CFGContinueNode: 0 children
+CFGExitNode: 0 children
+CFGNode: 7 children ( CFGBlockNode, CFGBranchNode, CFGBreakNode, CFGContinueNode, CFGExitNode, CFGSwitchCaseNode, CFGThrowNode )
+CFGSwitchCaseNode: 0 children
+CFGSynchronizedNode: 0 children
+CFGThrowNode: 0 children
+CFGTryNode: 0 children
+CompositeVariable: 0 children
+Flow: 0 children
+Graph: 3 children ( CFG, PDG, PDGSlice )
+GraphEdge: 2 children ( Flow, PDGDependence )
+GraphNode: 2 children ( CFGNode, PDGNode )
+BottomUpCDTMapper: 0 children
+CloneInstanceMapper: 0 children
+CloneStructureNode: 0 children
+CodeFragmentDecomposer: 0 children
+CompleteSubTreeMatch: 0 children
+ControlDependenceTreeGenerator: 0 children
+ControlDependenceTreeNode: 0 children
+ControlDependenceTreeNodeMatchPair: 0 children
+ControlDependenceTreeNodeMatchPairComparator: 0 children
+DivideAndConquerMatcher: 2 children ( PDGRegionSubTreeMapper, PDGSubTreeMapper )
+ExtractStatementsVisitor: 0 children
+IdBasedGap: 2 children ( PDGElseGap, PDGNodeGap )
+IdBasedMapping: 2 children ( PDGElseMapping, PDGNodeMapping )
+IdenticalStatementDecomposer: 0 children
+MappingState: 0 children
+NodeMapping: 2 children ( IdBasedGap, IdBasedMapping )
+PDGEdgeMapping: 0 children
+PDGElseGap: 0 children
+PDGElseMapping: 0 children
+PDGMapper: 0 children
+PDGNodeGap: 0 children
+PDGNodeMapping: 0 children
+PDGRegionSubTreeMapper: 0 children
+PDGSubTreeMapper: 0 children
+BoldStyler: 0 children
+DualExpressionPreconditionViolation: 1 children ( DualExpressionWithCommonSuperTypePreconditionViolation )
+DualExpressionWithCommonSuperTypePreconditionViolation: 0 children
+ExpressionPreconditionViolation: 0 children
+NormalStyler: 0 children
+NotAllPossibleExecutionFlowsEndInReturnPreconditionViolation: 0 children
+PreconditionViolation: 7 children ( DualExpressionPreconditionViolation, ExpressionPreconditionViolation, NotAllPossibleExecutionFlowsEndInReturnPreconditionViolation, ReturnedVariablePreconditionViolation, StatementPreconditionViolation, UncommonSuperclassPreconditionViolation, ZeroMatchedStatementsPreconditionViolation )
+ReturnedVariablePreconditionViolation: 0 children
+StatementPreconditionViolation: 0 children
+Suggestion: 0 children
+UncommonSuperclassPreconditionViolation: 0 children
+ZeroMatchedStatementsPreconditionViolation: 0 children
+PreconditionExaminer: 0 children
+and: 0 children
+StatementCollector: 0 children
+SubTreeMatchComparator: 0 children
+SwitchBodyDecomposer: 0 children
+TopDownCDTMapper: 0 children
+VariableBindingKeyPair: 0 children
+VariableBindingPair: 0 children
+MethodCallAnalyzer: 0 children
+PDG: 0 children
+PDGAbstractDataDependence: 3 children ( PDGAntiDependence, PDGDataDependence, PDGOutputDependence )
+PDGAntiDependence: 0 children
+PDGBlockNode: 2 children ( PDGSynchronizedNode, PDGTryNode )
+PDGControlDependence: 0 children
+PDGControlPredicateNode: 0 children
+PDGDataDependence: 0 children
+PDGDependence: 2 children ( PDGAbstractDataDependence, PDGControlDependence )
+PDGExitNode: 0 children
+PDGExpression: 0 children
+declaration: 0 children
+PDGMethodEntryNode: 0 children
+PDGNode: 4 children ( PDGBlockNode, PDGControlPredicateNode, PDGMethodEntryNode, PDGStatementNode )
+declaration: 0 children
+PDGObjectSliceUnion: 0 children
+PDGObjectSliceUnionCollection: 0 children
+PDGOutputDependence: 0 children
+PDGSlice: 0 children
+PDGSliceUnion: 0 children
+PDGSliceUnionCollection: 0 children
+PDGStatementNode: 1 children ( PDGExitNode )
+PDGSynchronizedNode: 0 children
+PDGTryNode: 0 children
+PlainVariable: 0 children
+ReachingAliasSet: 0 children
+CompositeStatementObject: 2 children ( SynchronizedStatementObject, TryStatementObject )
+ASTNodeDifference: 2 children ( FieldAccessReplacedWithGetterInvocationDifference, FieldAssignmentReplacedWithSetterInvocationDifference )
+ASTNodeMatcher: 1 children ( ConditionalLoopASTNodeMatcher )
+is: 0 children
+BindingSignature: 0 children
+BindingSignaturePair: 0 children
+BindingSignatureVisitor: 0 children
+AbstractControlCase: 2 children ( IfControlCase, SwitchControlCase )
+AbstractControlStructure: 3 children ( IfControlStructure, SwitchControlStructure, TernaryControlStructure )
+AbstractControlStructureUtilities: 0 children
+IfControlCase: 0 children
+IfControlStructure: 0 children
+Pair<T>: 0 children
+SwitchControlCase: 0 children
+SwitchControlStructure: 0 children
+TernaryControlStructure: 0 children
+Difference: 0 children
+declarations: 0 children
+FieldAccessReplacedWithGetterInvocationDifference: 0 children
+FieldAssignmentReplacedWithSetterInvocationDifference: 0 children
+AbstractControlVariable: 1 children ( ControlVariable )
+AbstractLoop: 2 children ( ConditionalLoop, EnhancedForLoop )
+AbstractLoopBindingInformation: 0 children
+AbstractLoopUtilities: 0 children
+ConditionalLoop: 0 children
+ConditionalLoopASTNodeMatcher: 0 children
+ControlVariable: 0 children
+EarliestStartPositionComparator: 0 children
+EnhancedForLoop: 0 children
+VariableUpdater: 0 children
+VariableValue: 0 children
+NodePair: 0 children
+NodePairComparisonCache: 0 children
+MethodBodyObject: 0 children
+StatementObject: 0 children
+SynchronizedStatementObject: 0 children
+TryStatementObject: 0 children
+DelegationDetection: 0 children
+DelegationPath: 0 children
+DelegationTree: 0 children
+EnumConstantDeclarationObject: 0 children
+FieldInstructionObject: 0 children
+FieldObject: 0 children
+IfStatementExpressionAnalyzer: 0 children
+Indexer: 2 children ( CompilationUnitCache, LibraryClassStorage )
+CompleteInheritanceDetection: 0 children
+InheritanceDetection: 0 children
+InheritanceTree: 0 children
+TypeBindingInheritanceDetection: 0 children
+LibraryClassStorage: 0 children
+LiteralObject: 0 children
+LocalVariableDeclarationObject: 0 children
+LocalVariableInstructionObject: 0 children
+MethodInvocationObject: 0 children
+MethodObject: 0 children
+types: 0 children
+ConnectivityMetric: 0 children
+that: 0 children
+LCOM: 0 children
+MMImportCoupling: 0 children
+ParameterObject: 0 children
+Standalone: 0 children
+SuperFieldInstructionObject: 0 children
+SuperMethodInvocationObject: 0 children
+SystemObject: 0 children
+declaration: 0 children
+TypeCheckCodeFragmentAnalyzer: 0 children
+invoked: 0 children
+fields: 0 children
+invoked: 0 children
+fields: 0 children
+TypeObject: 0 children
+TypeSearchRequestor: 0 children
+ExpressionExtractor: 0 children
+InstanceOfArrayAccess: 0 children
+InstanceOfArrayCreation: 0 children
+InstanceOfAssignment: 0 children
+InstanceOfBranchingStatement: 0 children
+InstanceOfBreakStatement: 0 children
+InstanceOfCastExpression: 0 children
+InstanceOfClassInstanceCreation: 0 children
+InstanceOfConditionalExpression: 0 children
+InstanceOfConstructorInvocation: 0 children
+InstanceOfContinueStatement: 0 children
+InstanceOfDoStatement: 0 children
+InstanceOfEnhancedForStatement: 0 children
+InstanceOfExpression: 0 children
+InstanceOfFieldAccess: 0 children
+InstanceOfForStatement: 0 children
+InstanceOfIfStatement: 0 children
+InstanceOfInfixExpression: 0 children
+InstanceOfInstanceofExpression: 0 children
+InstanceOfLiteral: 0 children
+InstanceOfMethodInvocation: 0 children
+InstanceOfPostfixExpression: 0 children
+InstanceOfPrefixExpression: 0 children
+InstanceOfReturnStatement: 0 children
+InstanceOfSimpleName: 0 children
+InstanceOfSuperFieldAccess: 0 children
+InstanceOfSuperMethodInvocation: 0 children
+InstanceOfSwitchStatement: 0 children
+InstanceOfThisExpression: 0 children
+InstanceOfTryStatement: 0 children
+InstanceOfTypeDeclarationStatement: 0 children
+InstanceOfTypeLiteral: 0 children
+InstanceOfVariableDeclarationExpression: 0 children
+InstanceOfVariableDeclarationStatement: 0 children
+InstanceOfVariableModifier: 0 children
+InstanceOfWhileStatement: 0 children
+AdjacencyList: 0 children
+Cluster: 0 children
+Clustering: 1 children ( Hierarchical )
+for: 0 children
+DoubleArray: 0 children
+Edge: 0 children
+Hierarchical: 0 children
+HumaniseCamelCase: 0 children
+LevenshteinDistance: 0 children
+Node: 0 children
+transforms: 0 children
+Stemmer: 0 children
+TarjanAlgorithm: 0 children
+MethodDeclarationUtility: 0 children
+StatementExtractor: 0 children
+SuperMethodInvocationVisitor: 0 children
+ThrownExceptionVisitor: 0 children
+TopicFinder: 0 children
+TypeVisitor: 0 children
+VariableDeclarationObject: 3 children ( FieldObject, LocalVariableDeclarationObject, ParameterObject )
+ClassFigure: 0 children
+ClassFigureMover: 0 children
+CompartmentFigure: 0 children
+CompartmentFigureBorder: 0 children
+DecorationConstants: 0 children
+EntityFigure: 0 children
+EntityFigureListener: 0 children
+FeatureEnviedMethodInformationControl: 0 children
+FeatureEnviedMethodInformationControlCreator: 0 children
+FeatureEnvyDiagram: 0 children
+FeatureEnvyVisualizationData: 0 children
+GodClassDiagram: 0 children
+GodClassDiagram2: 0 children
+GodClassInformationControl: 0 children
+GodClassInformationControlCreator: 0 children
+GodClassVisualizationData: 0 children
+with: 0 children
+InformationControlManager: 0 children
+InformationControlCloser: 0 children
+JConnection: 0 children
+LeftAnchor: 0 children
+Legend: 0 children
+MethodClassSection: 0 children
+MyContentProposalProvider: 0 children
+PackageFigure: 0 children
+PackageMapDiagram: 0 children
+figure: 0 children
+PackageMapDiagramInformationProvider: 0 children
+PackageMapFigure: 2 children ( PackageFigure, PMClassFigure )
+PMClassFigure: 0 children
+ProportionalFlowLayout: 0 children
+RightAnchor: 0 children
+SearchDialog: 0 children
+SearchInputAction: 0 children
+SectionCompartment: 0 children
+SmellyClassMouseListener: 0 children
+ZoomAction: 0 children
+ZoomInputAction: 0 children
+CandidateRefactoring: 2 children ( ExtractClassCandidateRefactoring, MoveMethodCandidateRefactoring )
+ClusterSizeComparator: 0 children
+DistanceCalculator: 0 children
+DistanceMatrix: 0 children
+(key): 0 children
+Entity: 2 children ( MyAttribute, MyMethod )
+ExtractClassCandidateGroup: 0 children
+ExtractClassCandidateRefactoring: 0 children
+ExtractedConcept: 0 children
+MoveMethodCandidateRefactoring: 0 children
+methods: 0 children
+is: 0 children
+is: 0 children
+MyAbstractExpression: 0 children
+MyAbstractStatement: 2 children ( MyCompositeStatement, MyStatement )
+MyAttribute: 0 children
+MyAttributeInstruction: 0 children
+MyClass: 0 children
+MyCompositeStatement: 0 children
+MyMethod: 0 children
+MyMethodBody: 0 children
+MyMethodInvocation: 0 children
+MyStatement: 0 children
+MySystem: 0 children
+FeatureEnvyEvolution: 0 children
+MethodEvolution: 0 children
+ProjectEvolution: 0 children
+ProjectVersion: 0 children
+ProjectVersionPair: 0 children
+TypeCheckingEvolution: 0 children
+PreferenceConstants: 0 children
+PreferenceInitializer: 0 children
+represents: 0 children
+PropertyManagerPreferencePage: 0 children
+members: 0 children
+members: 0 children
+members: 0 children
+members: 0 children
+members: 0 children
+members: 0 children
+BadSmellsMenu: 0 children
+controls: 0 children
+Activator: 0 children
+ASTSlice: 0 children
+ASTSliceGroup: 0 children
+ExtractClassRefactoring: 0 children
+contains: 0 children
+from: 0 children
+ExtractClassRefactoringDescriptor: 0 children
+ExtractCloneRefactoring: 0 children
+CloneInformation: 0 children
+''{0}''": 0 children
+ExtractCloneRefactoringDescriptor: 0 children
+ExtractMethodFragmentRefactoring: 2 children ( ExtractCloneRefactoring, ExtractMethodRefactoring )
+ExtractMethodRefactoring: 0 children
+ExtractMethodRefactoringDescriptor: 0 children
+MoveMethodRefactoring: 0 children
+MoveMethodRefactoringDescriptor: 0 children
+PolymorphismRefactoring: 2 children ( ReplaceConditionalWithPolymorphism, ReplaceTypeCodeWithStateStrategy )
+RefactoringUtility: 0 children
+ReplaceConditionalWithPolymorphism: 0 children
+ReplaceConditionalWithPolymorphismDescriptor: 0 children
+ReplaceTypeCodeWithStateStrategy: 0 children
+ReplaceTypeCodeWithStateStrategyDescriptor: 0 children
+TypeCheckElimination: 0 children
+TypeCheckEliminationGroup: 0 children
+CloneDiffContentProvider: 0 children
+CloneDiffStyledLabelProvider: 0 children
+CloneDiffTooltip: 0 children
+PreconditionsViolationsTreeContentProvider: 0 children
+PreconditionViolationsTreeLabelProvider: 0 children
+CloneDiffWizardPage: 0 children
+": 0 children
+": 0 children
+": 0 children
+CloneRefactoringAction: 0 children
+CodeSmellPackageExplorer: 0 children
+MyMenuCreator: 0 children
+CodeSmellVisualization: 0 children
+MyMenuCreator: 0 children
+CodeSmellVisualizationDataSingleton: 0 children
+DuplicatedCode: 0 children
+ViewContentProvider: 0 children
+ViewLabelProvider: 0 children
+CompareInput: 0 children
+CompareItem: 0 children
+ElementChangedListener: 0 children
+EvolutionDialog: 0 children
+MethodSimilarityViewContentProvider: 0 children
+MethodSimilarityViewLabelProvider: 0 children
+EvolutionRow: 0 children
+ExtractClassInputPage: 0 children
+ExtractMethodInputPage: 0 children
+": 0 children
+demonstrates: 0 children
+FeatureEnvy: 0 children
+is: 0 children
+ViewContentProvider: 0 children
+ViewLabelProvider: 0 children
+NameSorter: 0 children
+MyToolTip: 0 children
+demonstrates: 0 children
+GodClass: 0 children
+ViewContentProvider: 0 children
+ViewLabelProvider: 0 children
+NameSorter: 0 children
+ImportClonesWizard: 0 children
+ImportClonesWizardPage: 0 children
+LabelControlContribution: 0 children
+LongMethod: 0 children
+ViewContentProvider: 0 children
+ViewLabelProvider: 0 children
+NameSorter: 0 children
+MethodEvolutionAction: 0 children
+MethodNameValidator: 0 children
+MoveMethodInputPage: 0 children
+MultilineButton: 0 children
+MyComboBoxCellEditor: 0 children
+MyRefactoringWizard: 0 children
+ReplaceTypeCodeWithStateStrategyInputPage: 0 children
+SliceAnnotation: 0 children
+SliceProfileAction: 0 children
+declaration.");: 0 children
+SliceProfileDialog: 0 children
+SliceProfileViewContentProvider: 0 children
+SliceProfileViewLabelProvider: 0 children
+EnabledVariableViewContentProvider: 0 children
+MySelectionListener: 0 children
+EnabledVariableCheckStateListener: 0 children
+SliceProfileRow: 0 children
+StringCompareEditorInput: 0 children
+Input: 0 children
+provides: 0 children
+for: 0 children
+StyledStringStyler: 0 children
+StyledStringVisitor: 0 children
+demonstrates: 0 children
+TypeChecking: 0 children
+is: 0 children
+ViewContentProvider: 0 children
+ViewLabelProvider: 0 children
+NameSorter: 0 children
+ZoomValueValidator: 0 children
 
 ----------------------------------------------------------------
 
 Project Tree:
-Total number of trees: 20
+Total number of trees: 353
 
 Tree no: 1
-CommentMetricsGenerator
+Token
 
 Tree no: 2
-LCOMCalculation
+CloneFragment
 
 Tree no: 3
-InstanceFieldNameCollector
+CloneDetectorOutputParseException
 
 Tree no: 4
-MethodNameCollector
+CloneDetectorOutputParser
+--CCFinderOutputParser
+--CloneDROutputParser
+--ConQATOutputParser
+--DeckardOutputParser
+--NiCadOutputParser
 
 Tree no: 5
-AssignExprFetcher
+CloneDetectorOutputParserFactory
 
 Tree no: 6
-VariableDeclarationFetcher
+CloneGroup
 
 Tree no: 7
-MethodCallFetcher
+CloneGroupList
 
 Tree no: 8
-LCOMGroup
+CloneInstance
 
 Tree no: 9
-TestClass
+CloneInstanceLocationInfo
 
 Tree no: 10
-CyclomaticComplexityCounter
+InvalidInputFileException
 
 Tree no: 11
-CyclomaticComplexityManager
+JavaModelUtility
 
 Tree no: 12
-MyFileReader
+ResourceInfo
 
 Tree no: 13
-ChildrenCounter
+ICompilationUnitNotFoundException
 
 Tree no: 14
-InheritanceReader
+TextDiff
 
 Tree no: 15
-Node<T>
+for
 
 Tree no: 16
-TreeDepthFinder
+LinesToCharsResult
 
 Tree no: 17
-MyMain
+Diff
 
 Tree no: 18
-OurClass
+Patch
 
 Tree no: 19
-OurMethod
+AbstractMethodInvocationObject
+--ConstructorInvocationObject
+--MethodInvocationObject
+--SuperMethodInvocationObject
 
 Tree no: 20
-Populator
-Tree having maximum depth in this forest is: 0
+is
+
+Tree no: 21
+ArrayAccessObject
+
+Tree no: 22
+Association
+
+Tree no: 23
+AssociationDetection
+
+Tree no: 24
+of
+
+Tree no: 25
+ASTInformation
+
+Tree no: 26
+ASTInformationGenerator
+
+Tree no: 27
+ASTReader
+
+Tree no: 28
+ClassDeclarationObject
+--AnonymousClassDeclarationObject
+--ClassObject
+
+Tree no: 29
+CommentObject
+
+Tree no: 30
+CompilationErrorDetectedException
+
+Tree no: 31
+ConstructorObject
+
+Tree no: 32
+CreationObject
+--ArrayCreationObject
+--ClassInstanceCreationObject
+
+Tree no: 33
+AbstractMethodFragment
+--AbstractExpression
+--AbstractStatement
+----StatementObject
+----CompositeStatementObject
+--------SynchronizedStatementObject
+--------TryStatementObject
+
+Tree no: 34
+CatchClauseObject
+
+Tree no: 35
+AbstractVariable
+--CompositeVariable
+--PlainVariable
+
+Tree no: 36
+BasicBlock
+
+Tree no: 37
+BasicBlockCFG
+
+Tree no: 38
+Graph
+--CFG
+--PDG
+--PDGSlice
+
+Tree no: 39
+GraphEdge
+--Flow
+--PDGDependence
+----PDGControlDependence
+----PDGAbstractDataDependence
+--------PDGAntiDependence
+--------PDGDataDependence
+--------PDGOutputDependence
+
+Tree no: 40
+GraphNode
+--CFGNode
+----CFGBreakNode
+----CFGContinueNode
+----CFGExitNode
+----CFGSwitchCaseNode
+----CFGThrowNode
+----CFGBlockNode
+--------CFGSynchronizedNode
+--------CFGTryNode
+----CFGBranchNode
+--------CFGBranchDoLoopNode
+--------CFGBranchLoopNode
+--------CFGBranchConditionalNode
+----------------CFGBranchIfNode
+----------------CFGBranchSwitchNode
+--PDGNode
+----PDGControlPredicateNode
+----PDGMethodEntryNode
+----PDGBlockNode
+--------PDGSynchronizedNode
+--------PDGTryNode
+----PDGStatementNode
+--------PDGExitNode
+
+Tree no: 41
+BottomUpCDTMapper
+
+Tree no: 42
+CloneInstanceMapper
+
+Tree no: 43
+CloneStructureNode
+
+Tree no: 44
+CodeFragmentDecomposer
+
+Tree no: 45
+CompleteSubTreeMatch
+
+Tree no: 46
+ControlDependenceTreeGenerator
+
+Tree no: 47
+ControlDependenceTreeNode
+
+Tree no: 48
+ControlDependenceTreeNodeMatchPair
+
+Tree no: 49
+ControlDependenceTreeNodeMatchPairComparator
+
+Tree no: 50
+DivideAndConquerMatcher
+--PDGRegionSubTreeMapper
+--PDGSubTreeMapper
+
+Tree no: 51
+ExtractStatementsVisitor
+
+Tree no: 52
+IdenticalStatementDecomposer
+
+Tree no: 53
+MappingState
+
+Tree no: 54
+NodeMapping
+--IdBasedGap
+----PDGElseGap
+----PDGNodeGap
+--IdBasedMapping
+----PDGElseMapping
+----PDGNodeMapping
+
+Tree no: 55
+PDGEdgeMapping
+
+Tree no: 56
+PDGMapper
+
+Tree no: 57
+BoldStyler
+
+Tree no: 58
+NormalStyler
+
+Tree no: 59
+PreconditionViolation
+--ExpressionPreconditionViolation
+--NotAllPossibleExecutionFlowsEndInReturnPreconditionViolation
+--ReturnedVariablePreconditionViolation
+--StatementPreconditionViolation
+--UncommonSuperclassPreconditionViolation
+--ZeroMatchedStatementsPreconditionViolation
+--DualExpressionPreconditionViolation
+----DualExpressionWithCommonSuperTypePreconditionViolation
+
+Tree no: 60
+Suggestion
+
+Tree no: 61
+PreconditionExaminer
+
+Tree no: 62
+and
+
+Tree no: 63
+StatementCollector
+
+Tree no: 64
+SubTreeMatchComparator
+
+Tree no: 65
+SwitchBodyDecomposer
+
+Tree no: 66
+TopDownCDTMapper
+
+Tree no: 67
+VariableBindingKeyPair
+
+Tree no: 68
+VariableBindingPair
+
+Tree no: 69
+MethodCallAnalyzer
+
+Tree no: 70
+PDGExpression
+
+Tree no: 71
+declaration
+
+Tree no: 72
+declaration
+
+Tree no: 73
+PDGObjectSliceUnion
+
+Tree no: 74
+PDGObjectSliceUnionCollection
+
+Tree no: 75
+PDGSliceUnion
+
+Tree no: 76
+PDGSliceUnionCollection
+
+Tree no: 77
+ReachingAliasSet
+
+Tree no: 78
+ASTNodeDifference
+--FieldAccessReplacedWithGetterInvocationDifference
+--FieldAssignmentReplacedWithSetterInvocationDifference
+
+Tree no: 79
+ASTNodeMatcher
+--ConditionalLoopASTNodeMatcher
+
+Tree no: 80
+is
+
+Tree no: 81
+BindingSignature
+
+Tree no: 82
+BindingSignaturePair
+
+Tree no: 83
+BindingSignatureVisitor
+
+Tree no: 84
+AbstractControlCase
+--IfControlCase
+--SwitchControlCase
+
+Tree no: 85
+AbstractControlStructure
+--IfControlStructure
+--SwitchControlStructure
+--TernaryControlStructure
+
+Tree no: 86
+AbstractControlStructureUtilities
+
+Tree no: 87
+Pair<T>
+
+Tree no: 88
+Difference
+
+Tree no: 89
+declarations
+
+Tree no: 90
+AbstractControlVariable
+--ControlVariable
+
+Tree no: 91
+AbstractLoop
+--ConditionalLoop
+--EnhancedForLoop
+
+Tree no: 92
+AbstractLoopBindingInformation
+
+Tree no: 93
+AbstractLoopUtilities
+
+Tree no: 94
+EarliestStartPositionComparator
+
+Tree no: 95
+VariableUpdater
+
+Tree no: 96
+VariableValue
+
+Tree no: 97
+NodePair
+
+Tree no: 98
+NodePairComparisonCache
+
+Tree no: 99
+MethodBodyObject
+
+Tree no: 100
+DelegationDetection
+
+Tree no: 101
+DelegationPath
+
+Tree no: 102
+DelegationTree
+
+Tree no: 103
+EnumConstantDeclarationObject
+
+Tree no: 104
+FieldInstructionObject
+
+Tree no: 105
+IfStatementExpressionAnalyzer
+
+Tree no: 106
+Indexer
+--CompilationUnitCache
+--LibraryClassStorage
+
+Tree no: 107
+CompleteInheritanceDetection
+
+Tree no: 108
+InheritanceDetection
+
+Tree no: 109
+InheritanceTree
+
+Tree no: 110
+TypeBindingInheritanceDetection
+
+Tree no: 111
+LiteralObject
+
+Tree no: 112
+LocalVariableInstructionObject
+
+Tree no: 113
+MethodObject
+
+Tree no: 114
+types
+
+Tree no: 115
+ConnectivityMetric
+
+Tree no: 116
+that
+
+Tree no: 117
+LCOM
+
+Tree no: 118
+MMImportCoupling
+
+Tree no: 119
+Standalone
+
+Tree no: 120
+SuperFieldInstructionObject
+
+Tree no: 121
+SystemObject
+
+Tree no: 122
+declaration
+
+Tree no: 123
+TypeCheckCodeFragmentAnalyzer
+
+Tree no: 124
+invoked
+
+Tree no: 125
+fields
+
+Tree no: 126
+invoked
+
+Tree no: 127
+fields
+
+Tree no: 128
+TypeObject
+
+Tree no: 129
+TypeSearchRequestor
+
+Tree no: 130
+ExpressionExtractor
+
+Tree no: 131
+InstanceOfArrayAccess
+
+Tree no: 132
+InstanceOfArrayCreation
+
+Tree no: 133
+InstanceOfAssignment
+
+Tree no: 134
+InstanceOfBranchingStatement
+
+Tree no: 135
+InstanceOfBreakStatement
+
+Tree no: 136
+InstanceOfCastExpression
+
+Tree no: 137
+InstanceOfClassInstanceCreation
+
+Tree no: 138
+InstanceOfConditionalExpression
+
+Tree no: 139
+InstanceOfConstructorInvocation
+
+Tree no: 140
+InstanceOfContinueStatement
+
+Tree no: 141
+InstanceOfDoStatement
+
+Tree no: 142
+InstanceOfEnhancedForStatement
+
+Tree no: 143
+InstanceOfExpression
+
+Tree no: 144
+InstanceOfFieldAccess
+
+Tree no: 145
+InstanceOfForStatement
+
+Tree no: 146
+InstanceOfIfStatement
+
+Tree no: 147
+InstanceOfInfixExpression
+
+Tree no: 148
+InstanceOfInstanceofExpression
+
+Tree no: 149
+InstanceOfLiteral
+
+Tree no: 150
+InstanceOfMethodInvocation
+
+Tree no: 151
+InstanceOfPostfixExpression
+
+Tree no: 152
+InstanceOfPrefixExpression
+
+Tree no: 153
+InstanceOfReturnStatement
+
+Tree no: 154
+InstanceOfSimpleName
+
+Tree no: 155
+InstanceOfSuperFieldAccess
+
+Tree no: 156
+InstanceOfSuperMethodInvocation
+
+Tree no: 157
+InstanceOfSwitchStatement
+
+Tree no: 158
+InstanceOfThisExpression
+
+Tree no: 159
+InstanceOfTryStatement
+
+Tree no: 160
+InstanceOfTypeDeclarationStatement
+
+Tree no: 161
+InstanceOfTypeLiteral
+
+Tree no: 162
+InstanceOfVariableDeclarationExpression
+
+Tree no: 163
+InstanceOfVariableDeclarationStatement
+
+Tree no: 164
+InstanceOfVariableModifier
+
+Tree no: 165
+InstanceOfWhileStatement
+
+Tree no: 166
+AdjacencyList
+
+Tree no: 167
+Cluster
+
+Tree no: 168
+Clustering
+--Hierarchical
+
+Tree no: 169
+for
+
+Tree no: 170
+DoubleArray
+
+Tree no: 171
+Edge
+
+Tree no: 172
+HumaniseCamelCase
+
+Tree no: 173
+LevenshteinDistance
+
+Tree no: 174
+Node
+
+Tree no: 175
+transforms
+
+Tree no: 176
+Stemmer
+
+Tree no: 177
+TarjanAlgorithm
+
+Tree no: 178
+MethodDeclarationUtility
+
+Tree no: 179
+StatementExtractor
+
+Tree no: 180
+SuperMethodInvocationVisitor
+
+Tree no: 181
+ThrownExceptionVisitor
+
+Tree no: 182
+TopicFinder
+
+Tree no: 183
+TypeVisitor
+
+Tree no: 184
+VariableDeclarationObject
+--FieldObject
+--LocalVariableDeclarationObject
+--ParameterObject
+
+Tree no: 185
+ClassFigure
+
+Tree no: 186
+ClassFigureMover
+
+Tree no: 187
+CompartmentFigure
+
+Tree no: 188
+CompartmentFigureBorder
+
+Tree no: 189
+DecorationConstants
+
+Tree no: 190
+EntityFigure
+
+Tree no: 191
+EntityFigureListener
+
+Tree no: 192
+FeatureEnviedMethodInformationControl
+
+Tree no: 193
+FeatureEnviedMethodInformationControlCreator
+
+Tree no: 194
+FeatureEnvyDiagram
+
+Tree no: 195
+FeatureEnvyVisualizationData
+
+Tree no: 196
+GodClassDiagram
+
+Tree no: 197
+GodClassDiagram2
+
+Tree no: 198
+GodClassInformationControl
+
+Tree no: 199
+GodClassInformationControlCreator
+
+Tree no: 200
+GodClassVisualizationData
+
+Tree no: 201
+with
+
+Tree no: 202
+InformationControlManager
+
+Tree no: 203
+InformationControlCloser
+
+Tree no: 204
+JConnection
+
+Tree no: 205
+LeftAnchor
+
+Tree no: 206
+Legend
+
+Tree no: 207
+MethodClassSection
+
+Tree no: 208
+MyContentProposalProvider
+
+Tree no: 209
+PackageMapDiagram
+
+Tree no: 210
+figure
+
+Tree no: 211
+PackageMapDiagramInformationProvider
+
+Tree no: 212
+PackageMapFigure
+--PackageFigure
+--PMClassFigure
+
+Tree no: 213
+ProportionalFlowLayout
+
+Tree no: 214
+RightAnchor
+
+Tree no: 215
+SearchDialog
+
+Tree no: 216
+SearchInputAction
+
+Tree no: 217
+SectionCompartment
+
+Tree no: 218
+SmellyClassMouseListener
+
+Tree no: 219
+ZoomAction
+
+Tree no: 220
+ZoomInputAction
+
+Tree no: 221
+CandidateRefactoring
+--ExtractClassCandidateRefactoring
+--MoveMethodCandidateRefactoring
+
+Tree no: 222
+ClusterSizeComparator
+
+Tree no: 223
+DistanceCalculator
+
+Tree no: 224
+DistanceMatrix
+
+Tree no: 225
+(key)
+
+Tree no: 226
+Entity
+--MyAttribute
+--MyMethod
+
+Tree no: 227
+ExtractClassCandidateGroup
+
+Tree no: 228
+ExtractedConcept
+
+Tree no: 229
+methods
+
+Tree no: 230
+is
+
+Tree no: 231
+is
+
+Tree no: 232
+MyAbstractExpression
+
+Tree no: 233
+MyAbstractStatement
+--MyCompositeStatement
+--MyStatement
+
+Tree no: 234
+MyAttributeInstruction
+
+Tree no: 235
+MyClass
+
+Tree no: 236
+MyMethodBody
+
+Tree no: 237
+MyMethodInvocation
+
+Tree no: 238
+MySystem
+
+Tree no: 239
+FeatureEnvyEvolution
+
+Tree no: 240
+MethodEvolution
+
+Tree no: 241
+ProjectEvolution
+
+Tree no: 242
+ProjectVersion
+
+Tree no: 243
+ProjectVersionPair
+
+Tree no: 244
+TypeCheckingEvolution
+
+Tree no: 245
+PreferenceConstants
+
+Tree no: 246
+PreferenceInitializer
+
+Tree no: 247
+represents
+
+Tree no: 248
+PropertyManagerPreferencePage
+
+Tree no: 249
+members
+
+Tree no: 250
+members
+
+Tree no: 251
+members
+
+Tree no: 252
+members
+
+Tree no: 253
+members
+
+Tree no: 254
+members
+
+Tree no: 255
+BadSmellsMenu
+
+Tree no: 256
+controls
+
+Tree no: 257
+Activator
+
+Tree no: 258
+ASTSlice
+
+Tree no: 259
+ASTSliceGroup
+
+Tree no: 260
+ExtractClassRefactoring
+
+Tree no: 261
+contains
+
+Tree no: 262
+from
+
+Tree no: 263
+ExtractClassRefactoringDescriptor
+
+Tree no: 264
+CloneInformation
+
+Tree no: 265
+''{0}''"
+
+Tree no: 266
+ExtractCloneRefactoringDescriptor
+
+Tree no: 267
+ExtractMethodFragmentRefactoring
+--ExtractCloneRefactoring
+--ExtractMethodRefactoring
+
+Tree no: 268
+ExtractMethodRefactoringDescriptor
+
+Tree no: 269
+MoveMethodRefactoring
+
+Tree no: 270
+MoveMethodRefactoringDescriptor
+
+Tree no: 271
+PolymorphismRefactoring
+--ReplaceConditionalWithPolymorphism
+--ReplaceTypeCodeWithStateStrategy
+
+Tree no: 272
+RefactoringUtility
+
+Tree no: 273
+ReplaceConditionalWithPolymorphismDescriptor
+
+Tree no: 274
+ReplaceTypeCodeWithStateStrategyDescriptor
+
+Tree no: 275
+TypeCheckElimination
+
+Tree no: 276
+TypeCheckEliminationGroup
+
+Tree no: 277
+CloneDiffContentProvider
+
+Tree no: 278
+CloneDiffStyledLabelProvider
+
+Tree no: 279
+CloneDiffTooltip
+
+Tree no: 280
+PreconditionsViolationsTreeContentProvider
+
+Tree no: 281
+PreconditionViolationsTreeLabelProvider
+
+Tree no: 282
+CloneDiffWizardPage
+
+Tree no: 283
+"
+
+Tree no: 284
+"
+
+Tree no: 285
+"
+
+Tree no: 286
+CloneRefactoringAction
+
+Tree no: 287
+CodeSmellPackageExplorer
+
+Tree no: 288
+MyMenuCreator
+
+Tree no: 289
+CodeSmellVisualization
+
+Tree no: 290
+MyMenuCreator
+
+Tree no: 291
+CodeSmellVisualizationDataSingleton
+
+Tree no: 292
+DuplicatedCode
+
+Tree no: 293
+ViewContentProvider
+
+Tree no: 294
+ViewLabelProvider
+
+Tree no: 295
+CompareInput
+
+Tree no: 296
+CompareItem
+
+Tree no: 297
+ElementChangedListener
+
+Tree no: 298
+EvolutionDialog
+
+Tree no: 299
+MethodSimilarityViewContentProvider
+
+Tree no: 300
+MethodSimilarityViewLabelProvider
+
+Tree no: 301
+EvolutionRow
+
+Tree no: 302
+ExtractClassInputPage
+
+Tree no: 303
+ExtractMethodInputPage
+
+Tree no: 304
+"
+
+Tree no: 305
+demonstrates
+
+Tree no: 306
+FeatureEnvy
+
+Tree no: 307
+is
+
+Tree no: 308
+ViewContentProvider
+
+Tree no: 309
+ViewLabelProvider
+
+Tree no: 310
+NameSorter
+
+Tree no: 311
+MyToolTip
+
+Tree no: 312
+demonstrates
+
+Tree no: 313
+GodClass
+
+Tree no: 314
+ViewContentProvider
+
+Tree no: 315
+ViewLabelProvider
+
+Tree no: 316
+NameSorter
+
+Tree no: 317
+ImportClonesWizard
+
+Tree no: 318
+ImportClonesWizardPage
+
+Tree no: 319
+LabelControlContribution
+
+Tree no: 320
+LongMethod
+
+Tree no: 321
+ViewContentProvider
+
+Tree no: 322
+ViewLabelProvider
+
+Tree no: 323
+NameSorter
+
+Tree no: 324
+MethodEvolutionAction
+
+Tree no: 325
+MethodNameValidator
+
+Tree no: 326
+MoveMethodInputPage
+
+Tree no: 327
+MultilineButton
+
+Tree no: 328
+MyComboBoxCellEditor
+
+Tree no: 329
+MyRefactoringWizard
+
+Tree no: 330
+ReplaceTypeCodeWithStateStrategyInputPage
+
+Tree no: 331
+SliceAnnotation
+
+Tree no: 332
+SliceProfileAction
+
+Tree no: 333
+declaration.");
+
+Tree no: 334
+SliceProfileDialog
+
+Tree no: 335
+SliceProfileViewContentProvider
+
+Tree no: 336
+SliceProfileViewLabelProvider
+
+Tree no: 337
+EnabledVariableViewContentProvider
+
+Tree no: 338
+MySelectionListener
+
+Tree no: 339
+EnabledVariableCheckStateListener
+
+Tree no: 340
+SliceProfileRow
+
+Tree no: 341
+StringCompareEditorInput
+
+Tree no: 342
+Input
+
+Tree no: 343
+provides
+
+Tree no: 344
+for
+
+Tree no: 345
+StyledStringStyler
+
+Tree no: 346
+StyledStringVisitor
+
+Tree no: 347
+demonstrates
+
+Tree no: 348
+TypeChecking
+
+Tree no: 349
+is
+
+Tree no: 350
+ViewContentProvider
+
+Tree no: 351
+ViewLabelProvider
+
+Tree no: 352
+NameSorter
+
+Tree no: 353
+ZoomValueValidator
+Tree having maximum depth in this forest is: 4

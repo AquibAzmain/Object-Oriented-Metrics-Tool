@@ -5,6 +5,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -26,19 +27,25 @@ public class CommentMetricsGenerator {
 	}
 	
 	public void printMetrics() throws IOException{
+		
+		PrintWriter csvFileWriter = new PrintWriter("comments.csv");
+		csvFileWriter.println("File Name,LOC,Number of Comments,Comment %");
+		
 		System.out.println("LOC and Comments of all the files:");
+		
 		for (String filePath : listOfFilePath) {
 			
 			String contentOfFile = new String(Files.readAllBytes(Paths.get(filePath)));
 			System.out.println();
 			System.out.println("File Name: "+filePath);
 			
+			JavaParser.getStaticConfiguration().setAttributeComments(true);
 			CompilationUnit compilationUnit = JavaParser.parse(contentOfFile);
 			List<Comment> comments = compilationUnit.getComments();
 			Integer numberOfComments = comments.size();
 			
 			for (Comment comment : comments) {
-				System.out.println("Comment: "+comment.toString());
+				System.out.print("Comment: "+comment.toString());
 				System.out.println("Comment Type: "+detectTypeOfComment(comment));
 			}
 			
@@ -50,8 +57,12 @@ public class CommentMetricsGenerator {
 	        System.out.println("File LOC: "+ lineOfCode);
 	        System.out.println("Number of Comments: "+numberOfComments);
 	        System.out.println("Comment Percentage: "+((numberOfComments*100)/lineOfCode)+"%");
+	        
+	        csvFileWriter.println(filePath+","+lineOfCode+","+numberOfComments+","+
+	        		((numberOfComments*100)/lineOfCode));
 
 		}
+		csvFileWriter.close();
 	}
 	
 	private static String detectTypeOfComment (Comment comment) {
