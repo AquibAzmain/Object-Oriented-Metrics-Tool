@@ -8,7 +8,7 @@ import CodeAnalyser.CommentMetricsGenerator;
 import CyclomaticComplexity.CyclomaticComplexityManager;
 import InheritanceRelated.ChildrenCounter;
 import InheritanceRelated.TreeDepthFinder;
-import metric_data_structure.Populator;
+import metricsDataStructure.Populator;
 
 public class MyMain {
 

@@ -1,4 +1,4 @@
-package metric_data_structure;
+package metricsDataStructure;
 
 import com.github.javaparser.ast.CompilationUnit;
 
@@ -14,10 +14,13 @@ public class OurClass {
 
     private List<OurClass> superClasses;
     private List<OurClass> childClasses;
-    private Set<OurClass> coupledClasses;
 
     private List<OurMethod> methods;
+    private List<OurVariable> fields;
     private List<String> importedPackages;
+
+    private Set<OurClass> coupledClasses;
+    private Set<OurMethod> externalMethods;
 
     private CompilationUnit compilationUnit;
 
@@ -29,8 +32,10 @@ public class OurClass {
         superClasses = new ArrayList<>();
         childClasses = new ArrayList<>();
         coupledClasses = new LinkedHashSet<>();
+        externalMethods = new LinkedHashSet<>();
 
         methods = new ArrayList<>();
+        fields = new ArrayList<>();
         importedPackages = new ArrayList<>();
     }
 
@@ -58,6 +63,18 @@ public class OurClass {
         importedPackages.add(importedPackage);
     }
 
+    public void addField(OurVariable field){
+        fields.add(field);
+    }
+
+    public void addMethod(OurMethod method){
+        methods.add(method);
+    }
+
+    public void addExternalMethod(OurMethod method){
+        externalMethods.add(method);
+    }
+
     @Override
     public boolean equals(Object obj) {
         if(obj instanceof OurClass){
@@ -73,7 +90,7 @@ public class OurClass {
 
     @Override
     public String toString() {
-        return name.replace(".java", "") +  "\t[containerPackage: " + containerPackage + ",\tLCOM:" + LCOM + "]\n" ;
+        return name +  " [containerPackage: " + containerPackage + "],  Metrics: [LCOM:" + LCOM + ", CBO:" + getCBO() + ", RFC:" + getRFC() + "]\n" ;
     }
     // getters / setters
 
@@ -155,5 +172,29 @@ public class OurClass {
 
     public void setLCOM(int LCOM) {
         this.LCOM = LCOM;
+    }
+
+    public List<OurVariable> getFields() {
+        return fields;
+    }
+
+    public void setFields(List<OurVariable> fields) {
+        this.fields = fields;
+    }
+
+    public Set<OurMethod> getExternalMethods() {
+        return externalMethods;
+    }
+
+    public void setExternalMethods(Set<OurMethod> externalMethods) {
+        this.externalMethods = externalMethods;
+    }
+
+    public int getCBO() {
+        return coupledClasses.size();
+    }
+
+    public int getRFC() {
+        return methods.size() + externalMethods.size();
     }
 }
