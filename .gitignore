@@ -33,3 +33,4 @@
 .idea/**/libraries
 
 vcs.xml
+/.recommenders/

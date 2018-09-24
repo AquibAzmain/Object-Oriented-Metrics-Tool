@@ -27,6 +27,15 @@ public class Node<T> {
 		 return child;
 	 }
 	 
+	 public String printChildrenName() {
+		 String childrenName = "";
+		 for(int i=0; i<this.children.size();i++) {
+			 if(i == this.children.size()-1) childrenName += this.children.get(i).getData();
+			 else childrenName += this.children.get(i).getData() + " ; ";
+		 }
+		 return childrenName;
+	 }
+	 
 	 
 	 public List<Node<T>> getChildren() {
 		 return children;

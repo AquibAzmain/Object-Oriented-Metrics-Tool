@@ -14221,786 +14221,786 @@ Lack of Cohesion of Methods(LCOM):
 ~~~ PAAY NAI WTF
 ~~~ PAAY NAI WTF
 ~~~ PAAY NAI WTF
-CCFinderOutputParser [containerPackage: parsers],  Metrics: [LCOM:13, CBO:2, RFC:20]
+CCFinderOutputParser [containerPackage: parsers],  Metrics: [LCOM:0.9230769230769231, CBO:2, RFC:20]
 
-CloneDetectorOutputParseException [containerPackage: parsers],  Metrics: [LCOM:0, CBO:0, RFC:0]
+CloneDetectorOutputParseException [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-CloneDetectorOutputParser [containerPackage: parsers],  Metrics: [LCOM:17, CBO:4, RFC:28]
+CloneDetectorOutputParser [containerPackage: parsers],  Metrics: [LCOM:0.9411764705882353, CBO:4, RFC:28]
 
-CloneDetectorOutputParserFactory [containerPackage: parsers],  Metrics: [LCOM:1, CBO:0, RFC:1]
+CloneDetectorOutputParserFactory [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-CloneDetectorOutputParserProgressObserver [containerPackage: parsers],  Metrics: [LCOM:1, CBO:1, RFC:1]
+CloneDetectorOutputParserProgressObserver [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-CloneDetectorType [containerPackage: parsers],  Metrics: [LCOM:1, CBO:0, RFC:1]
+CloneDetectorType [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-CloneDROutputParser [containerPackage: parsers],  Metrics: [LCOM:3, CBO:2, RFC:8]
+CloneDROutputParser [containerPackage: parsers],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:8]
 
-CloneGroup [containerPackage: parsers],  Metrics: [LCOM:15, CBO:8, RFC:21]
+CloneGroup [containerPackage: parsers],  Metrics: [LCOM:0.9333333333333333, CBO:8, RFC:21]
 
-CloneGroupList [containerPackage: parsers],  Metrics: [LCOM:8, CBO:7, RFC:12]
+CloneGroupList [containerPackage: parsers],  Metrics: [LCOM:0.875, CBO:7, RFC:12]
 
-CloneInstance [containerPackage: parsers],  Metrics: [LCOM:29, CBO:3, RFC:29]
+CloneInstance [containerPackage: parsers],  Metrics: [LCOM:0.9655172413793104, CBO:3, RFC:29]
 
-CloneInstanceLocationInfo [containerPackage: parsers],  Metrics: [LCOM:20, CBO:0, RFC:20]
+CloneInstanceLocationInfo [containerPackage: parsers],  Metrics: [LCOM:0.95, CBO:0, RFC:20]
 
-CloneInstanceStatus [containerPackage: parsers],  Metrics: [LCOM:0, CBO:0, RFC:0]
+CloneInstanceStatus [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-ClonesRelativeLocation [containerPackage: parsers],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ClonesRelativeLocation [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-ConQATOutputParser [containerPackage: parsers],  Metrics: [LCOM:1, CBO:3, RFC:7]
+ConQATOutputParser [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:3, RFC:7]
 
-DeckardOutputParser [containerPackage: parsers],  Metrics: [LCOM:1, CBO:2, RFC:5]
+DeckardOutputParser [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:2, RFC:5]
 
-InvalidInputFileException [containerPackage: parsers],  Metrics: [LCOM:0, CBO:0, RFC:0]
+InvalidInputFileException [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-JavaModelUtility [containerPackage: parsers],  Metrics: [LCOM:3, CBO:0, RFC:3]
+JavaModelUtility [containerPackage: parsers],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:3]
 
-NiCadOutputParser [containerPackage: parsers],  Metrics: [LCOM:1, CBO:3, RFC:6]
+NiCadOutputParser [containerPackage: parsers],  Metrics: [LCOM:0.0, CBO:3, RFC:6]
 
-ResourceInfo [containerPackage: parsers],  Metrics: [LCOM:8, CBO:1, RFC:8]
+ResourceInfo [containerPackage: parsers],  Metrics: [LCOM:0.875, CBO:1, RFC:8]
 
-TextDiff [containerPackage: parsers],  Metrics: [LCOM:19, CBO:1, RFC:47]
+TextDiff [containerPackage: parsers],  Metrics: [LCOM:0.9473684210526316, CBO:1, RFC:47]
 
-AbstractMethodDeclaration [containerPackage: ast],  Metrics: [LCOM:57, CBO:7, RFC:57]
+AbstractMethodDeclaration [containerPackage: ast],  Metrics: [LCOM:0.9824561403508771, CBO:7, RFC:57]
 
-AbstractMethodInvocationObject [containerPackage: ast],  Metrics: [LCOM:17, CBO:1, RFC:18]
+AbstractMethodInvocationObject [containerPackage: ast],  Metrics: [LCOM:0.9411764705882353, CBO:1, RFC:18]
 
-Access [containerPackage: ast],  Metrics: [LCOM:1, CBO:0, RFC:1]
+Access [containerPackage: ast],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-AnonymousClassDeclarationObject [containerPackage: ast],  Metrics: [LCOM:9, CBO:4, RFC:10]
+AnonymousClassDeclarationObject [containerPackage: ast],  Metrics: [LCOM:0.8888888888888888, CBO:4, RFC:10]
 
-ArrayAccessObject [containerPackage: ast],  Metrics: [LCOM:3, CBO:0, RFC:3]
+ArrayAccessObject [containerPackage: ast],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:3]
 
-ArrayCreationObject [containerPackage: ast],  Metrics: [LCOM:2, CBO:1, RFC:2]
+ArrayCreationObject [containerPackage: ast],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-Association [containerPackage: association],  Metrics: [LCOM:7, CBO:4, RFC:7]
+Association [containerPackage: association],  Metrics: [LCOM:0.8571428571428572, CBO:4, RFC:7]
 
-AssociationDetection [containerPackage: association],  Metrics: [LCOM:4, CBO:4, RFC:17]
+AssociationDetection [containerPackage: association],  Metrics: [LCOM:0.75, CBO:4, RFC:17]
 
-ASTInformation [containerPackage: ast],  Metrics: [LCOM:6, CBO:0, RFC:6]
+ASTInformation [containerPackage: ast],  Metrics: [LCOM:0.8333333333333334, CBO:0, RFC:6]
 
-ASTInformationGenerator [containerPackage: ast],  Metrics: [LCOM:2, CBO:0, RFC:2]
+ASTInformationGenerator [containerPackage: ast],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-ASTReader [containerPackage: ast],  Metrics: [LCOM:8, CBO:10, RFC:59]
+ASTReader [containerPackage: ast],  Metrics: [LCOM:0.875, CBO:10, RFC:59]
 
-ClassDeclarationObject [containerPackage: ast],  Metrics: [LCOM:26, CBO:8, RFC:38]
+ClassDeclarationObject [containerPackage: ast],  Metrics: [LCOM:0.9615384615384616, CBO:8, RFC:38]
 
-ClassInstanceCreationObject [containerPackage: ast],  Metrics: [LCOM:9, CBO:2, RFC:9]
+ClassInstanceCreationObject [containerPackage: ast],  Metrics: [LCOM:0.8888888888888888, CBO:2, RFC:9]
 
-ClassObject [containerPackage: ast],  Metrics: [LCOM:30, CBO:31, RFC:50]
+ClassObject [containerPackage: ast],  Metrics: [LCOM:0.9666666666666667, CBO:31, RFC:50]
 
-CommentObject [containerPackage: ast],  Metrics: [LCOM:12, CBO:2, RFC:12]
+CommentObject [containerPackage: ast],  Metrics: [LCOM:0.9166666666666666, CBO:2, RFC:12]
 
-CommentType [containerPackage: ast],  Metrics: [LCOM:0, CBO:0, RFC:0]
+CommentType [containerPackage: ast],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-CompilationErrorDetectedException [containerPackage: ast],  Metrics: [LCOM:1, CBO:0, RFC:1]
+CompilationErrorDetectedException [containerPackage: ast],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-CompilationUnitCache [containerPackage: ast],  Metrics: [LCOM:22, CBO:3, RFC:22]
+CompilationUnitCache [containerPackage: ast],  Metrics: [LCOM:0.9545454545454546, CBO:3, RFC:22]
 
-ConstructorInvocationObject [containerPackage: ast],  Metrics: [LCOM:2, CBO:2, RFC:2]
+ConstructorInvocationObject [containerPackage: ast],  Metrics: [LCOM:0.5, CBO:2, RFC:2]
 
-ConstructorObject [containerPackage: ast],  Metrics: [LCOM:70, CBO:6, RFC:74]
+ConstructorObject [containerPackage: ast],  Metrics: [LCOM:0.9857142857142858, CBO:6, RFC:74]
 
-CreationObject [containerPackage: ast],  Metrics: [LCOM:1, CBO:1, RFC:1]
+CreationObject [containerPackage: ast],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-AbstractExpression [containerPackage: decomposition],  Metrics: [LCOM:5, CBO:6, RFC:8]
+AbstractExpression [containerPackage: decomposition],  Metrics: [LCOM:0.8, CBO:6, RFC:8]
 
-AbstractMethodFragment [containerPackage: decomposition],  Metrics: [LCOM:58, CBO:18, RFC:120]
+AbstractMethodFragment [containerPackage: decomposition],  Metrics: [LCOM:0.9827586206896551, CBO:18, RFC:120]
 
-AbstractStatement [containerPackage: decomposition],  Metrics: [LCOM:4, CBO:7, RFC:4]
+AbstractStatement [containerPackage: decomposition],  Metrics: [LCOM:0.75, CBO:7, RFC:4]
 
-CatchClauseObject [containerPackage: decomposition],  Metrics: [LCOM:13, CBO:3, RFC:13]
+CatchClauseObject [containerPackage: decomposition],  Metrics: [LCOM:0.9230769230769231, CBO:3, RFC:13]
 
-AbstractVariable [containerPackage: cfg],  Metrics: [LCOM:9, CBO:8, RFC:9]
+AbstractVariable [containerPackage: cfg],  Metrics: [LCOM:0.8888888888888888, CBO:8, RFC:9]
 
-BasicBlock [containerPackage: cfg],  Metrics: [LCOM:14, CBO:6, RFC:14]
+BasicBlock [containerPackage: cfg],  Metrics: [LCOM:0.9285714285714286, CBO:6, RFC:14]
 
-BasicBlockCFG [containerPackage: cfg],  Metrics: [LCOM:2, CBO:2, RFC:4]
+BasicBlockCFG [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:2, RFC:4]
 
-CFG [containerPackage: cfg],  Metrics: [LCOM:5, CBO:8, RFC:37]
+CFG [containerPackage: cfg],  Metrics: [LCOM:0.8, CBO:8, RFC:37]
 
-CFGBlockNode [containerPackage: cfg],  Metrics: [LCOM:2, CBO:1, RFC:2]
+CFGBlockNode [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-CFGBranchConditionalNode [containerPackage: cfg],  Metrics: [LCOM:3, CBO:4, RFC:7]
+CFGBranchConditionalNode [containerPackage: cfg],  Metrics: [LCOM:0.6666666666666667, CBO:4, RFC:7]
 
-CFGBranchDoLoopNode [containerPackage: cfg],  Metrics: [LCOM:2, CBO:2, RFC:4]
+CFGBranchDoLoopNode [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:2, RFC:4]
 
-CFGBranchIfNode [containerPackage: cfg],  Metrics: [LCOM:2, CBO:5, RFC:5]
+CFGBranchIfNode [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:5, RFC:5]
 
-CFGBranchLoopNode [containerPackage: cfg],  Metrics: [LCOM:2, CBO:3, RFC:6]
+CFGBranchLoopNode [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:3, RFC:6]
 
-CFGBranchNode [containerPackage: cfg],  Metrics: [LCOM:6, CBO:4, RFC:15]
+CFGBranchNode [containerPackage: cfg],  Metrics: [LCOM:0.8333333333333334, CBO:4, RFC:15]
 
-CFGBranchSwitchNode [containerPackage: cfg],  Metrics: [LCOM:0, CBO:2, RFC:0]
+CFGBranchSwitchNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:2, RFC:0]
 
-CFGBreakNode [containerPackage: cfg],  Metrics: [LCOM:4, CBO:5, RFC:4]
+CFGBreakNode [containerPackage: cfg],  Metrics: [LCOM:0.75, CBO:5, RFC:4]
 
-CFGContinueNode [containerPackage: cfg],  Metrics: [LCOM:4, CBO:5, RFC:4]
+CFGContinueNode [containerPackage: cfg],  Metrics: [LCOM:0.75, CBO:5, RFC:4]
 
-CFGExitNode [containerPackage: cfg],  Metrics: [LCOM:1, CBO:0, RFC:1]
+CFGExitNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-CFGNode [containerPackage: cfg],  Metrics: [LCOM:12, CBO:11, RFC:16]
+CFGNode [containerPackage: cfg],  Metrics: [LCOM:0.9166666666666666, CBO:11, RFC:16]
 
-CFGSwitchCaseNode [containerPackage: cfg],  Metrics: [LCOM:1, CBO:1, RFC:1]
+CFGSwitchCaseNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-CFGSynchronizedNode [containerPackage: cfg],  Metrics: [LCOM:0, CBO:0, RFC:0]
+CFGSynchronizedNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-CFGThrowNode [containerPackage: cfg],  Metrics: [LCOM:0, CBO:0, RFC:0]
+CFGThrowNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-CFGTryNode [containerPackage: cfg],  Metrics: [LCOM:4, CBO:1, RFC:4]
+CFGTryNode [containerPackage: cfg],  Metrics: [LCOM:0.75, CBO:1, RFC:4]
 
-CompositeVariable [containerPackage: cfg],  Metrics: [LCOM:10, CBO:8, RFC:10]
+CompositeVariable [containerPackage: cfg],  Metrics: [LCOM:0.9, CBO:8, RFC:10]
 
-Flow [containerPackage: cfg],  Metrics: [LCOM:7, CBO:5, RFC:7]
+Flow [containerPackage: cfg],  Metrics: [LCOM:0.8571428571428572, CBO:5, RFC:7]
 
-Graph [containerPackage: cfg],  Metrics: [LCOM:4, CBO:0, RFC:4]
+Graph [containerPackage: cfg],  Metrics: [LCOM:0.75, CBO:0, RFC:4]
 
-GraphEdge [containerPackage: cfg],  Metrics: [LCOM:2, CBO:0, RFC:2]
+GraphEdge [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-GraphNode [containerPackage: cfg],  Metrics: [LCOM:4, CBO:2, RFC:4]
+GraphNode [containerPackage: cfg],  Metrics: [LCOM:0.75, CBO:2, RFC:4]
 
-BottomUpCDTMapper [containerPackage: mapping],  Metrics: [LCOM:2, CBO:5, RFC:22]
+BottomUpCDTMapper [containerPackage: mapping],  Metrics: [LCOM:0.5, CBO:5, RFC:22]
 
-CloneInstanceMapper [containerPackage: mapping],  Metrics: [LCOM:14, CBO:5, RFC:42]
+CloneInstanceMapper [containerPackage: mapping],  Metrics: [LCOM:0.9285714285714286, CBO:5, RFC:42]
 
-CloneRefactoringType [containerPackage: mapping],  Metrics: [LCOM:0, CBO:0, RFC:0]
+CloneRefactoringType [containerPackage: mapping],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-CloneStructureNode [containerPackage: mapping],  Metrics: [LCOM:24, CBO:10, RFC:41]
+CloneStructureNode [containerPackage: mapping],  Metrics: [LCOM:0.9583333333333334, CBO:10, RFC:41]
 
-CloneType [containerPackage: mapping],  Metrics: [LCOM:1, CBO:0, RFC:1]
+CloneType [containerPackage: mapping],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-CodeFragmentDecomposer [containerPackage: mapping],  Metrics: [LCOM:5, CBO:3, RFC:10]
+CodeFragmentDecomposer [containerPackage: mapping],  Metrics: [LCOM:0.8, CBO:3, RFC:10]
 
-CompleteSubTreeMatch [containerPackage: mapping],  Metrics: [LCOM:9, CBO:2, RFC:9]
+CompleteSubTreeMatch [containerPackage: mapping],  Metrics: [LCOM:0.8888888888888888, CBO:2, RFC:9]
 
-ControlDependenceTreeGenerator [containerPackage: mapping],  Metrics: [LCOM:2, CBO:4, RFC:18]
+ControlDependenceTreeGenerator [containerPackage: mapping],  Metrics: [LCOM:0.5, CBO:4, RFC:18]
 
-ControlDependenceTreeNode [containerPackage: mapping],  Metrics: [LCOM:40, CBO:8, RFC:46]
+ControlDependenceTreeNode [containerPackage: mapping],  Metrics: [LCOM:0.975, CBO:8, RFC:46]
 
-ControlDependenceTreeNodeMatchPair [containerPackage: mapping],  Metrics: [LCOM:15, CBO:4, RFC:18]
+ControlDependenceTreeNodeMatchPair [containerPackage: mapping],  Metrics: [LCOM:0.9333333333333333, CBO:4, RFC:18]
 
-ControlDependenceTreeNodeMatchPairComparator [containerPackage: mapping],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ControlDependenceTreeNodeMatchPairComparator [containerPackage: mapping],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-DivideAndConquerMatcher [containerPackage: mapping],  Metrics: [LCOM:62, CBO:17, RFC:138]
+DivideAndConquerMatcher [containerPackage: mapping],  Metrics: [LCOM:0.9838709677419355, CBO:17, RFC:138]
 
-ExtractStatementsVisitor [containerPackage: mapping],  Metrics: [LCOM:26, CBO:0, RFC:27]
+ExtractStatementsVisitor [containerPackage: mapping],  Metrics: [LCOM:0.9615384615384616, CBO:0, RFC:27]
 
-IdBasedGap [containerPackage: mapping],  Metrics: [LCOM:4, CBO:1, RFC:4]
+IdBasedGap [containerPackage: mapping],  Metrics: [LCOM:0.75, CBO:1, RFC:4]
 
-IdBasedMapping [containerPackage: mapping],  Metrics: [LCOM:3, CBO:1, RFC:3]
+IdBasedMapping [containerPackage: mapping],  Metrics: [LCOM:0.6666666666666667, CBO:1, RFC:3]
 
-IdenticalStatementDecomposer [containerPackage: mapping],  Metrics: [LCOM:1, CBO:1, RFC:1]
+IdenticalStatementDecomposer [containerPackage: mapping],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-MappingState [containerPackage: mapping],  Metrics: [LCOM:27, CBO:9, RFC:72]
+MappingState [containerPackage: mapping],  Metrics: [LCOM:0.962962962962963, CBO:9, RFC:72]
 
-NodeMapping [containerPackage: mapping],  Metrics: [LCOM:10, CBO:11, RFC:23]
+NodeMapping [containerPackage: mapping],  Metrics: [LCOM:0.9, CBO:11, RFC:23]
 
-PDGEdgeMapping [containerPackage: mapping],  Metrics: [LCOM:6, CBO:3, RFC:10]
+PDGEdgeMapping [containerPackage: mapping],  Metrics: [LCOM:0.8333333333333334, CBO:3, RFC:10]
 
-PDGElseGap [containerPackage: mapping],  Metrics: [LCOM:6, CBO:1, RFC:6]
+PDGElseGap [containerPackage: mapping],  Metrics: [LCOM:0.8333333333333334, CBO:1, RFC:6]
 
-PDGElseMapping [containerPackage: mapping],  Metrics: [LCOM:9, CBO:2, RFC:9]
+PDGElseMapping [containerPackage: mapping],  Metrics: [LCOM:0.8888888888888888, CBO:2, RFC:9]
 
-PDGMapper [containerPackage: mapping],  Metrics: [LCOM:5, CBO:1, RFC:13]
+PDGMapper [containerPackage: mapping],  Metrics: [LCOM:0.8, CBO:1, RFC:13]
 
-PDGNodeGap [containerPackage: mapping],  Metrics: [LCOM:7, CBO:5, RFC:9]
+PDGNodeGap [containerPackage: mapping],  Metrics: [LCOM:0.8571428571428572, CBO:5, RFC:9]
 
-PDGNodeMapping [containerPackage: mapping],  Metrics: [LCOM:23, CBO:12, RFC:31]
+PDGNodeMapping [containerPackage: mapping],  Metrics: [LCOM:0.9565217391304348, CBO:12, RFC:31]
 
-PDGRegionSubTreeMapper [containerPackage: mapping],  Metrics: [LCOM:6, CBO:2, RFC:12]
+PDGRegionSubTreeMapper [containerPackage: mapping],  Metrics: [LCOM:0.8333333333333334, CBO:2, RFC:12]
 
-PDGSubTreeMapper [containerPackage: mapping],  Metrics: [LCOM:6, CBO:2, RFC:11]
+PDGSubTreeMapper [containerPackage: mapping],  Metrics: [LCOM:0.8333333333333334, CBO:2, RFC:11]
 
-BoldStyler [containerPackage: precondition],  Metrics: [LCOM:1, CBO:0, RFC:1]
+BoldStyler [containerPackage: precondition],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-DualExpressionPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:3, CBO:1, RFC:4]
+DualExpressionPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.6666666666666667, CBO:1, RFC:4]
 
-DualExpressionWithCommonSuperTypePreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:2, CBO:0, RFC:2]
+DualExpressionWithCommonSuperTypePreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-ExpressionPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:2, CBO:1, RFC:3]
+ExpressionPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.5, CBO:1, RFC:3]
 
-NormalStyler [containerPackage: precondition],  Metrics: [LCOM:1, CBO:0, RFC:1]
+NormalStyler [containerPackage: precondition],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-NotAllPossibleExecutionFlowsEndInReturnPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:2, CBO:0, RFC:2]
+NotAllPossibleExecutionFlowsEndInReturnPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-PreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:6, CBO:3, RFC:6]
+PreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.8333333333333334, CBO:3, RFC:6]
 
-PreconditionViolationType [containerPackage: precondition],  Metrics: [LCOM:1, CBO:0, RFC:1]
+PreconditionViolationType [containerPackage: precondition],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-ReturnedVariablePreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:2, CBO:0, RFC:2]
+ReturnedVariablePreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-StatementPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:3, CBO:1, RFC:3]
+StatementPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.6666666666666667, CBO:1, RFC:3]
 
-Suggestion [containerPackage: precondition],  Metrics: [LCOM:3, CBO:1, RFC:3]
+Suggestion [containerPackage: precondition],  Metrics: [LCOM:0.6666666666666667, CBO:1, RFC:3]
 
-UncommonSuperclassPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:2, CBO:0, RFC:2]
+UncommonSuperclassPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-ZeroMatchedStatementsPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:2, CBO:0, RFC:2]
+ZeroMatchedStatementsPreconditionViolation [containerPackage: precondition],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-PreconditionExaminer [containerPackage: mapping],  Metrics: [LCOM:69, CBO:42, RFC:230]
+PreconditionExaminer [containerPackage: mapping],  Metrics: [LCOM:0.9855072463768116, CBO:42, RFC:230]
 
-StatementCollector [containerPackage: mapping],  Metrics: [LCOM:26, CBO:1, RFC:26]
+StatementCollector [containerPackage: mapping],  Metrics: [LCOM:0.9615384615384616, CBO:1, RFC:26]
 
-SubTreeMatchComparator [containerPackage: mapping],  Metrics: [LCOM:1, CBO:0, RFC:1]
+SubTreeMatchComparator [containerPackage: mapping],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-SwitchBodyDecomposer [containerPackage: mapping],  Metrics: [LCOM:1, CBO:1, RFC:1]
+SwitchBodyDecomposer [containerPackage: mapping],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-TopDownCDTMapper [containerPackage: mapping],  Metrics: [LCOM:2, CBO:5, RFC:13]
+TopDownCDTMapper [containerPackage: mapping],  Metrics: [LCOM:0.5, CBO:5, RFC:13]
 
-VariableBindingKeyPair [containerPackage: mapping],  Metrics: [LCOM:5, CBO:2, RFC:5]
+VariableBindingKeyPair [containerPackage: mapping],  Metrics: [LCOM:0.8, CBO:2, RFC:5]
 
-VariableBindingPair [containerPackage: mapping],  Metrics: [LCOM:7, CBO:2, RFC:7]
+VariableBindingPair [containerPackage: mapping],  Metrics: [LCOM:0.8571428571428572, CBO:2, RFC:7]
 
-MethodCallAnalyzer [containerPackage: cfg],  Metrics: [LCOM:2, CBO:14, RFC:51]
+MethodCallAnalyzer [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:14, RFC:51]
 
-PDG [containerPackage: cfg],  Metrics: [LCOM:35, CBO:16, RFC:76]
+PDG [containerPackage: cfg],  Metrics: [LCOM:0.9714285714285714, CBO:16, RFC:76]
 
-PDGAbstractDataDependence [containerPackage: cfg],  Metrics: [LCOM:6, CBO:1, RFC:6]
+PDGAbstractDataDependence [containerPackage: cfg],  Metrics: [LCOM:0.8333333333333334, CBO:1, RFC:6]
 
-PDGAntiDependence [containerPackage: cfg],  Metrics: [LCOM:0, CBO:0, RFC:0]
+PDGAntiDependence [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-PDGBlockNode [containerPackage: cfg],  Metrics: [LCOM:2, CBO:5, RFC:5]
+PDGBlockNode [containerPackage: cfg],  Metrics: [LCOM:0.5, CBO:5, RFC:5]
 
-PDGControlDependence [containerPackage: cfg],  Metrics: [LCOM:6, CBO:12, RFC:6]
+PDGControlDependence [containerPackage: cfg],  Metrics: [LCOM:0.8333333333333334, CBO:12, RFC:6]
 
-PDGControlPredicateNode [containerPackage: cfg],  Metrics: [LCOM:1, CBO:3, RFC:4]
+PDGControlPredicateNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:3, RFC:4]
 
-PDGDataDependence [containerPackage: cfg],  Metrics: [LCOM:0, CBO:5, RFC:0]
+PDGDataDependence [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:5, RFC:0]
 
-PDGDependence [containerPackage: cfg],  Metrics: [LCOM:3, CBO:4, RFC:3]
+PDGDependence [containerPackage: cfg],  Metrics: [LCOM:0.6666666666666667, CBO:4, RFC:3]
 
-PDGDependenceType [containerPackage: cfg],  Metrics: [LCOM:0, CBO:0, RFC:0]
+PDGDependenceType [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-PDGExitNode [containerPackage: cfg],  Metrics: [LCOM:1, CBO:3, RFC:1]
+PDGExitNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:3, RFC:1]
 
-PDGExpression [containerPackage: cfg],  Metrics: [LCOM:7, CBO:3, RFC:12]
+PDGExpression [containerPackage: cfg],  Metrics: [LCOM:0.8571428571428572, CBO:3, RFC:12]
 
-PDGMethodEntryNode [containerPackage: cfg],  Metrics: [LCOM:5, CBO:0, RFC:5]
+PDGMethodEntryNode [containerPackage: cfg],  Metrics: [LCOM:0.8, CBO:0, RFC:5]
 
-PDGNode [containerPackage: cfg],  Metrics: [LCOM:39, CBO:20, RFC:48]
+PDGNode [containerPackage: cfg],  Metrics: [LCOM:0.9743589743589743, CBO:20, RFC:48]
 
-PDGObjectSliceUnion [containerPackage: cfg],  Metrics: [LCOM:32, CBO:7, RFC:47]
+PDGObjectSliceUnion [containerPackage: cfg],  Metrics: [LCOM:0.96875, CBO:7, RFC:47]
 
-PDGObjectSliceUnionCollection [containerPackage: cfg],  Metrics: [LCOM:1, CBO:2, RFC:1]
+PDGObjectSliceUnionCollection [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:2, RFC:1]
 
-PDGOutputDependence [containerPackage: cfg],  Metrics: [LCOM:0, CBO:1, RFC:0]
+PDGOutputDependence [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:1, RFC:0]
 
-PDGSlice [containerPackage: cfg],  Metrics: [LCOM:22, CBO:6, RFC:47]
+PDGSlice [containerPackage: cfg],  Metrics: [LCOM:0.9545454545454546, CBO:6, RFC:47]
 
-PDGSliceUnion [containerPackage: cfg],  Metrics: [LCOM:33, CBO:7, RFC:48]
+PDGSliceUnion [containerPackage: cfg],  Metrics: [LCOM:0.9696969696969697, CBO:7, RFC:48]
 
-PDGSliceUnionCollection [containerPackage: cfg],  Metrics: [LCOM:1, CBO:2, RFC:1]
+PDGSliceUnionCollection [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:2, RFC:1]
 
-PDGStatementNode [containerPackage: cfg],  Metrics: [LCOM:1, CBO:2, RFC:3]
+PDGStatementNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:2, RFC:3]
 
-PDGSynchronizedNode [containerPackage: cfg],  Metrics: [LCOM:0, CBO:0, RFC:0]
+PDGSynchronizedNode [containerPackage: cfg],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-PDGTryNode [containerPackage: cfg],  Metrics: [LCOM:3, CBO:5, RFC:7]
+PDGTryNode [containerPackage: cfg],  Metrics: [LCOM:0.6666666666666667, CBO:5, RFC:7]
 
-PlainVariable [containerPackage: cfg],  Metrics: [LCOM:6, CBO:11, RFC:6]
+PlainVariable [containerPackage: cfg],  Metrics: [LCOM:0.8333333333333334, CBO:11, RFC:6]
 
-ReachingAliasSet [containerPackage: cfg],  Metrics: [LCOM:8, CBO:0, RFC:8]
+ReachingAliasSet [containerPackage: cfg],  Metrics: [LCOM:0.875, CBO:0, RFC:8]
 
-CompositeStatementObject [containerPackage: decomposition],  Metrics: [LCOM:30, CBO:12, RFC:30]
+CompositeStatementObject [containerPackage: decomposition],  Metrics: [LCOM:0.9666666666666667, CBO:12, RFC:30]
 
-ExpressionType [containerPackage: decomposition],  Metrics: [LCOM:0, CBO:0, RFC:0]
+ExpressionType [containerPackage: decomposition],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-ASTNodeDifference [containerPackage: matching],  Metrics: [LCOM:15, CBO:13, RFC:23]
+ASTNodeDifference [containerPackage: matching],  Metrics: [LCOM:0.9333333333333333, CBO:13, RFC:23]
 
-ASTNodeMatcher [containerPackage: matching],  Metrics: [LCOM:54, CBO:19, RFC:112]
+ASTNodeMatcher [containerPackage: matching],  Metrics: [LCOM:0.9814814814814815, CBO:19, RFC:112]
 
-BindingSignature [containerPackage: matching],  Metrics: [LCOM:9, CBO:1, RFC:9]
+BindingSignature [containerPackage: matching],  Metrics: [LCOM:0.8888888888888888, CBO:1, RFC:9]
 
-BindingSignaturePair [containerPackage: matching],  Metrics: [LCOM:8, CBO:2, RFC:8]
+BindingSignaturePair [containerPackage: matching],  Metrics: [LCOM:0.875, CBO:2, RFC:8]
 
-BindingSignatureVisitor [containerPackage: matching],  Metrics: [LCOM:9, CBO:0, RFC:38]
+BindingSignatureVisitor [containerPackage: matching],  Metrics: [LCOM:0.8888888888888888, CBO:0, RFC:38]
 
-AbstractControlCase [containerPackage: conditional],  Metrics: [LCOM:7, CBO:1, RFC:7]
+AbstractControlCase [containerPackage: conditional],  Metrics: [LCOM:0.8571428571428572, CBO:1, RFC:7]
 
-AbstractControlStructure [containerPackage: conditional],  Metrics: [LCOM:7, CBO:0, RFC:7]
+AbstractControlStructure [containerPackage: conditional],  Metrics: [LCOM:0.8571428571428572, CBO:0, RFC:7]
 
-AbstractControlStructureUtilities [containerPackage: conditional],  Metrics: [LCOM:4, CBO:1, RFC:8]
+AbstractControlStructureUtilities [containerPackage: conditional],  Metrics: [LCOM:0.75, CBO:1, RFC:8]
 
-IfControlCase [containerPackage: conditional],  Metrics: [LCOM:2, CBO:0, RFC:2]
+IfControlCase [containerPackage: conditional],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-IfControlStructure [containerPackage: conditional],  Metrics: [LCOM:5, CBO:0, RFC:5]
+IfControlStructure [containerPackage: conditional],  Metrics: [LCOM:0.8, CBO:0, RFC:5]
 
-Pair [containerPackage: conditional],  Metrics: [LCOM:7, CBO:0, RFC:7]
+Pair [containerPackage: conditional],  Metrics: [LCOM:0.8571428571428572, CBO:0, RFC:7]
 
-SwitchControlCase [containerPackage: conditional],  Metrics: [LCOM:2, CBO:0, RFC:5]
+SwitchControlCase [containerPackage: conditional],  Metrics: [LCOM:0.5, CBO:0, RFC:5]
 
-SwitchControlStructure [containerPackage: conditional],  Metrics: [LCOM:5, CBO:2, RFC:7]
+SwitchControlStructure [containerPackage: conditional],  Metrics: [LCOM:0.8, CBO:2, RFC:7]
 
-TernaryControlStructure [containerPackage: conditional],  Metrics: [LCOM:9, CBO:0, RFC:9]
+TernaryControlStructure [containerPackage: conditional],  Metrics: [LCOM:0.8888888888888888, CBO:0, RFC:9]
 
-Difference [containerPackage: matching],  Metrics: [LCOM:8, CBO:6, RFC:8]
+Difference [containerPackage: matching],  Metrics: [LCOM:0.875, CBO:6, RFC:8]
 
-DifferenceType [containerPackage: matching],  Metrics: [LCOM:1, CBO:0, RFC:1]
+DifferenceType [containerPackage: matching],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-FieldAccessReplacedWithGetterInvocationDifference [containerPackage: matching],  Metrics: [LCOM:7, CBO:2, RFC:7]
+FieldAccessReplacedWithGetterInvocationDifference [containerPackage: matching],  Metrics: [LCOM:0.8571428571428572, CBO:2, RFC:7]
 
-FieldAssignmentReplacedWithSetterInvocationDifference [containerPackage: matching],  Metrics: [LCOM:17, CBO:2, RFC:17]
+FieldAssignmentReplacedWithSetterInvocationDifference [containerPackage: matching],  Metrics: [LCOM:0.9411764705882353, CBO:2, RFC:17]
 
-AbstractControlVariable [containerPackage: loop],  Metrics: [LCOM:3, CBO:3, RFC:5]
+AbstractControlVariable [containerPackage: loop],  Metrics: [LCOM:0.6666666666666667, CBO:3, RFC:5]
 
-AbstractLoop [containerPackage: loop],  Metrics: [LCOM:6, CBO:0, RFC:6]
+AbstractLoop [containerPackage: loop],  Metrics: [LCOM:0.8333333333333334, CBO:0, RFC:6]
 
-AbstractLoopBindingInformation [containerPackage: loop],  Metrics: [LCOM:9, CBO:2, RFC:9]
+AbstractLoopBindingInformation [containerPackage: loop],  Metrics: [LCOM:0.8888888888888888, CBO:2, RFC:9]
 
-AbstractLoopUtilities [containerPackage: loop],  Metrics: [LCOM:12, CBO:3, RFC:33]
+AbstractLoopUtilities [containerPackage: loop],  Metrics: [LCOM:0.9166666666666666, CBO:3, RFC:33]
 
-ConditionalLoop [containerPackage: loop],  Metrics: [LCOM:6, CBO:5, RFC:13]
+ConditionalLoop [containerPackage: loop],  Metrics: [LCOM:0.8333333333333334, CBO:5, RFC:13]
 
-ConditionalLoopASTNodeMatcher [containerPackage: loop],  Metrics: [LCOM:3, CBO:2, RFC:5]
+ConditionalLoopASTNodeMatcher [containerPackage: loop],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:5]
 
-ControlVariable [containerPackage: loop],  Metrics: [LCOM:6, CBO:5, RFC:22]
+ControlVariable [containerPackage: loop],  Metrics: [LCOM:0.8333333333333334, CBO:5, RFC:22]
 
-EarliestStartPositionComparator [containerPackage: loop],  Metrics: [LCOM:1, CBO:0, RFC:1]
+EarliestStartPositionComparator [containerPackage: loop],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-EnhancedForLoop [containerPackage: loop],  Metrics: [LCOM:5, CBO:3, RFC:7]
+EnhancedForLoop [containerPackage: loop],  Metrics: [LCOM:0.8, CBO:3, RFC:7]
 
-VariableUpdater [containerPackage: loop],  Metrics: [LCOM:3, CBO:2, RFC:3]
+VariableUpdater [containerPackage: loop],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:3]
 
-VariableValue [containerPackage: loop],  Metrics: [LCOM:5, CBO:1, RFC:5]
+VariableValue [containerPackage: loop],  Metrics: [LCOM:0.8, CBO:1, RFC:5]
 
-NodePair [containerPackage: matching],  Metrics: [LCOM:2, CBO:0, RFC:2]
+NodePair [containerPackage: matching],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-NodePairComparisonCache [containerPackage: matching],  Metrics: [LCOM:12, CBO:1, RFC:12]
+NodePairComparisonCache [containerPackage: matching],  Metrics: [LCOM:0.9166666666666666, CBO:1, RFC:12]
 
-MethodBodyObject [containerPackage: decomposition],  Metrics: [LCOM:49, CBO:12, RFC:67]
+MethodBodyObject [containerPackage: decomposition],  Metrics: [LCOM:0.9795918367346939, CBO:12, RFC:67]
 
-StatementObject [containerPackage: decomposition],  Metrics: [LCOM:2, CBO:5, RFC:2]
+StatementObject [containerPackage: decomposition],  Metrics: [LCOM:0.5, CBO:5, RFC:2]
 
-StatementType [containerPackage: decomposition],  Metrics: [LCOM:3, CBO:0, RFC:3]
+StatementType [containerPackage: decomposition],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:3]
 
-SynchronizedStatementObject [containerPackage: decomposition],  Metrics: [LCOM:0, CBO:1, RFC:0]
+SynchronizedStatementObject [containerPackage: decomposition],  Metrics: [LCOM:0.0, CBO:1, RFC:0]
 
-TryStatementObject [containerPackage: decomposition],  Metrics: [LCOM:13, CBO:9, RFC:15]
+TryStatementObject [containerPackage: decomposition],  Metrics: [LCOM:0.9230769230769231, CBO:9, RFC:15]
 
-DelegationDetection [containerPackage: delegation],  Metrics: [LCOM:2, CBO:1, RFC:3]
+DelegationDetection [containerPackage: delegation],  Metrics: [LCOM:0.5, CBO:1, RFC:3]
 
-DelegationPath [containerPackage: delegation],  Metrics: [LCOM:4, CBO:2, RFC:4]
+DelegationPath [containerPackage: delegation],  Metrics: [LCOM:0.75, CBO:2, RFC:4]
 
-DelegationTree [containerPackage: delegation],  Metrics: [LCOM:3, CBO:2, RFC:8]
+DelegationTree [containerPackage: delegation],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:8]
 
-EnumConstantDeclarationObject [containerPackage: ast],  Metrics: [LCOM:10, CBO:1, RFC:10]
+EnumConstantDeclarationObject [containerPackage: ast],  Metrics: [LCOM:0.9, CBO:1, RFC:10]
 
-FieldInstructionObject [containerPackage: ast],  Metrics: [LCOM:11, CBO:10, RFC:11]
+FieldInstructionObject [containerPackage: ast],  Metrics: [LCOM:0.9090909090909091, CBO:10, RFC:11]
 
-FieldObject [containerPackage: ast],  Metrics: [LCOM:19, CBO:15, RFC:20]
+FieldObject [containerPackage: ast],  Metrics: [LCOM:0.9473684210526316, CBO:15, RFC:20]
 
-IfStatementExpressionAnalyzer [containerPackage: ast],  Metrics: [LCOM:23, CBO:1, RFC:24]
+IfStatementExpressionAnalyzer [containerPackage: ast],  Metrics: [LCOM:0.9565217391304348, CBO:1, RFC:24]
 
-Indexer [containerPackage: ast],  Metrics: [LCOM:22, CBO:1, RFC:25]
+Indexer [containerPackage: ast],  Metrics: [LCOM:0.9545454545454546, CBO:1, RFC:25]
 
-CompleteInheritanceDetection [containerPackage: inheritance],  Metrics: [LCOM:5, CBO:3, RFC:9]
+CompleteInheritanceDetection [containerPackage: inheritance],  Metrics: [LCOM:0.8, CBO:3, RFC:9]
 
-InheritanceDetection [containerPackage: inheritance],  Metrics: [LCOM:2, CBO:3, RFC:9]
+InheritanceDetection [containerPackage: inheritance],  Metrics: [LCOM:0.5, CBO:3, RFC:9]
 
-InheritanceTree [containerPackage: inheritance],  Metrics: [LCOM:7, CBO:7, RFC:8]
+InheritanceTree [containerPackage: inheritance],  Metrics: [LCOM:0.8571428571428572, CBO:7, RFC:8]
 
-TypeBindingInheritanceDetection [containerPackage: inheritance],  Metrics: [LCOM:3, CBO:2, RFC:10]
+TypeBindingInheritanceDetection [containerPackage: inheritance],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:10]
 
-LibraryClassStorage [containerPackage: ast],  Metrics: [LCOM:2, CBO:1, RFC:2]
+LibraryClassStorage [containerPackage: ast],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-LiteralObject [containerPackage: ast],  Metrics: [LCOM:7, CBO:1, RFC:7]
+LiteralObject [containerPackage: ast],  Metrics: [LCOM:0.8571428571428572, CBO:1, RFC:7]
 
-LiteralType [containerPackage: ast],  Metrics: [LCOM:0, CBO:0, RFC:0]
+LiteralType [containerPackage: ast],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-LocalVariableDeclarationObject [containerPackage: ast],  Metrics: [LCOM:8, CBO:2, RFC:8]
+LocalVariableDeclarationObject [containerPackage: ast],  Metrics: [LCOM:0.875, CBO:2, RFC:8]
 
-LocalVariableInstructionObject [containerPackage: ast],  Metrics: [LCOM:10, CBO:3, RFC:10]
+LocalVariableInstructionObject [containerPackage: ast],  Metrics: [LCOM:0.9, CBO:3, RFC:10]
 
-MethodInvocationObject [containerPackage: ast],  Metrics: [LCOM:2, CBO:9, RFC:2]
+MethodInvocationObject [containerPackage: ast],  Metrics: [LCOM:0.5, CBO:9, RFC:2]
 
-MethodObject [containerPackage: ast],  Metrics: [LCOM:78, CBO:31, RFC:100]
+MethodObject [containerPackage: ast],  Metrics: [LCOM:0.9871794871794872, CBO:31, RFC:100]
 
-ConnectivityMetric [containerPackage: metrics],  Metrics: [LCOM:2, CBO:3, RFC:12]
+ConnectivityMetric [containerPackage: metrics],  Metrics: [LCOM:0.5, CBO:3, RFC:12]
 
-LCOM [containerPackage: metrics],  Metrics: [LCOM:3, CBO:3, RFC:13]
+LCOM [containerPackage: metrics],  Metrics: [LCOM:0.6666666666666667, CBO:3, RFC:13]
 
-MMImportCoupling [containerPackage: metrics],  Metrics: [LCOM:3, CBO:4, RFC:10]
+MMImportCoupling [containerPackage: metrics],  Metrics: [LCOM:0.6666666666666667, CBO:4, RFC:10]
 
-ParameterObject [containerPackage: ast],  Metrics: [LCOM:9, CBO:8, RFC:9]
+ParameterObject [containerPackage: ast],  Metrics: [LCOM:0.8888888888888888, CBO:8, RFC:9]
 
-Standalone [containerPackage: ast],  Metrics: [LCOM:4, CBO:10, RFC:24]
+Standalone [containerPackage: ast],  Metrics: [LCOM:0.75, CBO:10, RFC:24]
 
-SuperFieldInstructionObject [containerPackage: ast],  Metrics: [LCOM:10, CBO:1, RFC:10]
+SuperFieldInstructionObject [containerPackage: ast],  Metrics: [LCOM:0.9, CBO:1, RFC:10]
 
-SuperMethodInvocationObject [containerPackage: ast],  Metrics: [LCOM:2, CBO:2, RFC:2]
+SuperMethodInvocationObject [containerPackage: ast],  Metrics: [LCOM:0.5, CBO:2, RFC:2]
 
-SystemObject [containerPackage: ast],  Metrics: [LCOM:29, CBO:21, RFC:76]
+SystemObject [containerPackage: ast],  Metrics: [LCOM:0.9655172413793104, CBO:21, RFC:76]
 
-TypeCheckCodeFragmentAnalyzer [containerPackage: ast],  Metrics: [LCOM:1, CBO:3, RFC:30]
+TypeCheckCodeFragmentAnalyzer [containerPackage: ast],  Metrics: [LCOM:0.0, CBO:3, RFC:30]
 
-TypeObject [containerPackage: ast],  Metrics: [LCOM:11, CBO:11, RFC:11]
+TypeObject [containerPackage: ast],  Metrics: [LCOM:0.9090909090909091, CBO:11, RFC:11]
 
-TypeSearchRequestor [containerPackage: ast],  Metrics: [LCOM:1, CBO:0, RFC:1]
+TypeSearchRequestor [containerPackage: ast],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-ExpressionExtractor [containerPackage: util],  Metrics: [LCOM:1, CBO:19, RFC:42]
+ExpressionExtractor [containerPackage: util],  Metrics: [LCOM:0.0, CBO:19, RFC:42]
 
-ExpressionInstanceChecker [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ExpressionInstanceChecker [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfArrayAccess [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfArrayAccess [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfArrayCreation [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfArrayCreation [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfAssignment [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfAssignment [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfBranchingStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfBranchingStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfBreakStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfBreakStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfCastExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfCastExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfClassInstanceCreation [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfClassInstanceCreation [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfConditionalExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfConditionalExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfConstructorInvocation [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfConstructorInvocation [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfContinueStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfContinueStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfDoStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfDoStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfEnhancedForStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfEnhancedForStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfFieldAccess [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfFieldAccess [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfForStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfForStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfIfStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfIfStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfInfixExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfInfixExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfInstanceofExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfInstanceofExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfLiteral [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfLiteral [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfMethodInvocation [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfMethodInvocation [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfPostfixExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfPostfixExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfPrefixExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfPrefixExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfReturnStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfReturnStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfSimpleName [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfSimpleName [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfSuperFieldAccess [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfSuperFieldAccess [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfSuperMethodInvocation [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfSuperMethodInvocation [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfSwitchStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfSwitchStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfThisExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfThisExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfTryStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfTryStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfTypeDeclarationStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfTypeDeclarationStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfTypeLiteral [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfTypeLiteral [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfVariableDeclarationExpression [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfVariableDeclarationExpression [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfVariableDeclarationStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfVariableDeclarationStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfVariableModifier [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfVariableModifier [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-InstanceOfWhileStatement [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+InstanceOfWhileStatement [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-AdjacencyList [containerPackage: math],  Metrics: [LCOM:6, CBO:1, RFC:7]
+AdjacencyList [containerPackage: math],  Metrics: [LCOM:0.8333333333333334, CBO:1, RFC:7]
 
-Cluster [containerPackage: math],  Metrics: [LCOM:6, CBO:3, RFC:7]
+Cluster [containerPackage: math],  Metrics: [LCOM:0.8333333333333334, CBO:3, RFC:7]
 
-Clustering [containerPackage: math],  Metrics: [LCOM:2, CBO:1, RFC:2]
+Clustering [containerPackage: math],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-DoubleArray [containerPackage: math],  Metrics: [LCOM:7, CBO:0, RFC:9]
+DoubleArray [containerPackage: math],  Metrics: [LCOM:0.8571428571428572, CBO:0, RFC:9]
 
-Edge [containerPackage: math],  Metrics: [LCOM:6, CBO:1, RFC:6]
+Edge [containerPackage: math],  Metrics: [LCOM:0.8333333333333334, CBO:1, RFC:6]
 
-Hierarchical [containerPackage: math],  Metrics: [LCOM:1, CBO:1, RFC:4]
+Hierarchical [containerPackage: math],  Metrics: [LCOM:0.0, CBO:1, RFC:4]
 
-HumaniseCamelCase [containerPackage: math],  Metrics: [LCOM:1, CBO:1, RFC:7]
+HumaniseCamelCase [containerPackage: math],  Metrics: [LCOM:0.0, CBO:1, RFC:7]
 
-LevenshteinDistance [containerPackage: math],  Metrics: [LCOM:2, CBO:0, RFC:2]
+LevenshteinDistance [containerPackage: math],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-Node [containerPackage: math],  Metrics: [LCOM:5, CBO:2, RFC:5]
+Node [containerPackage: math],  Metrics: [LCOM:0.8, CBO:2, RFC:5]
 
-Stemmer [containerPackage: math],  Metrics: [LCOM:15, CBO:1, RFC:21]
+Stemmer [containerPackage: math],  Metrics: [LCOM:0.9333333333333333, CBO:1, RFC:21]
 
-TarjanAlgorithm [containerPackage: math],  Metrics: [LCOM:2, CBO:1, RFC:2]
+TarjanAlgorithm [containerPackage: math],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-MethodDeclarationUtility [containerPackage: util],  Metrics: [LCOM:5, CBO:0, RFC:6]
+MethodDeclarationUtility [containerPackage: util],  Metrics: [LCOM:0.8, CBO:0, RFC:6]
 
-StatementExtractor [containerPackage: util],  Metrics: [LCOM:2, CBO:12, RFC:16]
+StatementExtractor [containerPackage: util],  Metrics: [LCOM:0.5, CBO:12, RFC:16]
 
-StatementInstanceChecker [containerPackage: util],  Metrics: [LCOM:1, CBO:0, RFC:1]
+StatementInstanceChecker [containerPackage: util],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-SuperMethodInvocationVisitor [containerPackage: util],  Metrics: [LCOM:2, CBO:1, RFC:2]
+SuperMethodInvocationVisitor [containerPackage: util],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-ThrownExceptionVisitor [containerPackage: util],  Metrics: [LCOM:5, CBO:1, RFC:5]
+ThrownExceptionVisitor [containerPackage: util],  Metrics: [LCOM:0.8, CBO:1, RFC:5]
 
-TopicFinder [containerPackage: util],  Metrics: [LCOM:2, CBO:2, RFC:6]
+TopicFinder [containerPackage: util],  Metrics: [LCOM:0.5, CBO:2, RFC:6]
 
-TypeVisitor [containerPackage: util],  Metrics: [LCOM:4, CBO:4, RFC:4]
+TypeVisitor [containerPackage: util],  Metrics: [LCOM:0.75, CBO:4, RFC:4]
 
-VariableDeclarationObject [containerPackage: ast],  Metrics: [LCOM:3, CBO:2, RFC:3]
+VariableDeclarationObject [containerPackage: ast],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:3]
 
-ClassFigure [containerPackage: visualization],  Metrics: [LCOM:10, CBO:0, RFC:11]
+ClassFigure [containerPackage: visualization],  Metrics: [LCOM:0.9, CBO:0, RFC:11]
 
-ClassFigureMover [containerPackage: visualization],  Metrics: [LCOM:6, CBO:0, RFC:8]
+ClassFigureMover [containerPackage: visualization],  Metrics: [LCOM:0.8333333333333334, CBO:0, RFC:8]
 
-CompartmentFigure [containerPackage: visualization],  Metrics: [LCOM:1, CBO:0, RFC:1]
+CompartmentFigure [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-CompartmentFigureBorder [containerPackage: visualization],  Metrics: [LCOM:2, CBO:0, RFC:2]
+CompartmentFigureBorder [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-ConnectionType [containerPackage: visualization],  Metrics: [LCOM:0, CBO:0, RFC:0]
+ConnectionType [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-DecorationConstants [containerPackage: visualization],  Metrics: [LCOM:0, CBO:0, RFC:0]
+DecorationConstants [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-EntityFigure [containerPackage: visualization],  Metrics: [LCOM:28, CBO:3, RFC:39]
+EntityFigure [containerPackage: visualization],  Metrics: [LCOM:0.9642857142857143, CBO:3, RFC:39]
 
-EntityFigureListener [containerPackage: visualization],  Metrics: [LCOM:5, CBO:1, RFC:9]
+EntityFigureListener [containerPackage: visualization],  Metrics: [LCOM:0.8, CBO:1, RFC:9]
 
-FeatureEnviedMethodInformationControl [containerPackage: visualization],  Metrics: [LCOM:11, CBO:4, RFC:16]
+FeatureEnviedMethodInformationControl [containerPackage: visualization],  Metrics: [LCOM:0.9090909090909091, CBO:4, RFC:16]
 
-FeatureEnviedMethodInformationControlCreator [containerPackage: visualization],  Metrics: [LCOM:2, CBO:0, RFC:2]
+FeatureEnviedMethodInformationControlCreator [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-FeatureEnvyDiagram [containerPackage: visualization],  Metrics: [LCOM:1, CBO:1, RFC:1]
+FeatureEnvyDiagram [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-FeatureEnvyVisualizationData [containerPackage: visualization],  Metrics: [LCOM:15, CBO:4, RFC:22]
+FeatureEnvyVisualizationData [containerPackage: visualization],  Metrics: [LCOM:0.9333333333333333, CBO:4, RFC:22]
 
-GodClassDiagram [containerPackage: visualization],  Metrics: [LCOM:1, CBO:0, RFC:1]
+GodClassDiagram [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-GodClassDiagram2 [containerPackage: visualization],  Metrics: [LCOM:1, CBO:1, RFC:1]
+GodClassDiagram2 [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-GodClassInformationControl [containerPackage: visualization],  Metrics: [LCOM:7, CBO:3, RFC:11]
+GodClassInformationControl [containerPackage: visualization],  Metrics: [LCOM:0.8571428571428572, CBO:3, RFC:11]
 
-GodClassInformationControlCreator [containerPackage: visualization],  Metrics: [LCOM:2, CBO:0, RFC:2]
+GodClassInformationControlCreator [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-GodClassVisualizationData [containerPackage: visualization],  Metrics: [LCOM:20, CBO:3, RFC:23]
+GodClassVisualizationData [containerPackage: visualization],  Metrics: [LCOM:0.95, CBO:3, RFC:23]
 
-ICustomInformationControlCreator [containerPackage: visualization],  Metrics: [LCOM:1, CBO:1, RFC:1]
+ICustomInformationControlCreator [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-IInformationProvider [containerPackage: visualization],  Metrics: [LCOM:2, CBO:0, RFC:2]
+IInformationProvider [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-InformationControlManager [containerPackage: visualization],  Metrics: [LCOM:17, CBO:2, RFC:18]
+InformationControlManager [containerPackage: visualization],  Metrics: [LCOM:0.9411764705882353, CBO:2, RFC:18]
 
-JConnection [containerPackage: visualization],  Metrics: [LCOM:15, CBO:3, RFC:15]
+JConnection [containerPackage: visualization],  Metrics: [LCOM:0.9333333333333333, CBO:3, RFC:15]
 
-LeftAnchor [containerPackage: visualization],  Metrics: [LCOM:1, CBO:0, RFC:1]
+LeftAnchor [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-Legend [containerPackage: visualization],  Metrics: [LCOM:2, CBO:1, RFC:3]
+Legend [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:1, RFC:3]
 
-MethodClassSection [containerPackage: visualization],  Metrics: [LCOM:2, CBO:0, RFC:2]
+MethodClassSection [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-MyContentProposalProvider [containerPackage: visualization],  Metrics: [LCOM:1, CBO:0, RFC:1]
+MyContentProposalProvider [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-PackageFigure [containerPackage: visualization],  Metrics: [LCOM:9, CBO:1, RFC:11]
+PackageFigure [containerPackage: visualization],  Metrics: [LCOM:0.8888888888888888, CBO:1, RFC:11]
 
-PackageMapDiagram [containerPackage: visualization],  Metrics: [LCOM:18, CBO:1, RFC:22]
+PackageMapDiagram [containerPackage: visualization],  Metrics: [LCOM:0.9444444444444444, CBO:1, RFC:22]
 
-PackageMapDiagramInformationProvider [containerPackage: visualization],  Metrics: [LCOM:2, CBO:1, RFC:3]
+PackageMapDiagramInformationProvider [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:1, RFC:3]
 
-PackageMapFigure [containerPackage: visualization],  Metrics: [LCOM:2, CBO:1, RFC:2]
+PackageMapFigure [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-PMClassFigure [containerPackage: visualization],  Metrics: [LCOM:21, CBO:6, RFC:21]
+PMClassFigure [containerPackage: visualization],  Metrics: [LCOM:0.9523809523809523, CBO:6, RFC:21]
 
-ProportionalFlowLayout [containerPackage: visualization],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ProportionalFlowLayout [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-RightAnchor [containerPackage: visualization],  Metrics: [LCOM:1, CBO:0, RFC:1]
+RightAnchor [containerPackage: visualization],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-SearchDialog [containerPackage: visualization],  Metrics: [LCOM:7, CBO:2, RFC:8]
+SearchDialog [containerPackage: visualization],  Metrics: [LCOM:0.8571428571428572, CBO:2, RFC:8]
 
-SearchInputAction [containerPackage: visualization],  Metrics: [LCOM:2, CBO:3, RFC:4]
+SearchInputAction [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:3, RFC:4]
 
-SectionCompartment [containerPackage: visualization],  Metrics: [LCOM:3, CBO:0, RFC:3]
+SectionCompartment [containerPackage: visualization],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:3]
 
-SmellyClassMouseListener [containerPackage: visualization],  Metrics: [LCOM:3, CBO:2, RFC:9]
+SmellyClassMouseListener [containerPackage: visualization],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:9]
 
-VisualizationData [containerPackage: visualization],  Metrics: [LCOM:2, CBO:0, RFC:2]
+VisualizationData [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-ZoomAction [containerPackage: visualization],  Metrics: [LCOM:2, CBO:2, RFC:3]
+ZoomAction [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:2, RFC:3]
 
-ZoomInputAction [containerPackage: visualization],  Metrics: [LCOM:2, CBO:2, RFC:2]
+ZoomInputAction [containerPackage: visualization],  Metrics: [LCOM:0.5, CBO:2, RFC:2]
 
-CandidateRefactoring [containerPackage: distance],  Metrics: [LCOM:12, CBO:2, RFC:12]
+CandidateRefactoring [containerPackage: distance],  Metrics: [LCOM:0.9166666666666666, CBO:2, RFC:12]
 
-ClusterSizeComparator [containerPackage: distance],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ClusterSizeComparator [containerPackage: distance],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-DistanceCalculator [containerPackage: distance],  Metrics: [LCOM:3, CBO:0, RFC:3]
+DistanceCalculator [containerPackage: distance],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:3]
 
-DistanceMatrix [containerPackage: distance],  Metrics: [LCOM:5, CBO:12, RFC:29]
+DistanceMatrix [containerPackage: distance],  Metrics: [LCOM:0.8, CBO:12, RFC:29]
 
-Entity [containerPackage: distance],  Metrics: [LCOM:3, CBO:2, RFC:3]
+Entity [containerPackage: distance],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:3]
 
-ExtractClassCandidateGroup [containerPackage: distance],  Metrics: [LCOM:6, CBO:4, RFC:12]
+ExtractClassCandidateGroup [containerPackage: distance],  Metrics: [LCOM:0.8333333333333334, CBO:4, RFC:12]
 
-ExtractClassCandidateRefactoring [containerPackage: distance],  Metrics: [LCOM:28, CBO:10, RFC:54]
+ExtractClassCandidateRefactoring [containerPackage: distance],  Metrics: [LCOM:0.9642857142857143, CBO:10, RFC:54]
 
-ExtractedConcept [containerPackage: distance],  Metrics: [LCOM:7, CBO:3, RFC:8]
+ExtractedConcept [containerPackage: distance],  Metrics: [LCOM:0.8571428571428572, CBO:3, RFC:8]
 
-MoveMethodCandidateRefactoring [containerPackage: distance],  Metrics: [LCOM:25, CBO:7, RFC:45]
+MoveMethodCandidateRefactoring [containerPackage: distance],  Metrics: [LCOM:0.96, CBO:7, RFC:45]
 
-MyAbstractExpression [containerPackage: distance],  Metrics: [LCOM:20, CBO:3, RFC:25]
+MyAbstractExpression [containerPackage: distance],  Metrics: [LCOM:0.95, CBO:3, RFC:25]
 
-MyAbstractStatement [containerPackage: distance],  Metrics: [LCOM:24, CBO:4, RFC:31]
+MyAbstractStatement [containerPackage: distance],  Metrics: [LCOM:0.9583333333333334, CBO:4, RFC:31]
 
-MyAttribute [containerPackage: distance],  Metrics: [LCOM:20, CBO:5, RFC:21]
+MyAttribute [containerPackage: distance],  Metrics: [LCOM:0.95, CBO:5, RFC:21]
 
-MyAttributeInstruction [containerPackage: distance],  Metrics: [LCOM:8, CBO:4, RFC:8]
+MyAttributeInstruction [containerPackage: distance],  Metrics: [LCOM:0.875, CBO:4, RFC:8]
 
-MyClass [containerPackage: distance],  Metrics: [LCOM:20, CBO:4, RFC:23]
+MyClass [containerPackage: distance],  Metrics: [LCOM:0.95, CBO:4, RFC:23]
 
-MyCompositeStatement [containerPackage: distance],  Metrics: [LCOM:13, CBO:3, RFC:24]
+MyCompositeStatement [containerPackage: distance],  Metrics: [LCOM:0.9230769230769231, CBO:3, RFC:24]
 
-MyMethod [containerPackage: distance],  Metrics: [LCOM:30, CBO:4, RFC:31]
+MyMethod [containerPackage: distance],  Metrics: [LCOM:0.9666666666666667, CBO:4, RFC:31]
 
-MyMethodBody [containerPackage: distance],  Metrics: [LCOM:15, CBO:3, RFC:19]
+MyMethodBody [containerPackage: distance],  Metrics: [LCOM:0.9333333333333333, CBO:3, RFC:19]
 
-MyMethodInvocation [containerPackage: distance],  Metrics: [LCOM:8, CBO:0, RFC:8]
+MyMethodInvocation [containerPackage: distance],  Metrics: [LCOM:0.875, CBO:0, RFC:8]
 
-MyStatement [containerPackage: distance],  Metrics: [LCOM:0, CBO:1, RFC:0]
+MyStatement [containerPackage: distance],  Metrics: [LCOM:0.0, CBO:1, RFC:0]
 
-MySystem [containerPackage: distance],  Metrics: [LCOM:9, CBO:8, RFC:39]
+MySystem [containerPackage: distance],  Metrics: [LCOM:0.8888888888888888, CBO:8, RFC:39]
 
-Evolution [containerPackage: history],  Metrics: [LCOM:3, CBO:0, RFC:3]
+Evolution [containerPackage: history],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:3]
 
-FeatureEnvyEvolution [containerPackage: history],  Metrics: [LCOM:5, CBO:2, RFC:12]
+FeatureEnvyEvolution [containerPackage: history],  Metrics: [LCOM:0.8, CBO:2, RFC:12]
 
-MethodEvolution [containerPackage: history],  Metrics: [LCOM:5, CBO:1, RFC:6]
+MethodEvolution [containerPackage: history],  Metrics: [LCOM:0.8, CBO:1, RFC:6]
 
-ProjectEvolution [containerPackage: history],  Metrics: [LCOM:1, CBO:1, RFC:1]
+ProjectEvolution [containerPackage: history],  Metrics: [LCOM:0.0, CBO:1, RFC:1]
 
-ProjectVersion [containerPackage: history],  Metrics: [LCOM:2, CBO:0, RFC:2]
+ProjectVersion [containerPackage: history],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-ProjectVersionPair [containerPackage: history],  Metrics: [LCOM:3, CBO:0, RFC:3]
+ProjectVersionPair [containerPackage: history],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:3]
 
-TypeCheckingEvolution [containerPackage: history],  Metrics: [LCOM:6, CBO:2, RFC:21]
+TypeCheckingEvolution [containerPackage: history],  Metrics: [LCOM:0.8333333333333334, CBO:2, RFC:21]
 
-PreferenceConstants [containerPackage: preferences],  Metrics: [LCOM:0, CBO:0, RFC:0]
+PreferenceConstants [containerPackage: preferences],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-PreferenceInitializer [containerPackage: preferences],  Metrics: [LCOM:1, CBO:0, RFC:1]
+PreferenceInitializer [containerPackage: preferences],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-PropertyManagerPreferencePage [containerPackage: preferences],  Metrics: [LCOM:4, CBO:0, RFC:4]
+PropertyManagerPreferencePage [containerPackage: preferences],  Metrics: [LCOM:0.75, CBO:0, RFC:4]
 
-BadSmellsMenu [containerPackage: actions],  Metrics: [LCOM:4, CBO:0, RFC:4]
+BadSmellsMenu [containerPackage: actions],  Metrics: [LCOM:0.75, CBO:0, RFC:4]
 
-Activator [containerPackage: refactoring],  Metrics: [LCOM:4, CBO:0, RFC:4]
+Activator [containerPackage: refactoring],  Metrics: [LCOM:0.75, CBO:0, RFC:4]
 
-ASTSlice [containerPackage: manipulators],  Metrics: [LCOM:21, CBO:3, RFC:26]
+ASTSlice [containerPackage: manipulators],  Metrics: [LCOM:0.9523809523809523, CBO:3, RFC:26]
 
-ASTSliceGroup [containerPackage: manipulators],  Metrics: [LCOM:10, CBO:3, RFC:12]
+ASTSliceGroup [containerPackage: manipulators],  Metrics: [LCOM:0.9, CBO:3, RFC:12]
 
-ExtractClassRefactoring [containerPackage: manipulators],  Metrics: [LCOM:14, CBO:7, RFC:96]
+ExtractClassRefactoring [containerPackage: manipulators],  Metrics: [LCOM:0.9285714285714286, CBO:7, RFC:96]
 
-ExtractClassRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ExtractClassRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-ExtractCloneRefactoring [containerPackage: manipulators],  Metrics: [LCOM:14, CBO:30, RFC:148]
+ExtractCloneRefactoring [containerPackage: manipulators],  Metrics: [LCOM:0.9285714285714286, CBO:30, RFC:148]
 
-ExtractCloneRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ExtractCloneRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-ExtractMethodFragmentRefactoring [containerPackage: manipulators],  Metrics: [LCOM:7, CBO:2, RFC:17]
+ExtractMethodFragmentRefactoring [containerPackage: manipulators],  Metrics: [LCOM:0.8571428571428572, CBO:2, RFC:17]
 
-ExtractMethodRefactoring [containerPackage: manipulators],  Metrics: [LCOM:10, CBO:1, RFC:15]
+ExtractMethodRefactoring [containerPackage: manipulators],  Metrics: [LCOM:0.9, CBO:1, RFC:15]
 
-ExtractMethodRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ExtractMethodRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-MoveMethodRefactoring [containerPackage: manipulators],  Metrics: [LCOM:9, CBO:5, RFC:59]
+MoveMethodRefactoring [containerPackage: manipulators],  Metrics: [LCOM:0.8888888888888888, CBO:5, RFC:59]
 
-MoveMethodRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:1, CBO:0, RFC:1]
+MoveMethodRefactoringDescriptor [containerPackage: manipulators],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-PolymorphismRefactoring [containerPackage: manipulators],  Metrics: [LCOM:12, CBO:1, RFC:16]
+PolymorphismRefactoring [containerPackage: manipulators],  Metrics: [LCOM:0.9166666666666666, CBO:1, RFC:16]
 
-RefactoringUtility [containerPackage: manipulators],  Metrics: [LCOM:13, CBO:2, RFC:23]
+RefactoringUtility [containerPackage: manipulators],  Metrics: [LCOM:0.9230769230769231, CBO:2, RFC:23]
 
-ReplaceConditionalWithPolymorphism [containerPackage: manipulators],  Metrics: [LCOM:6, CBO:3, RFC:19]
+ReplaceConditionalWithPolymorphism [containerPackage: manipulators],  Metrics: [LCOM:0.8333333333333334, CBO:3, RFC:19]
 
-ReplaceConditionalWithPolymorphismDescriptor [containerPackage: manipulators],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ReplaceConditionalWithPolymorphismDescriptor [containerPackage: manipulators],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-ReplaceTypeCodeWithStateStrategy [containerPackage: manipulators],  Metrics: [LCOM:17, CBO:2, RFC:54]
+ReplaceTypeCodeWithStateStrategy [containerPackage: manipulators],  Metrics: [LCOM:0.9411764705882353, CBO:2, RFC:54]
 
-ReplaceTypeCodeWithStateStrategyDescriptor [containerPackage: manipulators],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ReplaceTypeCodeWithStateStrategyDescriptor [containerPackage: manipulators],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-TypeCheckElimination [containerPackage: manipulators],  Metrics: [LCOM:91, CBO:9, RFC:120]
+TypeCheckElimination [containerPackage: manipulators],  Metrics: [LCOM:0.989010989010989, CBO:9, RFC:120]
 
-TypeCheckEliminationGroup [containerPackage: manipulators],  Metrics: [LCOM:12, CBO:4, RFC:17]
+TypeCheckEliminationGroup [containerPackage: manipulators],  Metrics: [LCOM:0.9166666666666666, CBO:4, RFC:17]
 
-CloneDiffContentProvider [containerPackage: views],  Metrics: [LCOM:3, CBO:1, RFC:5]
+CloneDiffContentProvider [containerPackage: views],  Metrics: [LCOM:0.6666666666666667, CBO:1, RFC:5]
 
-CloneDiffSide [containerPackage: views],  Metrics: [LCOM:0, CBO:0, RFC:0]
+CloneDiffSide [containerPackage: views],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-CloneDiffStyledLabelProvider [containerPackage: views],  Metrics: [LCOM:6, CBO:2, RFC:14]
+CloneDiffStyledLabelProvider [containerPackage: views],  Metrics: [LCOM:0.8333333333333334, CBO:2, RFC:14]
 
-CloneDiffTooltip [containerPackage: views],  Metrics: [LCOM:10, CBO:6, RFC:19]
+CloneDiffTooltip [containerPackage: views],  Metrics: [LCOM:0.9, CBO:6, RFC:19]
 
-CloneDiffWizardPage [containerPackage: views],  Metrics: [LCOM:14, CBO:2, RFC:20]
+CloneDiffWizardPage [containerPackage: views],  Metrics: [LCOM:0.9285714285714286, CBO:2, RFC:20]
 
-CloneRefactoringAction [containerPackage: views],  Metrics: [LCOM:5, CBO:3, RFC:12]
+CloneRefactoringAction [containerPackage: views],  Metrics: [LCOM:0.8, CBO:3, RFC:12]
 
-CodeSmellPackageExplorer [containerPackage: views],  Metrics: [LCOM:12, CBO:4, RFC:17]
+CodeSmellPackageExplorer [containerPackage: views],  Metrics: [LCOM:0.9166666666666666, CBO:4, RFC:17]
 
-CodeSmellVisualization [containerPackage: views],  Metrics: [LCOM:9, CBO:4, RFC:15]
+CodeSmellVisualization [containerPackage: views],  Metrics: [LCOM:0.8888888888888888, CBO:4, RFC:15]
 
-CodeSmellVisualizationDataSingleton [containerPackage: views],  Metrics: [LCOM:4, CBO:0, RFC:4]
+CodeSmellVisualizationDataSingleton [containerPackage: views],  Metrics: [LCOM:0.75, CBO:0, RFC:4]
 
-DuplicatedCode [containerPackage: views],  Metrics: [LCOM:31, CBO:4, RFC:64]
+DuplicatedCode [containerPackage: views],  Metrics: [LCOM:0.967741935483871, CBO:4, RFC:64]
 
-ElementChangedListener [containerPackage: views],  Metrics: [LCOM:2, CBO:0, RFC:3]
+ElementChangedListener [containerPackage: views],  Metrics: [LCOM:0.5, CBO:0, RFC:3]
 
-EvolutionDialog [containerPackage: views],  Metrics: [LCOM:8, CBO:2, RFC:10]
+EvolutionDialog [containerPackage: views],  Metrics: [LCOM:0.875, CBO:2, RFC:10]
 
-EvolutionRow [containerPackage: views],  Metrics: [LCOM:2, CBO:1, RFC:2]
+EvolutionRow [containerPackage: views],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-ExtractClassInputPage [containerPackage: views],  Metrics: [LCOM:4, CBO:0, RFC:5]
+ExtractClassInputPage [containerPackage: views],  Metrics: [LCOM:0.75, CBO:0, RFC:5]
 
-ExtractMethodInputPage [containerPackage: views],  Metrics: [LCOM:3, CBO:0, RFC:5]
+ExtractMethodInputPage [containerPackage: views],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:5]
 
-FeatureEnvy [containerPackage: views],  Metrics: [LCOM:31, CBO:4, RFC:67]
+FeatureEnvy [containerPackage: views],  Metrics: [LCOM:0.967741935483871, CBO:4, RFC:67]
 
-GodClass [containerPackage: views],  Metrics: [LCOM:31, CBO:6, RFC:71]
+GodClass [containerPackage: views],  Metrics: [LCOM:0.967741935483871, CBO:6, RFC:71]
 
-ImportClonesWizard [containerPackage: views],  Metrics: [LCOM:5, CBO:2, RFC:9]
+ImportClonesWizard [containerPackage: views],  Metrics: [LCOM:0.8, CBO:2, RFC:9]
 
-ImportClonesWizardPage [containerPackage: views],  Metrics: [LCOM:4, CBO:0, RFC:9]
+ImportClonesWizardPage [containerPackage: views],  Metrics: [LCOM:0.75, CBO:0, RFC:9]
 
-LabelControlContribution [containerPackage: views],  Metrics: [LCOM:1, CBO:0, RFC:1]
+LabelControlContribution [containerPackage: views],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-LongMethod [containerPackage: views],  Metrics: [LCOM:25, CBO:10, RFC:61]
+LongMethod [containerPackage: views],  Metrics: [LCOM:0.96, CBO:10, RFC:61]
 
-MethodEvolutionAction [containerPackage: views],  Metrics: [LCOM:3, CBO:2, RFC:5]
+MethodEvolutionAction [containerPackage: views],  Metrics: [LCOM:0.6666666666666667, CBO:2, RFC:5]
 
-MethodNameValidator [containerPackage: views],  Metrics: [LCOM:1, CBO:0, RFC:1]
+MethodNameValidator [containerPackage: views],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-MoveMethodInputPage [containerPackage: views],  Metrics: [LCOM:4, CBO:0, RFC:5]
+MoveMethodInputPage [containerPackage: views],  Metrics: [LCOM:0.75, CBO:0, RFC:5]
 
-MultilineButton [containerPackage: views],  Metrics: [LCOM:2, CBO:0, RFC:2]
+MultilineButton [containerPackage: views],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-MyComboBoxCellEditor [containerPackage: views],  Metrics: [LCOM:2, CBO:0, RFC:2]
+MyComboBoxCellEditor [containerPackage: views],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-MyRefactoringWizard [containerPackage: views],  Metrics: [LCOM:2, CBO:0, RFC:2]
+MyRefactoringWizard [containerPackage: views],  Metrics: [LCOM:0.5, CBO:0, RFC:2]
 
-ReplaceTypeCodeWithStateStrategyInputPage [containerPackage: views],  Metrics: [LCOM:3, CBO:0, RFC:4]
+ReplaceTypeCodeWithStateStrategyInputPage [containerPackage: views],  Metrics: [LCOM:0.6666666666666667, CBO:0, RFC:4]
 
-SliceAnnotation [containerPackage: views],  Metrics: [LCOM:0, CBO:0, RFC:0]
+SliceAnnotation [containerPackage: views],  Metrics: [LCOM:0.0, CBO:0, RFC:0]
 
-SliceProfileAction [containerPackage: views],  Metrics: [LCOM:5, CBO:3, RFC:10]
+SliceProfileAction [containerPackage: views],  Metrics: [LCOM:0.8, CBO:3, RFC:10]
 
-SliceProfileDialog [containerPackage: views],  Metrics: [LCOM:15, CBO:3, RFC:24]
+SliceProfileDialog [containerPackage: views],  Metrics: [LCOM:0.9333333333333333, CBO:3, RFC:24]
 
-SliceProfileRow [containerPackage: views],  Metrics: [LCOM:4, CBO:1, RFC:4]
+SliceProfileRow [containerPackage: views],  Metrics: [LCOM:0.75, CBO:1, RFC:4]
 
-StringCompareEditorInput [containerPackage: views],  Metrics: [LCOM:5, CBO:0, RFC:5]
+StringCompareEditorInput [containerPackage: views],  Metrics: [LCOM:0.8, CBO:0, RFC:5]
 
-StyledStringStyler [containerPackage: views],  Metrics: [LCOM:2, CBO:1, RFC:2]
+StyledStringStyler [containerPackage: views],  Metrics: [LCOM:0.5, CBO:1, RFC:2]
 
-StyledStringVisitor [containerPackage: views],  Metrics: [LCOM:10, CBO:4, RFC:105]
+StyledStringVisitor [containerPackage: views],  Metrics: [LCOM:0.9, CBO:4, RFC:105]
 
-TypeChecking [containerPackage: views],  Metrics: [LCOM:26, CBO:3, RFC:51]
+TypeChecking [containerPackage: views],  Metrics: [LCOM:0.9615384615384616, CBO:3, RFC:51]
 
-ZoomValueValidator [containerPackage: views],  Metrics: [LCOM:1, CBO:0, RFC:1]
+ZoomValueValidator [containerPackage: views],  Metrics: [LCOM:0.0, CBO:0, RFC:1]
 
-duration to execute(in ms): 11196
+duration to execute(in ms): 10749

@@ -1,5 +1,7 @@
 package InheritanceRelated;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class TreeDepthFinder {
@@ -105,7 +107,36 @@ public class TreeDepthFinder {
 //		System.out.println("Tree having maximum depth in this forest is: " + maxDepth);
 		
 		
+		printNodeWiseDepth();
+	}
+
+	private void printNodeWiseDepth() {
+		// TODO Auto-generated method stub
+		String nodeDepth = "";
+		for( int i=0; i<nodelist.size(); i++) {
+			nodeDepth += "The depth of " + nodelist.get(i).getData() + " is: " + (nodelist.get(i).depth+1) + "\n";
+		}
 		
+		childrenCounter.fileString += "The depth of the classes are: \n";
+		childrenCounter.fileString += nodeDepth;
+		printInCSV();
+	}
+	
+	private void printInCSV(){
+		PrintWriter csvFileWriter = null;
+		try {
+			csvFileWriter = new PrintWriter("Inheritance.csv");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		csvFileWriter.println("Class Name,Depth,Number of Children,Name of Children");
+		for( int i=0; i<nodelist.size(); i++) {
+			String lineToBeAdded = nodelist.get(i).getData()+","+(nodelist.get(i).depth+1) +","+
+					nodelist.get(i).getChildren().size()+","+nodelist.get(i).printChildrenName();
+			csvFileWriter.println(lineToBeAdded);
+		}
+		csvFileWriter.close();
 	}
 
 }

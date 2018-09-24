@@ -25,7 +25,7 @@ public class LCOMCalculation {
         currClass = ourClass;
     }
 
-    public int generateLCOM(){
+    public double generateLCOM(){
         CompilationUnit compilationUnit = currClass.getCompilationUnit();
         populateMethods(compilationUnit);
         populateInstanceFields(compilationUnit);
@@ -37,7 +37,11 @@ public class LCOMCalculation {
         }
 
         createLCOMGroups();
-        return lcomGroups.size();
+        if(lcomGroups.size() == 0)
+        	return 0.0;
+        
+        double lcom = 1 - (1/(double)lcomGroups.size());
+        return lcom;
     }
 
     private void createLCOMGroups() {

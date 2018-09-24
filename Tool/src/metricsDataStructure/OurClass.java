@@ -24,7 +24,7 @@ public class OurClass {
 
     private CompilationUnit compilationUnit;
 
-    private int LCOM;
+    private double LCOM;
 
     // constructors
 
@@ -166,11 +166,11 @@ public class OurClass {
         this.filePath = filePath;
     }
 
-    public int getLCOM() {
+    public double getLCOM() {
         return LCOM;
     }
 
-    public void setLCOM(int LCOM) {
+    public void setLCOM(double LCOM) {
         this.LCOM = LCOM;
     }
 
