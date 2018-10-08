@@ -26,17 +26,17 @@ public class MyFileReader {
 	public ArrayList<String> manageFileReader() {
 		if(fileList==null) {
 			String projectName = "";
-//			System.out.println("Enter folder name: ");
-//			Scanner input = new Scanner(System.in);
-			//projectName = input.nextLine();
-			projectName = "JDeodorant-master";
+			System.out.println("Enter project folder name: ");
+			Scanner input = new Scanner(System.in);
+			projectName = input.nextLine();
+//			projectName = "JDeodorant-master";
 			fileList = new ArrayList<>();
 			String workingDir = System.getProperty("user.dir");
 			File file = new File(workingDir);
 			String parentDir = file.getParent();
 			File folder = new File(parentDir+ "/" + projectName);
 			listFilesForFolder(folder);
-//			input.close();
+			input.close();
 		}
 		
 		return fileList;
